@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-four-fours">
+  <introduction>
+    <p>Group members: <fillin characters="30"/> <fillin characters="30"/></p>
+    <p><fillin characters="30"/> <fillin characters="30"/></p>
+    <p>Working in your group, write every whole number from 1 to 20 as a calculation that uses exactly four 4's, no more and no less. Record your final answers in the grid at the bottom of the page.</p>
+    <p><term>What you may use.</term> The four operations <m>+</m>, <m>-</m>, <m>\times</m>, <m>\div</m>; parentheses; exponents; square roots; decimal points, as in <m>.4</m>; two or more 4's pushed together, as in <m>44</m> or <m>444</m>; and factorials, as in <m>4! = 4 \cdot 3 \cdot 2 \cdot 1 = 24</m>.</p>
+    <p><term>What counts as a 4.</term> Every 4 you write costs one, including the 4 inside <m>\sqrt{4}</m>, the 4 in <m>.4</m>, and each digit of <m>44</m>. The <m>24</m> produced by <m>4!</m> costs only the single 4 you wrote.</p>
+    <p><term>More than one answer.</term> Most numbers can be built several different ways. Any numerical expression works as long as it satisfies the conditions.</p>
+    <p>Each calculation below uses exactly four 4's. None of them lands in the range 1 to 20, so none of them is an answer you can use, but illustrate what your answers should look like:</p>
+    <p>
+      <md>
+        <mrow>0 \amp = \frac{4-4}{4+4}</mrow>
+        <mrow>28 \amp = 4! + 4 + 4 - 4</mrow>
+        <mrow>54 \amp = 44 + \frac{4}{.4}</mrow>
+        <mrow>64 \amp = \sqrt{4} \cdot \sqrt{4} \cdot 4 \cdot 4</mrow>
+      </md>
+    </p>
+    <p>Notice the range of tools: the first uses only arithmetic, the second uses a factorial, the third uses both a two-digit 44 and a decimal point, and the fourth uses square roots. My suggestion is to start building calculations and adjusting to see which ones you can get rather than going in order.</p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>Write each number from 1 to 20 as an expression that uses exactly four 4's. Fill in as many as you can; you do not have to go in order.</p>
+        <tabular top="medium" bottom="medium" left="medium" right="medium" halign="left" valign="top">
+          <col right="minor"/>
+          <col right="minor"/>
+          <col right="minor"/>
+          <col right="minor"/>
+          <col/>
+          <row bottom="minor">
+            <cell><m>1 = \rule{0pt}{5.5em}</m></cell>
+            <cell><m>2 =</m></cell>
+            <cell><m>3 =</m></cell>
+            <cell><m>4 =</m></cell>
+            <cell><m>5 =</m></cell>
+          </row>
+          <row bottom="minor">
+            <cell><m>6 = \rule{0pt}{5.5em}</m></cell>
+            <cell><m>7 =</m></cell>
+            <cell><m>8 =</m></cell>
+            <cell><m>9 =</m></cell>
+            <cell><m>10 =</m></cell>
+          </row>
+          <row bottom="minor">
+            <cell><m>11 = \rule{0pt}{5.5em}</m></cell>
+            <cell><m>12 =</m></cell>
+            <cell><m>13 =</m></cell>
+            <cell><m>14 =</m></cell>
+            <cell><m>15 =</m></cell>
+          </row>
+          <row>
+            <cell><m>16 = \rule{0pt}{5.5em}</m></cell>
+            <cell><m>17 =</m></cell>
+            <cell><m>18 =</m></cell>
+            <cell><m>19 =</m></cell>
+            <cell><m>20 =</m></cell>
+          </row>
+        </tabular>
+      </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise workspace="7in">
+      <statement>
+        <p>If your group finishes early, try one or more of these:</p>
+        <ul>
+          <li>Keep going past 20. How far can your group get before a number stops you cold?</li>
+          <li>Go back through your grid and find a second, completely different calculation for three of the numbers.</li>
+          <li>Which numbers did your group only manage with a factorial, a decimal point, or a square root? Are those numbers actually impossible using just <m>+</m>, <m>-</m>, <m>\times</m>, <m>\div</m>, and parentheses, or did you simply not find it yet? Make an argument either way.</li>
+        </ul>
+        <p>Use the space below for scratch work.</p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

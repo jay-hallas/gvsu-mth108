@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="lt1-order-of-operations-v2">
+  <title>Learning Target 1: Order of Operations</title>
+  <objectives>
+    <ul>
+      <li>I can properly apply the order of operations to evaluate a numerical expression.</li>
+    </ul>
+  </objectives>
+
+  <!-- ============================================================
+       PROBLEM 1: Evaluating Expressions (Similar Questions)
+       ============================================================ -->
+ 
+    <exercise xml:id="evaluating-expressions-similar">
+      <title>Evaluating Expressions</title>
+      <introduction>
+        <p>
+          Evaluate the following expressions step-by-step without using an electronic tool. Be sure to treat the fraction bar as a grouping symbol where appropriate. Show all intermediate steps to illustrate your reasoning.
+        </p>
+      </introduction>
+
+      <task workspace="2.5in">
+        <statement>
+          <p>
+            <me>\frac{4(5-2)^2}{2^3 + 1}</me>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Following the order of operations, treat the numerator and denominator as separate groups defined by the fraction bar.
+          </p>
+          <p>
+            First, simplify the expression inside the parentheses in the numerator:
+            <me>\frac{4(3)^2}{2^3 + 1}</me>
+          </p>
+          <p>
+            Next, evaluate the exponents in both the numerator and the denominator:
+            <me>\frac{4(9)}{8 + 1}</me>
+          </p>
+          <p>
+            Perform the multiplication in the numerator and the addition in the denominator:
+            <me>\frac{36}{9}</me>
+          </p>
+          <p>
+            Finally, divide the numerator by the denominator:
+            <me>4</me>
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="2.5in">
+        <statement>
+          <p>
+            <me>40 - 3 ( 2^3 + 2(6-4) )</me>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Begin with the innermost grouping symbols (the parentheses):
+            <me>40 - 3 ( 2^3 + 2(2) )</me>
+          </p>
+          <p>
+            Next, evaluate the exponent inside the outer parentheses:
+            <me>40 - 3 ( 8 + 2(2) )</me>
+          </p>
+          <p>
+            Perform the multiplication inside the parentheses:
+            <me>40 - 3 ( 8 + 4 )</me>
+          </p>
+          <p>
+            Finish simplifying inside the outer parentheses by adding:
+            <me>40 - 3 ( 12 )</me>
+          </p>
+          <p>
+            Multiply before subtracting:
+            <me>40 - 36</me>
+          </p>
+          <p>
+            Finally, subtract to find the result:
+            <me>4</me>
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="3.0in">
+        <statement>
+          <p>
+            <me>5 + \frac{(12 - 4)^2}{2(4)}</me>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Treat the fraction as a grouping symbol, simplifying its numerator and denominator first. Start with the parentheses in the numerator:
+            <me>5 + \frac{(8)^2}{2(4)}</me>
+          </p>
+          <p>
+            Evaluate the exponent in the numerator:
+            <me>5 + \frac{64}{2(4)}</me>
+          </p>
+          <p>
+            Multiply in the denominator:
+            <me>5 + \frac{64}{8}</me>
+          </p>
+          <p>
+            Perform the division indicated by the fraction bar before adding:
+            <me>5 + 8</me>
+          </p>
+          <p>
+            Finally, add to get the final answer:
+            <me>13</me>
+          </p>
+        </answer>
+      </task>
+
+<task workspace="3.0in">
+        <statement>
+          <p>
+            <me>\frac{2(5^2 - 1)}{3(4+2) - 6}</me>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Treat the entire numerator and the entire denominator as separate groups to simplify first.
+          </p>
+          <p>
+            In the numerator, begin with the exponent inside the parentheses. In the denominator, start with the addition inside the parentheses:
+            <me>\frac{2(25 - 1)}{3(6) - 6}</me>
+          </p>
+          <p>
+            Continue simplifying the groups. Subtract inside the numerator's parentheses and multiply in the denominator:
+            <me>\frac{2(24)}{18 - 6}</me>
+          </p>
+          <p>
+            Finish simplifying both the numerator and denominator:
+            <me>\frac{48}{12}</me>
+          </p>
+          <p>
+            Finally, divide:
+            <me>4</me>
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="3.5in">
+        <statement>
+          <p>
+            <me>100 - \left( 2^4 + \frac{3(8-2)}{4-1} \right)</me>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Begin with the innermost grouping symbols. Here, the fraction inside the parentheses acts as its own group. Start by simplifying the numerator and denominator of that fraction:
+            <me>100 - \left( 2^4 + \frac{3(6)}{3} \right)</me>
+          </p>
+          <p>
+            Multiply in the numerator of the fraction:
+            <me>100 - \left( 2^4 + \frac{18}{3} \right)</me>
+          </p>
+          <p>
+            Divide to resolve the fraction entirely:
+            <me>100 - ( 2^4 + 6 )</me>
+          </p>
+          <p>
+            Next, evaluate the exponent inside the remaining parentheses:
+            <me>100 - ( 16 + 6 )</me>
+          </p>
+          <p>
+            Add inside the parentheses:
+            <me>100 - 22</me>
+          </p>
+          <p>
+            Finally, subtract to find the result:
+            <me>78</me>
+          </p>
+        </answer>
+      </task>
+
+    </exercise>
+
+</worksheet>

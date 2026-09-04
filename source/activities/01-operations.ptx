@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="mth108-order-of-operations">
+  <title>Order of Operations</title>
+  <introduction>
+    <p>Name: <fillin characters="40"/></p>
+    <p>When evaluating mathematical expressions, we follow a standard order so that everyone arrives at the same result.</p>
+    <p><term>1. Parentheses:</term> Evaluate expressions inside grouping symbols such as parentheses <m>(\ )</m>. A fraction bar also acts as a grouping symbol, so you must simplify the entire numerator and the entire denominator first.</p>
+    <p><term>2. Exponents:</term> Evaluate all powers.</p>
+    <p><term>3. Multiplication and Division:</term> Work from left to right.</p>
+    <p><term>4. Addition and Subtraction:</term> Work from left to right.</p>
+  </introduction>
+
+    <exercise xml:id="oo-learning-target">
+      <title>Learning Target Questions</title>
+      <introduction>
+        <p>Evaluate the following expressions step-by-step without using an electronic tool. Be sure to treat the fraction bar as a grouping symbol where appropriate, and show all intermediate steps to illustrate your reasoning.</p>
+      </introduction>
+      <task workspace="1.75in">
+        <statement>
+          <p><me>\frac{3(4+2)^2}{5^2-7}</me></p>
+        </statement>
+        <solution>
+          <p>
+            <md>
+              <mrow>\frac{3(4+2)^2}{5^2-7} \amp = \frac{3(6)^2}{5^2-7} \quad \text{(parentheses)}</mrow>
+              <mrow>\amp = \frac{3(36)}{25-7} \quad \text{(exponents)}</mrow>
+              <mrow>\amp = \frac{108}{18} \quad \text{(multiply, subtract)}</mrow>
+              <mrow>\amp = 6 \quad \text{(simplify)}</mrow>
+            </md>
+          </p>
+        </solution>
+      </task>
+      <task workspace="1.75in">
+        <statement>
+          <p><me>50 - 2\left(3^2 + 4(5-3)\right)</me></p>
+        </statement>
+        <solution>
+          <p>
+            <md>
+              <mrow>50 - 2\left(3^2 + 4(5-3)\right) \amp = 50 - 2\left(3^2 + 4(2)\right) \quad \text{(inner parentheses)}</mrow>
+              <mrow>\amp = 50 - 2(9 + 4(2)) \quad \text{(exponent inside)}</mrow>
+              <mrow>\amp = 50 - 2(9 + 8) \quad \text{(multiply inside)}</mrow>
+              <mrow>\amp = 50 - 2(17) \quad \text{(add inside)}</mrow>
+              <mrow>\amp = 50 - 34 \quad \text{(multiply)}</mrow>
+              <mrow>\amp = 16 \quad \text{(subtract)}</mrow>
+            </md>
+          </p>
+        </solution>
+      </task>
+      <task workspace="1.75in">
+        <statement>
+          <p><me>6 + \frac{(10-2)^2}{4(2)}</me></p>
+        </statement>
+        <solution>
+          <p>
+            <md>
+              <mrow>6 + \frac{(10-2)^2}{4(2)} \amp = 6 + \frac{(8)^2}{4(2)} \quad \text{(parentheses)}</mrow>
+              <mrow>\amp = 6 + \frac{64}{4(2)} \quad \text{(exponent)}</mrow>
+              <mrow>\amp = 6 + \frac{64}{8} \quad \text{(multiply denominator)}</mrow>
+              <mrow>\amp = 6 + 8 \quad \text{(simplify)}</mrow>
+              <mrow>\amp = 14 \quad \text{(add)}</mrow>
+            </md>
+          </p>
+        </solution>
+      </task>
+    </exercise>
+
+
+    <exercise xml:id="oo-error-analysis" workspace="2in">
+      <title>Error Analysis</title>
+      <statement>
+        <p>Two students evaluated the expression <m>10 - 2^3 + 4</m>. Their work is shown below.</p>
+        <sidebyside widths="45% 45%" valign="top">
+          <stack>
+            <p><term>Student A</term></p>
+            <p>
+              <md>
+                <mrow>10 - 2^3 + 4 \amp = 8^3 + 4</mrow>
+                <mrow>\amp = 512 + 4</mrow>
+                <mrow>\amp = 516</mrow>
+              </md>
+            </p>
+          </stack>
+          <stack>
+            <p><term>Student B</term></p>
+            <p>
+              <md>
+                <mrow>10 - 2^3 + 4 \amp = 10 - 8 + 4</mrow>
+                <mrow>\amp = 2 + 4</mrow>
+                <mrow>\amp = 6</mrow>
+              </md>
+            </p>
+          </stack>
+        </sidebyside>
+        <p>Assess their work. Only one solution is correct. Which student is correct? Identify the specific mathematical error made by the other student, and explain why that step violates the standard order of operations.</p>
+      </statement>
+      <solution>
+        <p>Student B is correct. Student A evaluated <m>10 - 2 = 8</m> before applying the exponent, then cubed that result to reach <m>8^3 = 512</m>. The exponent <m>2^3</m> must be evaluated first, which gives <m>8</m>. After the exponent, addition and subtraction are performed from left to right: <m>10 - 8 = 2</m>, and then <m>2 + 4 = 6</m>.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="oo-parentheses">
+      <title>Parentheses Placement</title>
+      <introduction>
+        <p>The placement of parentheses can completely change the value of an expression. Consider the following:</p>
+        <p><me>4 + 4 \cdot 4 - 4</me></p>
+        <p>Insert parentheses into this expression in two different ways to create two expressions with different final results. Show your step-by-step evaluation for both to verify your results.</p>
+      </introduction>
+      <task workspace="1.75in">
+        <statement>
+          <p>Expression 1: write your first version, then evaluate it step-by-step.</p>
+        </statement>
+        <solution>
+          <p>Answers will vary. One possibility:</p>
+          <p>
+            <md>
+              <mrow>(4 + 4) \cdot 4 - 4 \amp = 8 \cdot 4 - 4</mrow>
+              <mrow>\amp = 32 - 4</mrow>
+              <mrow>\amp = 28</mrow>
+            </md>
+          </p>
+        </solution>
+      </task>
+      <task workspace="1.75in">
+        <statement>
+          <p>Expression 2: write a second version (with a different result), then evaluate it step-by-step.</p>
+        </statement>
+        <solution>
+          <p>Answers will vary. One possibility:</p>
+          <p>
+            <md>
+              <mrow>4 + 4 \cdot (4 - 4) \amp = 4 + 4(0)</mrow>
+              <mrow>\amp = 4 + 0</mrow>
+              <mrow>\amp = 4</mrow>
+            </md>
+          </p>
+        </solution>
+      </task>
+    </exercise>
+ </worksheet>
