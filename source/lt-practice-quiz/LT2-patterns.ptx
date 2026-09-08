@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="lt2-visual-patterns">
+<title>Learning Target 2: Describing Visual Patterns</title>
+<objectives>
+<ul>
+<li>I can identify and describe a visual pattern in words.</li>
+</ul>
+</objectives>
+
+<page>
+<exercise xml:id="lt2-pattern-rectangles">
+<title>Pattern 1: Growing Rectangle</title>
+<introduction>
+<p>Case 1 is a rectangle that is 2 tiles wide and 1 tile tall. Each new case grows by one tile in both width and height. A blank outline is provided for Case 4.</p>
+<image width="90%">
+<shortdescription>Three solid rectangles of tiles measuring two by one, three by two, and four by three, followed by a blank outline for the next case.</shortdescription>
+<description>
+<p>A sequence of rectangles built from square tiles. Case 1 is two tiles wide and one tile tall, a total of two tiles. Case 2 is three wide and two tall, a total of six tiles. Case 3 is four wide and three tall, a total of twelve tiles. Case 4 is shown as an empty outline five tiles wide and four tiles tall.</p>
+</description>
+<prefigure xmlns="https://prefigure.org" label="lt2-growing-rectangle">
+<diagram dimensions="(640,187)" margins="5">
+<coordinates bbox="(-1,-1.6,19.5,4.4)">
+<repeat parameter="i=0..1">
+<repeat parameter="j=0..0">
+<rectangle lower-left="(i,j)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+</repeat>
+</repeat>
+<repeat parameter="i=0..2">
+<repeat parameter="j=0..1">
+<rectangle lower-left="(3.5+i,j)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+</repeat>
+</repeat>
+<repeat parameter="i=0..3">
+<repeat parameter="j=0..2">
+<rectangle lower-left="(8+i,j)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+</repeat>
+</repeat>
+<rectangle lower-left="(13.5,0)" dimensions="(4.9,3.9)" stroke="gray"/>
+<label anchor="(1,-0.5)" alignment="south">Case 1</label>
+<label anchor="(5,-0.5)" alignment="south">Case 2</label>
+<label anchor="(10,-0.5)" alignment="south">Case 3</label>
+<label anchor="(16,-0.5)" alignment="south">Case 4</label>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+
+<task>
+<statement>
+<p>Draw Case 4 in the blank outline above.</p>
+</statement>
+<answer>
+<p>
+Case 4 is a solid rectangle five tiles wide and four tiles tall, filling the outline completely, for a total of 20 tiles.
+</p>
+</answer>
+</task>
+
+<task>
+<statement>
+<p>Count the tiles in each case and complete the table.</p>
+<tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+<row header="yes">
+<cell>Case (<m>n</m>)</cell>
+<cell><m>1</m></cell>
+<cell><m>2</m></cell>
+<cell><m>3</m></cell>
+<cell><m>4</m></cell>
+<cell><m>5</m></cell>
+</row>
+<row>
+<cell>Tiles</cell>
+<cell><m>2</m></cell>
+<cell><m>6</m></cell>
+<cell><m>12</m></cell>
+<cell></cell>
+<cell></cell>
+</row>
+</tabular>
+</statement>
+<answer>
+<p>
+The counts are <m>2, 6, 12, 20, 30</m>.
+</p>
+</answer>
+</task>
+
+<task workspace="1.75in">
+<statement>
+<p>In your own words, describe how the pattern grows from one case to the next.</p>
+</statement>
+<answer>
+<p>
+The rectangle grows in both directions at once. Each new case adds one row on top and one column on the side, so the height goes up by one and the width goes up by one.
+</p>
+<p>
+In every case the rectangle is one tile wider than it is tall, so Case <m>n</m> is <m>n+1</m> tiles wide and <m>n</m> tiles tall.
+</p>
+<p>
+The number of tiles added each time is not the same. Case 1 to Case 2 adds 4 tiles, and Case 2 to Case 3 adds 6 tiles, so the pattern grows faster as the cases get larger.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt2-pattern-two-rows">
+<title>Pattern 2: Stacked Rows</title>
+<introduction>
+<p>Each case is built from a bottom row of tiles and a shorter top row that lines up with the left edge. A blank outline is provided for Case 4.</p>
+<image width="90%">
+<shortdescription>Three two-row figures with bottom rows of two, three, and four tiles and top rows of one, two, and three tiles, followed by a blank outline for the next case.</shortdescription>
+<description>
+<p>A sequence of figures built from square tiles in two rows. Case 1 has a bottom row of two tiles with one tile above the left end, a total of three tiles. Case 2 has a bottom row of three tiles with a top row of two, a total of five tiles. Case 3 has a bottom row of four tiles with a top row of three, a total of seven tiles. Case 4 is shown as an empty outline five tiles wide and two tiles tall.</p>
+</description>
+<prefigure xmlns="https://prefigure.org" label="lt2-stacked-rows">
+<diagram dimensions="(640,144)" margins="5">
+<coordinates bbox="(-1,-1.6,19.5,3.0)">
+<repeat parameter="i=0..1">
+<rectangle lower-left="(i,0)" dimensions="(0.9,0.9)" fill="lightseagreen" stroke="black"/>
+</repeat>
+<rectangle lower-left="(0,1)" dimensions="(0.9,0.9)" fill="lightseagreen" stroke="black"/>
+<repeat parameter="i=0..2">
+<rectangle lower-left="(3.5+i,0)" dimensions="(0.9,0.9)" fill="lightseagreen" stroke="black"/>
+</repeat>
+<repeat parameter="i=0..1">
+<rectangle lower-left="(3.5+i,1)" dimensions="(0.9,0.9)" fill="lightseagreen" stroke="black"/>
+</repeat>
+<repeat parameter="i=0..3">
+<rectangle lower-left="(8+i,0)" dimensions="(0.9,0.9)" fill="lightseagreen" stroke="black"/>
+</repeat>
+<repeat parameter="i=0..2">
+<rectangle lower-left="(8+i,1)" dimensions="(0.9,0.9)" fill="lightseagreen" stroke="black"/>
+</repeat>
+<rectangle lower-left="(13.5,0)" dimensions="(4.9,1.9)" stroke="gray"/>
+<label anchor="(1,-0.5)" alignment="south">Case 1</label>
+<label anchor="(5,-0.5)" alignment="south">Case 2</label>
+<label anchor="(10,-0.5)" alignment="south">Case 3</label>
+<label anchor="(16,-0.5)" alignment="south">Case 4</label>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+
+<task>
+<statement>
+<p>Draw Case 4 in the blank outline above.</p>
+</statement>
+<answer>
+<p>
+Case 4 has a bottom row of five tiles with a top row of four tiles above the left end, for a total of 9 tiles. The outline is not filled completely, since the upper right corner stays empty.
+</p>
+</answer>
+</task>
+
+<task>
+<statement>
+<p>Count the tiles in each case and complete the table.</p>
+<tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+<row header="yes">
+<cell>Case (<m>n</m>)</cell>
+<cell><m>1</m></cell>
+<cell><m>2</m></cell>
+<cell><m>3</m></cell>
+<cell><m>4</m></cell>
+<cell><m>5</m></cell>
+</row>
+<row>
+<cell>Tiles</cell>
+<cell><m>3</m></cell>
+<cell><m>5</m></cell>
+<cell><m>7</m></cell>
+<cell></cell>
+<cell></cell>
+</row>
+</tabular>
+</statement>
+<answer>
+<p>
+The counts are <m>3, 5, 7, 9, 11</m>.
+</p>
+</answer>
+</task>
+
+<task workspace="1.75in">
+<statement>
+<p>In your own words, describe how the pattern grows from one case to the next.</p>
+</statement>
+<answer>
+<p>
+Each new case adds one tile to the right end of the bottom row and one tile to the right end of the top row, so every case has 2 more tiles than the case before it.
+</p>
+<p>
+The top row always has one fewer tile than the bottom row. In Case <m>n</m>, the bottom row has <m>n+1</m> tiles and the top row has <m>n</m> tiles.
+</p>
+</answer>
+</task>
+
+<task workspace="2in">
+<statement>
+<p>How many tiles would be in Case 10? Explain how you figured it out without drawing every case.</p>
+</statement>
+<answer>
+<p>
+Case 10 has 21 tiles.
+</p>
+<p>
+One way to see it: the bottom row has 11 tiles and the top row has 10 tiles, and <m>11 + 10 = 21</m>.
+</p>
+<p>
+Another way: Case 1 has 3 tiles and each case after that adds 2 more. Getting from Case 1 to Case 10 takes 9 steps, so the total is <m>3 + 9(2) = 21</m>.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt2-pattern-block-with-cap">
+<title>Pattern 3: Block with a Cap</title>
+<introduction>
+<p>Each case is a block of tiles three columns wide with one extra tile sitting on top of the middle column. A blank outline is provided for Case 4.</p>
+<image width="70%">
+<shortdescription>Three figures, each three tiles wide and one, two, or three tiles tall, with a single tile capping the middle column, followed by a blank outline for the next case.</shortdescription>
+<description>
+<p>A sequence of figures built from square tiles. Case 1 is a row of three tiles with one tile on top of the middle tile, a total of four tiles. Case 2 is a three by two block with one tile on top of the middle column, a total of seven tiles. Case 3 is a three by three block with one tile on top of the middle column, a total of ten tiles. Case 4 is shown as an empty outline three tiles wide and five tiles tall.</p>
+</description>
+<prefigure xmlns="https://prefigure.org" label="lt2-block-with-cap">
+<diagram dimensions="(640,236)" margins="5">
+<coordinates bbox="(-1,-1.6,18,5.4)">
+<repeat parameter="i=0..2">
+<repeat parameter="j=0..0">
+<rectangle lower-left="(i,j)" dimensions="(0.9,0.9)" fill="lightcoral" stroke="black"/>
+</repeat>
+</repeat>
+<rectangle lower-left="(1,1)" dimensions="(0.9,0.9)" fill="lightcoral" stroke="black"/>
+<repeat parameter="i=0..2">
+<repeat parameter="j=0..1">
+<rectangle lower-left="(4.5+i,j)" dimensions="(0.9,0.9)" fill="lightcoral" stroke="black"/>
+</repeat>
+</repeat>
+<rectangle lower-left="(5.5,2)" dimensions="(0.9,0.9)" fill="lightcoral" stroke="black"/>
+<repeat parameter="i=0..2">
+<repeat parameter="j=0..2">
+<rectangle lower-left="(9+i,j)" dimensions="(0.9,0.9)" fill="lightcoral" stroke="black"/>
+</repeat>
+</repeat>
+<rectangle lower-left="(10,3)" dimensions="(0.9,0.9)" fill="lightcoral" stroke="black"/>
+<rectangle lower-left="(13.5,0)" dimensions="(2.9,4.9)" stroke="gray"/>
+<label anchor="(1.45,-0.5)" alignment="south">Case 1</label>
+<label anchor="(5.95,-0.5)" alignment="south">Case 2</label>
+<label anchor="(10.45,-0.5)" alignment="south">Case 3</label>
+<label anchor="(14.95,-0.5)" alignment="south">Case 4</label>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+
+<task>
+<statement>
+<p>Draw Case 4 in the blank outline above.</p>
+</statement>
+<answer>
+<p>
+Case 4 is a block three tiles wide and four tiles tall with one tile on top of the middle column, for a total of 13 tiles. Only the middle column reaches the top of the outline.
+</p>
+</answer>
+</task>
+
+<task>
+<statement>
+<p>Count the tiles in each case and complete the table.</p>
+<tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+<row header="yes">
+<cell>Case (<m>n</m>)</cell>
+<cell><m>1</m></cell>
+<cell><m>2</m></cell>
+<cell><m>3</m></cell>
+<cell><m>4</m></cell>
+<cell><m>5</m></cell>
+</row>
+<row>
+<cell>Tiles</cell>
+<cell><m>4</m></cell>
+<cell><m>7</m></cell>
+<cell><m>10</m></cell>
+<cell></cell>
+<cell></cell>
+</row>
+</tabular>
+</statement>
+<answer>
+<p>
+The counts are <m>4, 7, 10, 13, 16</m>.
+</p>
+</answer>
+</task>
+
+<task workspace="1.75in">
+<statement>
+<p>In your own words, describe how the pattern grows from one case to the next.</p>
+</statement>
+<answer>
+<p>
+The block stays three columns wide the whole time. Each new case adds one more row of 3 tiles to the block, so the count goes up by 3 every time.
+</p>
+<p>
+The single tile on top never changes. It is there in every case, so Case <m>n</m> has <m>n</m> rows of 3 tiles plus that 1 extra tile.
+</p>
+</answer>
+</task>
+
+<task workspace="2in">
+<statement>
+<p>How many tiles would be in Case 12? Explain how you figured it out without drawing every case.</p>
+</statement>
+<answer>
+<p>
+Case 12 has 37 tiles.
+</p>
+<p>
+The block in Case 12 is three columns wide and twelve rows tall, which is <m>3 \cdot 12 = 36</m> tiles, and the one tile on top brings the total to 37.
+</p>
+<p>
+Checking the other way: Case 1 has 4 tiles and each case adds 3 more, so <m>4 + 11(3) = 37</m>.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+</worksheet>

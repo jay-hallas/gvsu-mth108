@@ -55,9 +55,9 @@
     </chapter>
 
     <chapter xml:id="handouts">
-      <title>Handouts</title>
-      <!-- Include handouts -->
-      <!--<xi:include href="./handouts/handout-filename.ptx"/>-->
+      <title>Learning Target Practice</title>
+<xi:include href="./lt-practice-quiz/LT1-operations.ptx"/>
+<xi:include href="./lt-practice-quiz/LT2-patterns.ptx"/>
     </chapter>
 
     <chapter xml:id="homework">
