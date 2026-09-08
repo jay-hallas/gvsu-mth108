@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="gp-staircase-pattern-figure" width="650" height="250" viewBox="0 0 650 250">
+  <defs>
+    <clipPath id="gp-staircase-pattern-__clipPath-0">
+      <rect x="5.0" y="5.0" width="640.0" height="240.0"/>
+    </clipPath>
+    <clipPath id="gp-staircase-pattern-__clipPath-1">
+      <rect x="5.0" y="5.0" width="640.0" height="240.0"/>
+    </clipPath>
+  </defs>
+  <path id="gp-staircase-pattern-__path-0" d="M 43.8 180.2 L 78.7 180.2 L 78.7 146.0 L 43.8 146.0 Z" stroke="black" stroke-width="2" fill="lightseagreen"/>
+  <g id="gp-staircase-pattern-__group-0">
+    <path id="gp-staircase-pattern-__path-1-i_0" d="M 140.8 180.2 L 175.7 180.2 L 175.7 146.0 L 140.8 146.0 Z" stroke="black" stroke-width="2" fill="lightseagreen"/>
+    <path id="gp-staircase-pattern-__path-2-i_1" d="M 179.5 180.2 L 214.5 180.2 L 214.5 146.0 L 179.5 146.0 Z" stroke="black" stroke-width="2" fill="lightseagreen"/>
+  </g>
+  <path id="gp-staircase-pattern-__path-3" d="M 140.8 142.1 L 175.7 142.1 L 175.7 107.9 L 140.8 107.9 Z" stroke="black" stroke-width="2" fill="lightseagreen"/>
+  <g id="gp-staircase-pattern-__group-1">
+    <path id="gp-staircase-pattern-__path-4-i_0" d="M 276.5 180.2 L 311.4 180.2 L 311.4 146.0 L 276.5 146.0 Z" stroke="black" stroke-width="2" fill="lightseagreen"/>
+    <path id="gp-staircase-pattern-__path-5-i_1" d="M 315.3 180.2 L 350.2 180.2 L 350.2 146.0 L 315.3 146.0 Z" stroke="black" stroke-width="2" fill="lightseagreen"/>
+    <path id="gp-staircase-pattern-__path-6-i_2" d="M 354.1 180.2 L 389.0 180.2 L 389.0 146.0 L 354.1 146.0 Z" stroke="black" stroke-width="2" fill="lightseagreen"/>
+  </g>
+  <g id="gp-staircase-pattern-__group-2">
+    <path id="gp-staircase-pattern-__path-7-i_0" d="M 276.5 142.1 L 311.4 142.1 L 311.4 107.9 L 276.5 107.9 Z" stroke="black" stroke-width="2" fill="lightseagreen"/>
+    <path id="gp-staircase-pattern-__path-8-i_1" d="M 315.3 142.1 L 350.2 142.1 L 350.2 107.9 L 315.3 107.9 Z" stroke="black" stroke-width="2" fill="lightseagreen"/>
+  </g>
+  <path id="gp-staircase-pattern-__path-9" d="M 276.5 104.0 L 311.4 104.0 L 311.4 69.8 L 276.5 69.8 Z" stroke="black" stroke-width="2" fill="lightseagreen"/>
+  <path id="gp-staircase-pattern-__path-10" d="M 451.1 180.2 L 602.3 180.2 L 602.3 31.7 L 451.1 31.7 Z" stroke="#777" stroke-width="2" fill="none"/>
+  <g id="gp-staircase-pattern-__label-0" transform="translate(61.2,203.3) translate(-23.8,-0.0)">
+    <g id="gp-staircase-pattern-__g-0">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="10.4">Case 1</text>
+    </g>
+  </g>
+  <g id="gp-staircase-pattern-__label-1" transform="translate(177.6,203.3) translate(-23.8,-0.0)">
+    <g id="gp-staircase-pattern-__g-1">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="10.4">Case 2</text>
+    </g>
+  </g>
+  <g id="gp-staircase-pattern-__label-2" transform="translate(332.8,203.3) translate(-23.8,-0.0)">
+    <g id="gp-staircase-pattern-__g-2">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="10.4">Case 3</text>
+    </g>
+  </g>
+  <g id="gp-staircase-pattern-__label-3" transform="translate(526.7,203.3) translate(-23.8,-0.0)">
+    <g id="gp-staircase-pattern-__g-3">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="10.4">Case 4</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="gp-row-pattern-figure" width="650" height="120" viewBox="0 0 650 120">
+  <defs>
+    <clipPath id="gp-row-pattern-__clipPath-0">
+      <rect x="5.0" y="5.0" width="640.0" height="110.0"/>
+    </clipPath>
+    <clipPath id="gp-row-pattern-__clipPath-1">
+      <rect x="5.0" y="5.0" width="640.0" height="110.0"/>
+    </clipPath>
+  </defs>
+  <path id="gp-row-pattern-__path-0" d="M 34.1 69.4 L 60.3 69.4 L 60.3 45.2 L 34.1 45.2 Z" stroke="black" stroke-width="2" fill="plum"/>
+  <g id="gp-row-pattern-__group-0">
+    <path id="gp-row-pattern-__path-1-i_0" d="M 106.8 69.4 L 133.0 69.4 L 133.0 45.2 L 106.8 45.2 Z" stroke="black" stroke-width="2" fill="plum"/>
+    <path id="gp-row-pattern-__path-2-i_1" d="M 135.9 69.4 L 162.1 69.4 L 162.1 45.2 L 135.9 45.2 Z" stroke="black" stroke-width="2" fill="plum"/>
+  </g>
+  <g id="gp-row-pattern-__group-1">
+    <path id="gp-row-pattern-__path-3-i_0" d="M 208.6 69.4 L 234.8 69.4 L 234.8 45.2 L 208.6 45.2 Z" stroke="black" stroke-width="2" fill="plum"/>
+    <path id="gp-row-pattern-__path-4-i_1" d="M 237.7 69.4 L 263.9 69.4 L 263.9 45.2 L 237.7 45.2 Z" stroke="black" stroke-width="2" fill="plum"/>
+    <path id="gp-row-pattern-__path-5-i_2" d="M 266.8 69.4 L 293.0 69.4 L 293.0 45.2 L 266.8 45.2 Z" stroke="black" stroke-width="2" fill="plum"/>
+    <path id="gp-row-pattern-__path-6-i_3" d="M 295.9 69.4 L 322.1 69.4 L 322.1 45.2 L 295.9 45.2 Z" stroke="black" stroke-width="2" fill="plum"/>
+  </g>
+  <path id="gp-row-pattern-__path-7" d="M 368.6 69.4 L 598.5 69.4 L 598.5 45.2 L 368.6 45.2 Z" stroke="#777" stroke-width="2" fill="none"/>
+  <g id="gp-row-pattern-__label-0" transform="translate(47.2,86.8) translate(-23.8,-0.0)">
+    <g id="gp-row-pattern-__g-0">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="10.4">Case 1</text>
+    </g>
+  </g>
+  <g id="gp-row-pattern-__label-1" transform="translate(134.5,86.8) translate(-23.8,-0.0)">
+    <g id="gp-row-pattern-__g-1">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="10.4">Case 2</text>
+    </g>
+  </g>
+  <g id="gp-row-pattern-__label-2" transform="translate(265.4,86.8) translate(-23.8,-0.0)">
+    <g id="gp-row-pattern-__g-2">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="10.4">Case 3</text>
+    </g>
+  </g>
+  <g id="gp-row-pattern-__label-3" transform="translate(483.5,86.8) translate(-23.8,-0.0)">
+    <g id="gp-row-pattern-__g-3">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="10.4">Case 4</text>
+    </g>
+  </g>
+</svg>
