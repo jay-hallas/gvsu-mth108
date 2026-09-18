@@ -51,6 +51,9 @@
       <xi:include href="./activities/01-operations.ptx"/>
 <xi:include href="./activities/02-fours.ptx"/>
 <xi:include href="./activities/03-patterns.ptx"/>
+<xi:include href="./activities/04-100.ptx"/>
+<xi:include href="./activities/05-sequences.ptx"/>
+<xi:include href="./activities/06-terms.ptx"/>
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
@@ -58,6 +61,11 @@
       <title>Learning Target Practice</title>
 <xi:include href="./lt-practice-quiz/LT1-operations.ptx"/>
 <xi:include href="./lt-practice-quiz/LT2-patterns.ptx"/>
+<xi:include href="./lt-practice-quiz/LT3-sequences.ptx"/>
+<xi:include href="./lt-practice-quiz/LT4-terms.ptx"/>
+<xi:include href="./lt-practice-quiz/LT5-Scatter.ptx"/>
+<xi:include href="./lt-practice-quiz/LT6-draw.ptx"/>
+<xi:include href="./lt-practice-quiz/LT7-describe.ptx"/>
     </chapter>
 
     <chapter xml:id="homework">

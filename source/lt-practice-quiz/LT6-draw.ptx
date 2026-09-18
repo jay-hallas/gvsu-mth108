@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="lt6-practice-quiz">
+  <title>Learning Target 6: Sketching Qualitative Graphs</title>
+  <objectives>
+    <ul>
+      <li>I can sketch qualitative graphs given a written situation.</li>
+    </ul>
+  </objectives>
+
+  <!-- ============================================================
+       PROBLEM 1: Water glass at a restaurant
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt6-water-glass">
+      <title>A Glass of Water</title>
+      <introduction>
+        <p>
+          Read the following story carefully. Then sketch a graph that shows how the amount of
+          water in the glass changes over time.
+        </p>
+        <p>
+          A server brings a full glass of water to a table. For the first 5 minutes, nobody
+          touches it. Over the next 3 minutes, the person at the table takes three quick drinks,
+          each one reducing the amount of water in the glass noticeably. For the next 5 minutes
+          after that, no more drinks are taken. Then the server comes by with a pitcher and
+          refills the glass back to full.
+        </p>
+      </introduction>
+
+      <task workspace="0.5in">
+        <statement>
+          <p>
+            What are the two quantities being graphed? Identify the input and the output,
+            including units.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The input (independent variable) is time, measured in minutes. The output
+            (dependent variable) is the amount of water in the glass, which could be measured
+            in ounces or as a percent of the glass's capacity. The amount of water depends on
+            how much time has passed.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="3.5in">
+        <statement>
+          <p>
+            Sketch a graph of the amount of water in the glass over time. Label the horizontal
+            axis with time and the vertical axis with the amount of water. Your graph does not
+            need exact numbers, but it should clearly show the shape of each part of the story.
+          </p>
+          <p>
+            <em>Hint:</em> Think about each part of the story one at a time. Is the water level
+            rising, falling, or staying the same during each part?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            A sample graph is shown below. The key features are: the graph starts at a high
+            value (full glass) and stays flat for the first 5 minutes. It then drops three
+            times in quick steps over the next 3 minutes, with brief flat stretches between
+            each drop (representing the pauses between drinks). It then stays flat for 5
+            more minutes (no drinks taken). Finally, it rises sharply back to the original
+            high value (the refill).
+          </p>
+          <image width="80%">
+            <shortdescription>
+              A sample sketch for the water glass story: the graph starts high and flat for
+              5 minutes, drops in three steps over the next 3 minutes (with brief flat
+              stretches between drops), stays flat for 5 more minutes, then jumps back up
+              to the starting level.
+            </shortdescription>
+            <description>
+              <p>
+                A graph with time in minutes on the horizontal axis (0 to 14) and amount of
+                water as a percent on the vertical axis (0 to 100). The line starts at 100
+                percent and stays flat to minute 5. It drops to 75 at minute 5.5, stays flat
+                briefly, drops to 50 at minute 7, stays flat briefly, drops to 25 at minute
+                8, stays flat to minute 13, then rises sharply back to 100 at minute 13.
+              </p>
+            </description>
+            <prefigure xmlns="https://prefigure.org" label="lt6-water-glass-answer">
+              <diagram dimensions="(520,320)" margins="(60,50,130,18)">
+                <coordinates bbox="(-0.6,-8,14.5,108)">
+                  <grid-axes  h-zero-label="yes">
+                    <xlabel alignment="se">Time (minutes)</xlabel>
+                    <ylabel alignment="ne">Water in glass (%)</ylabel>
+                  </grid-axes>
+                  <polygon points="((0,100),(5,100),(5.5,75),(6,75),(7,50),(7.5,50),(8,25),(13,25),(13,100),(14,100))" stroke="purple" thickness="3"/>
+                  <point p="(0,100)" size="3" fill="purple"/>
+                  <point p="(14,100)" size="3" fill="purple"/>
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>
+            Describe what the flat (horizontal) parts of your graph represent in terms of the
+            story. What is happening to the water level during those times?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Each horizontal segment means the water level is not changing during that
+            interval. There are three such stretches in this story: the first 5 minutes while
+            nobody drinks, the brief pauses between each of the three drinks, and the
+            5-minute stretch after the last drink before the refill.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>
+            What does it mean that the graph goes up sharply near the end? Why is it so steep?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The sharp upward jump represents the refill: the server pours water quickly from
+            a pitcher, so the water level rises back to full in a very short amount of time.
+            A steep upward slope means the quantity is increasing rapidly. If the refill took
+            much longer, the rising segment would be less steep.
+          </p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 2: Phone battery
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt6-phone-battery">
+      <title>A Phone Battery</title>
+      <introduction>
+        <p>
+          Read the following story carefully. Then sketch a graph that shows how the phone's
+          battery level changes over time.
+        </p>
+        <p>
+          You take your phone off its charger with the battery at about half charge. The battery
+          drains slowly over the next few hours while the phone sits mostly idle. You then plug
+          it in and charge it rapidly for about an hour until it reaches full charge. After
+          unplugging it again, you stream music for several hours, which drains the battery
+          noticeably faster than when it was idle.
+        </p>
+      </introduction>
+
+      <task workspace="0.5in">
+        <statement>
+          <p>
+            What are the two quantities being graphed? Identify the input and the output,
+            including units.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The input (independent variable) is time, measured in hours. The output
+            (dependent variable) is the battery charge, measured as a percent of full charge.
+            The battery level depends on how much time has passed and what the phone is doing.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="3.5in">
+        <statement>
+          <p>
+            Sketch a graph of the battery level over time. Label the horizontal axis with time
+            in hours and the vertical axis with the battery charge as a percent (0 to 100).
+            Your graph should clearly show the three distinct phases of the story.
+          </p>
+          <p>
+            <em>Hint:</em> Think about what is different between each phase. Is the battery going
+            up or down? Is the change fast or slow?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            A sample graph is shown below. The three phases are: a gradual decline from about
+            50 percent down toward 20 percent (idle drain, slow slope downward); a steep rise
+            from 20 percent back to 100 percent over about one hour (rapid charging); and
+            then a steeper decline than the first phase as music streaming drains the battery
+            more quickly.
+          </p>
+          <image width="80%">
+            <shortdescription>
+              A sample sketch for the phone battery story: the graph starts at 50 percent and
+              declines slowly for 3 hours to about 20 percent, then rises steeply over 1 hour
+              to 100 percent, then declines at a steeper rate than the first phase over the
+              next 3 hours to about 25 percent.
+            </shortdescription>
+            <description>
+              <p>
+                A graph with time in hours on the horizontal axis (0 to 7) and battery charge
+                as a percent on the vertical axis (0 to 100). The line starts at 50 percent
+                at hour 0 and declines gradually to 20 percent at hour 3. It then rises
+                steeply to 100 percent at hour 4. From hour 4 it declines at a noticeably
+                steeper rate than the first segment, reaching about 25 percent by hour 7.
+              </p>
+            </description>
+            <prefigure xmlns="https://prefigure.org" label="lt1-battery-answer">
+              <diagram dimensions="(520,320)" margins="(60,50,130,18)">
+                <coordinates bbox="(-0.3,-8,7.4,108)">
+                  <grid-axes  h-zero-label="yes">
+                    <xlabel alignment="se">Time (hours)</xlabel>
+                    <ylabel alignment="ne">Battery charge (%)</ylabel>
+                  </grid-axes>
+                  <polygon points="((0,50),(3,20),(4,100),(7,25))" stroke="purple" thickness="3"/>
+                  <point p="(0,50)" size="3" fill="purple"/>
+                  <point p="(3,20)" size="3" fill="purple"/>
+                  <point p="(4,100)" size="3" fill="purple"/>
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>
+            How does the slope of the graph during the streaming phase compare to the slope
+            during the idle phase? What does that difference in slope mean for the story?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Both segments slope downward, but the streaming segment is steeper. A steeper
+            downward slope means the battery is losing charge more quickly. During the idle
+            phase, the phone uses very little power so the battery drains slowly. During
+            streaming, the screen, processor, and network are all active, so the battery
+            drains at a faster rate.
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>
+            Identify the highest point on your graph. What does it represent in terms of the
+            story, and when does it occur?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The highest point is at 100 percent charge, occurring at hour 4, right when the
+            phone is unplugged after being charged. This is the moment the battery is
+            completely full. Before this point the charge was rising (charging); after this
+            point it begins falling again (streaming drains it).
+          </p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+</worksheet>

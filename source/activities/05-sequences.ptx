@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="mth108-number-patterns">
+<title>Generalizing Number Patterns</title>
+<objectives>
+<ul>
+<li>Given a list of numbers that changes by the same amount each time, I can describe the pattern in words, find numbers that come before or after a given value, and use a variable to write expressions for the numbers around any value in the list.</li>
+</ul>
+</objectives>
+
+<introduction>
+<p><em>For each number pattern below, describe the rule in your own words, find a missing value, and then use a variable to generalize the relationship.</em></p>
+</introduction>
+
+<page>
+<exercise xml:id="gnp-add-four">
+<title>Problem 1</title>
+<introduction>
+<p>Consider the following list of numbers:<md>3,\ 7,\ 11,\ 15,\ 19,\ 23,\ 27,\ \dots</md></p>
+</introduction>
+
+<task workspace="0.75in">
+<statement>
+<p>Describe in your own words the pattern for getting the next number in the list.</p>
+</statement>
+<answer>
+<p>Add <m>4</m> to a number to get the next number in the list.</p>
+</answer>
+</task>
+
+<task workspace="0.85in">
+<statement>
+<p>Suppose the number <m>103</m> is somewhere in this list. What number comes exactly <em>two spots before</em> it? Show your work or explain how you know.</p>
+</statement>
+<answer>
+<p>Going back one spot subtracts <m>4</m>, so going back two spots subtracts <m>8</m>. The number two spots before <m>103</m> is <m>103 - 8 = 95</m>.</p>
+</answer>
+</task>
+
+<task>
+<statement>
+<p>Suppose a variable <m>x</m> represents some number in this list. Fill in the empty boxes below with expressions using <m>x</m> to represent the surrounding numbers in the pattern.</p>
+<image width="90%">
+<shortdescription>Four boxes in a row labeled Previous, Current, Next, and Two spots after, with x in the Current box.</shortdescription>
+<description>
+<p>Four boxes in a row with an ellipsis on each end. From left to right, the boxes are labeled Previous, Current, Next, and Two spots after. The Current box contains <m>x</m>, and the other three boxes are empty.</p>
+</description>
+<prefigure xmlns="https://prefigure.org" label="gnp-boxes-add-four">
+<diagram dimensions="(600,110)" margins="5">
+<coordinates bbox="(-2,-0.8,12.5,1.5)">
+<label anchor="(-1.2,0.6)" alignment="center"><m>\dots</m></label>
+<label anchor="(11.7,0.6)" alignment="center"><m>\dots</m></label>
+<rectangle lower-left="(0,0)" dimensions="(2.5,1.2)" stroke="#3E4A59" thickness="2"/>
+<rectangle lower-left="(3,0)" dimensions="(1.5,1.2)" stroke="#002967" thickness="3"/>
+<rectangle lower-left="(5,0)" dimensions="(2.5,1.2)" stroke="#3E4A59" thickness="2"/>
+<rectangle lower-left="(8,0)" dimensions="(2.5,1.2)" stroke="#3E4A59" thickness="2"/>
+<label anchor="(3.75,0.6)" alignment="center"><m>x</m></label>
+<label anchor="(1.25,-0.35)" alignment="center" scale="0.8"><m>\text{Previous}</m></label>
+<label anchor="(3.75,-0.35)" alignment="center" scale="0.8"><m>\text{Current}</m></label>
+<label anchor="(6.25,-0.35)" alignment="center" scale="0.8"><m>\text{Next}</m></label>
+<label anchor="(9.25,-0.35)" alignment="center" scale="0.8"><m>\text{Two spots after}</m></label>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</statement>
+<answer>
+<p>The previous number is <m>x - 4</m>, the next number is <m>x + 4</m>, and the number two spots after is <m>x + 8</m>.</p>
+</answer>
+</task>
+</exercise>
+
+<exercise xml:id="gnp-subtract-seven">
+<title>Problem 2</title>
+<introduction>
+<p>Now consider this list of numbers, which follows a different pattern:<md>50,\ 43,\ 36,\ 29,\ 22,\ 15,\ 8,\ \dots</md></p>
+</introduction>
+
+<task workspace="0.75in">
+<statement>
+<p>Describe in your own words the pattern for getting the next number.</p>
+</statement>
+<answer>
+<p>Subtract <m>7</m> from a number to get the next number in the list.</p>
+</answer>
+</task>
+
+<task workspace="0.85in">
+<statement>
+<p>Suppose the number <m>-62</m> appears much later in this list. What number comes exactly <em>three spots before</em> it? Show your work.</p>
+</statement>
+<answer>
+<p>Each step forward subtracts <m>7</m>, so going back one spot adds <m>7</m>. Going back three spots adds <m>3 \cdot 7 = 21</m>. The number three spots before <m>-62</m> is <m>-62 + 21 = -41</m>.</p>
+</answer>
+</task>
+
+<task>
+<statement>
+<p>Suppose <m>x</m> is a number in this list. Fill in the boxes with expressions representing the surrounding numbers.</p>
+<image width="90%">
+<shortdescription>Four boxes in a row labeled Previous, Current, Next, and Two spots after, with x in the Current box.</shortdescription>
+<description>
+<p>Four boxes in a row with an ellipsis on each end. From left to right, the boxes are labeled Previous, Current, Next, and Two spots after. The Current box contains <m>x</m>, and the other three boxes are empty.</p>
+</description>
+<prefigure xmlns="https://prefigure.org" label="gnp-boxes-subtract-seven">
+<diagram dimensions="(600,110)" margins="5">
+<coordinates bbox="(-2,-0.8,12.5,1.5)">
+<label anchor="(-1.2,0.6)" alignment="center"><m>\dots</m></label>
+<label anchor="(11.7,0.6)" alignment="center"><m>\dots</m></label>
+<rectangle lower-left="(0,0)" dimensions="(2.5,1.2)" stroke="#3E4A59" thickness="2"/>
+<rectangle lower-left="(3,0)" dimensions="(1.5,1.2)" stroke="#002967" thickness="3"/>
+<rectangle lower-left="(5,0)" dimensions="(2.5,1.2)" stroke="#3E4A59" thickness="2"/>
+<rectangle lower-left="(8,0)" dimensions="(2.5,1.2)" stroke="#3E4A59" thickness="2"/>
+<label anchor="(3.75,0.6)" alignment="center"><m>x</m></label>
+<label anchor="(1.25,-0.35)" alignment="center" scale="0.8"><m>\text{Previous}</m></label>
+<label anchor="(3.75,-0.35)" alignment="center" scale="0.8"><m>\text{Current}</m></label>
+<label anchor="(6.25,-0.35)" alignment="center" scale="0.8"><m>\text{Next}</m></label>
+<label anchor="(9.25,-0.35)" alignment="center" scale="0.8"><m>\text{Two spots after}</m></label>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</statement>
+<answer>
+<p>The previous number is <m>x + 7</m>, the next number is <m>x - 7</m>, and the number two spots after is <m>x - 14</m>.</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="gnp-decimals">
+<title>Problem 3</title>
+<introduction>
+<p>Consider this list that includes decimal values:<md>2.5,\ 4.0,\ 5.5,\ 7.0,\ 8.5,\ 10.0,\ 11.5,\ \dots</md></p>
+</introduction>
+
+<task workspace="0.75in">
+<statement>
+<p>Describe in your own words the pattern for getting the next number.</p>
+</statement>
+<answer>
+<p>Add <m>1.5</m> to a number to get the next number in the list.</p>
+</answer>
+</task>
+
+<task workspace="0.85in">
+<statement>
+<p>Suppose the number <m>31.0</m> is in this list. What number comes exactly <em>two spots after</em> it? Show your work.</p>
+</statement>
+<answer>
+<p>Going forward two spots adds <m>1.5</m> twice, or <m>3</m>. The number two spots after <m>31.0</m> is <m>31.0 + 3 = 34.0</m>.</p>
+</answer>
+</task>
+
+<task>
+<statement>
+<p>If <m>x</m> is a number in this list, fill in the boxes with expressions for the number before it and the two numbers after it.</p>
+<image width="90%">
+<shortdescription>Four boxes in a row labeled Previous, Current, Next, and Two spots after, with x in the Current box.</shortdescription>
+<description>
+<p>Four boxes in a row with an ellipsis on each end. From left to right, the boxes are labeled Previous, Current, Next, and Two spots after. The Current box contains <m>x</m>, and the other three boxes are empty.</p>
+</description>
+<prefigure xmlns="https://prefigure.org" label="gnp-boxes-decimals">
+<diagram dimensions="(600,110)" margins="5">
+<coordinates bbox="(-2,-0.8,12.5,1.5)">
+<label anchor="(-1.2,0.6)" alignment="center"><m>\dots</m></label>
+<label anchor="(11.7,0.6)" alignment="center"><m>\dots</m></label>
+<rectangle lower-left="(0,0)" dimensions="(2.5,1.2)" stroke="#3E4A59" thickness="2"/>
+<rectangle lower-left="(3,0)" dimensions="(1.5,1.2)" stroke="#002967" thickness="3"/>
+<rectangle lower-left="(5,0)" dimensions="(2.5,1.2)" stroke="#3E4A59" thickness="2"/>
+<rectangle lower-left="(8,0)" dimensions="(2.5,1.2)" stroke="#3E4A59" thickness="2"/>
+<label anchor="(3.75,0.6)" alignment="center"><m>x</m></label>
+<label anchor="(1.25,-0.35)" alignment="center" scale="0.8"><m>\text{Previous}</m></label>
+<label anchor="(3.75,-0.35)" alignment="center" scale="0.8"><m>\text{Current}</m></label>
+<label anchor="(6.25,-0.35)" alignment="center" scale="0.8"><m>\text{Next}</m></label>
+<label anchor="(9.25,-0.35)" alignment="center" scale="0.8"><m>\text{Two spots after}</m></label>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</statement>
+<answer>
+<p>The previous number is <m>x - 1.5</m>, the next number is <m>x + 1.5</m>, and the number two spots after is <m>x + 3</m>.</p>
+</answer>
+</task>
+</exercise>
+
+<exercise xml:id="gnp-build-your-own">
+<title>Problem 4: Build Your Own Pattern</title>
+
+<task>
+<statement>
+<p>Make up your own list of numbers where you add or subtract the <em>same amount</em> every time. Choose a starting number and an amount that are different from Problems 1 through 3.</p>
+<p><fillin characters="6"/>, <fillin characters="6"/>, <fillin characters="6"/>, <fillin characters="6"/>, <fillin characters="6"/>, <fillin characters="6"/>, <ellipsis/></p>
+</statement>
+<answer>
+<p>Answers will vary. One possibility is <m>6, 15, 24, 33, 42, 51, \dots</m>, which starts at <m>6</m> and adds <m>9</m> each time.</p>
+</answer>
+</task>
+
+<task workspace="0.75in">
+<statement>
+<p>Describe in your own words the pattern for getting the next number in your list.</p>
+</statement>
+<answer>
+<p>For the example list, add <m>9</m> to a number to get the next number.</p>
+</answer>
+</task>
+
+<task>
+<statement>
+<p>Suppose <m>x</m> is a number in your list. Fill in the boxes with expressions representing the surrounding numbers.</p>
+<image width="90%">
+<shortdescription>Four boxes in a row labeled Previous, Current, Next, and Two spots after, with x in the Current box.</shortdescription>
+<description>
+<p>Four boxes in a row with an ellipsis on each end. From left to right, the boxes are labeled Previous, Current, Next, and Two spots after. The Current box contains <m>x</m>, and the other three boxes are empty.</p>
+</description>
+<prefigure xmlns="https://prefigure.org" label="gnp-boxes-build-your-own">
+<diagram dimensions="(600,110)" margins="5">
+<coordinates bbox="(-2,-0.8,12.5,1.5)">
+<label anchor="(-1.2,0.6)" alignment="center"><m>\dots</m></label>
+<label anchor="(11.7,0.6)" alignment="center"><m>\dots</m></label>
+<rectangle lower-left="(0,0)" dimensions="(2.5,1.2)" stroke="#3E4A59" thickness="2"/>
+<rectangle lower-left="(3,0)" dimensions="(1.5,1.2)" stroke="#002967" thickness="3"/>
+<rectangle lower-left="(5,0)" dimensions="(2.5,1.2)" stroke="#3E4A59" thickness="2"/>
+<rectangle lower-left="(8,0)" dimensions="(2.5,1.2)" stroke="#3E4A59" thickness="2"/>
+<label anchor="(3.75,0.6)" alignment="center"><m>x</m></label>
+<label anchor="(1.25,-0.35)" alignment="center" scale="0.8"><m>\text{Previous}</m></label>
+<label anchor="(3.75,-0.35)" alignment="center" scale="0.8"><m>\text{Current}</m></label>
+<label anchor="(6.25,-0.35)" alignment="center" scale="0.8"><m>\text{Next}</m></label>
+<label anchor="(9.25,-0.35)" alignment="center" scale="0.8"><m>\text{Two spots after}</m></label>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</statement>
+<answer>
+<p>For the example list, the previous number is <m>x - 9</m>, the next number is <m>x + 9</m>, and the number two spots after is <m>x + 18</m>.</p>
+</answer>
+</task>
+
+<task>
+<statement>
+<p>Trade papers with a neighbor. Check that their expressions in the previous part match the rule they wrote for their list.</p>
+</statement>
+</task>
+</exercise>
+</page>
+
+<conclusion>
+<p><em>Writing expressions in terms of <m>x</m> helps us see the structure of a pattern no matter where we are in the list.</em></p>
+</conclusion>
+
+</worksheet>

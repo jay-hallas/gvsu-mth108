@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="lt5-scatterplots">
+<title>Learning Target 5: Creating Scatterplots</title>
+<objectives>
+<ul>
+<li>I can create an accurate scatterplot (by hand and Desmos) given a set of data including proper labels and scale.</li>
+</ul>
+</objectives>
+
+<!-- ============================================================ -->
+<!-- Problem 1: complete the table, graph by hand, graph in Desmos -->
+<!-- ============================================================ -->
+<page>
+<exercise xml:id="lt5-scatter-bagels">
+<title>Problem 1: Completing a Table and Graphing</title>
+<introduction>
+<p>A bakery sells bagels for $1.75 each.</p>
+</introduction>
+
+<task>
+<statement>
+<p>Complete the table.</p>
+<tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+<col right="minor"/>
+<col/>
+<row header="yes" bottom="minor"><cell>Number of bagels</cell><cell>Total cost (dollars)</cell></row>
+<row bottom="minor"><cell>1</cell><cell>1.75</cell></row>
+<row bottom="minor"><cell>2</cell><cell/></row>
+<row bottom="minor"><cell>4</cell><cell/></row>
+<row bottom="minor"><cell>6</cell><cell/></row>
+<row bottom="minor"><cell>10</cell><cell/></row>
+<row><cell>15</cell><cell/></row>
+</tabular>
+</statement>
+<answer>
+<p>Multiply the number of bagels by <m>1.75</m>. The total costs are <m>1.75</m>, <m>3.50</m>, <m>7.00</m>, <m>10.50</m>, <m>17.50</m>, and <m>26.25</m> dollars.</p>
+</answer>
+</task>
+
+<task>
+<statement>
+<p>Draw an accurate scatterplot of the data on the grid below. Give each axis a title and mark the scale on each axis.</p>
+<image width="65%">
+<shortdescription>A blank grid with 16 squares across and 16 squares up</shortdescription>
+<description><p>A blank grid, 16 squares wide and 16 squares tall, with a horizontal axis along the bottom and a vertical axis along the left side. There are no numbers or titles on either axis.</p></description>
+<prefigure xmlns="https://prefigure.org" label="lt5-grid-bagels">
+<diagram dimensions="(340,340)" margins="(40,40,10,10)">
+<coordinates bbox="(0,0,16,16)">
+<grid spacings="((0,1,16),(0,1,16))" stroke="lightgray"/>
+<axes decorations="no"/>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</statement>
+<answer>
+<p>The horizontal axis is titled <q>Number of bagels</q> and can count by <m>1</m>, from <m>0</m> to <m>16</m>. The vertical axis is titled <q>Total cost (dollars)</q>. Counting by <m>1</m> only reaches <m>16</m>, which is too small for <m>26.25</m>, so count by <m>2</m> instead, from <m>0</m> to <m>32</m>.</p>
+<p>Plot the six points <m>(1, 1.75)</m>, <m>(2, 3.50)</m>, <m>(4, 7)</m>, <m>(6, 10.50)</m>, <m>(10, 17.50)</m>, and <m>(15, 26.25)</m>. The points fall along a straight line that passes through the origin.</p>
+</answer>
+</task>
+
+<task workspace="1in">
+<statement>
+<p>Open Desmos at <c>desmos.com/calculator</c>, add a table, and type the number of bagels in the <m>x_1</m> column and the total cost in the <m>y_1</m> column. Adjust the window so every point can be seen. Write down the smallest and largest values you used on each axis.</p>
+<figure>
+<caption>Desmos graph for the bagel data</caption>
+<interactive xml:id="lt5-desmos-bagels" desmos="h1yganxrsi" width="80%" aspect="4:3">
+<shortdescription>A blank Desmos graph for making a scatterplot.</shortdescription>
+<description><p>A blank Desmos graphing calculator. Students add a table, type the data into the x sub 1 and y sub 1 columns, and adjust the window so every point shows.</p></description>
+</interactive>
+</figure>
+</statement>
+<answer>
+<p>Answers will vary. Any window that shows all six points works. One choice is <m>0</m> to <m>16</m> on the horizontal axis and <m>0</m> to <m>30</m> on the vertical axis.</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<!-- ============================================================ -->
+<!-- Problem 2: choosing a scale                                   -->
+<!-- ============================================================ -->
+<page>
+<exercise xml:id="lt5-scatter-iced-drinks">
+<title>Problem 2: Choosing a Scale</title>
+<introduction>
+<p>A coffee shop recorded the high temperature and the number of iced drinks it sold on six spring days.</p>
+<tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+<col right="minor"/>
+<col/>
+<row header="yes" bottom="minor"><cell>High temperature (<m>{}^\circ</m>F)</cell><cell>Iced drinks sold</cell></row>
+<row bottom="minor"><cell>45</cell><cell>30</cell></row>
+<row bottom="minor"><cell>52</cell><cell>42</cell></row>
+<row bottom="minor"><cell>60</cell><cell>58</cell></row>
+<row bottom="minor"><cell>66</cell><cell>65</cell></row>
+<row bottom="minor"><cell>71</cell><cell>80</cell></row>
+<row><cell>78</cell><cell>96</cell></row>
+</tabular>
+</introduction>
+
+<task workspace="1.5in">
+<statement>
+<p>You will graph temperature on the horizontal axis of a grid that is 16 squares wide and 16 squares tall. Explain why counting by <m>1</m> on the horizontal axis will not work. Then choose a scale for each axis that fits all of the data, and explain your choice.</p>
+</statement>
+<answer>
+<p>Counting by <m>1</m> only reaches <m>16</m>, and the temperatures go up to <m>78</m>.</p>
+<p>Counting by <m>5</m> on the horizontal axis reaches <m>16 \cdot 5 = 80</m>, which is just enough for <m>78</m>. Counting by <m>10</m> on the vertical axis reaches <m>160</m>, which covers <m>96</m>. Counting by <m>6</m> on the vertical axis also works, since <m>16 \cdot 6 = 96</m>. Other scales are fine as long as the spacing stays the same along each axis and every point fits.</p>
+</answer>
+</task>
+
+<task>
+<statement>
+<p>Draw an accurate scatterplot of the data on the grid below using the scales you chose. Give each axis a title.</p>
+<image width="65%">
+<shortdescription>A blank grid with 16 squares across and 16 squares up</shortdescription>
+<description><p>A blank grid, 16 squares wide and 16 squares tall, with a horizontal axis along the bottom and a vertical axis along the left side. There are no numbers or titles on either axis.</p></description>
+<prefigure xmlns="https://prefigure.org" label="lt5-grid-iced-drinks">
+<diagram dimensions="(340,340)" margins="(40,40,10,10)">
+<coordinates bbox="(0,0,16,16)">
+<grid spacings="((0,1,16),(0,1,16))" stroke="lightgray"/>
+<axes decorations="no"/>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</statement>
+<answer>
+<p>The horizontal axis is titled <q>High temperature (<m>{}^\circ</m>F)</q> and the vertical axis is titled <q>Iced drinks sold</q>. With the horizontal axis counting by <m>5</m> and the vertical axis counting by <m>10</m>, the point <m>(45, 30)</m> sits <m>9</m> squares right and <m>3</m> squares up. The other points are <m>(52, 42)</m>, <m>(60, 58)</m>, <m>(66, 65)</m>, <m>(71, 80)</m>, and <m>(78, 96)</m>.</p>
+</answer>
+</task>
+
+<task workspace="1in">
+<statement>
+<p>Make the same scatterplot in Desmos. Then describe what happens to the number of iced drinks sold as the temperature goes up.</p>
+<figure>
+<caption>Desmos graph for the iced drink data</caption>
+<interactive xml:id="lt5-desmos-iced-drinks" desmos="h1yganxrsi" width="80%" aspect="4:3">
+<shortdescription>A blank Desmos graph for making a scatterplot.</shortdescription>
+<description><p>A blank Desmos graphing calculator. Students add a table, type the data into the x sub 1 and y sub 1 columns, and adjust the window so every point shows.</p></description>
+</interactive>
+</figure>
+</statement>
+<answer>
+<p>As the temperature goes up, the coffee shop sells more iced drinks. The points rise from left to right.</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<!-- ============================================================ -->
+<!-- Problem 3: matching points to people on unscaled axes         -->
+<!-- ============================================================ -->
+<page>
+<exercise xml:id="lt5-scatter-matching">
+<title>Problem 3: Reading an Unscaled Scatterplot</title>
+<introduction>
+<p>The table below gives the number of hours five people worked last week and how much each person was paid.</p>
+<tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+<col right="minor"/>
+<col right="minor"/>
+<col/>
+<row header="yes" bottom="minor"><cell>Person</cell><cell>Hours worked</cell><cell>Weekly pay (dollars)</cell></row>
+<row bottom="minor"><cell>Nadia</cell><cell>12</cell><cell>150</cell></row>
+<row bottom="minor"><cell>Tomás</cell><cell>20</cell><cell>300</cell></row>
+<row bottom="minor"><cell>Priya</cell><cell>12</cell><cell>228</cell></row>
+<row bottom="minor"><cell>Jordan</cell><cell>25</cell><cell>300</cell></row>
+<row><cell>Keiko</cell><cell>30</cell><cell>390</cell></row>
+</tabular>
+<p>The scatterplot below shows the same five data points, lettered <m>A</m> through <m>E</m>, with hours worked on the horizontal axis and weekly pay on the vertical axis. The axes are not scaled.</p>
+<image width="60%">
+<shortdescription>An unscaled scatterplot with five points lettered A through E</shortdescription>
+<description><p>Axes with no numbers. The horizontal axis is titled Hours worked and the vertical axis is titled Weekly pay. Point B is farthest left and lowest. Point D is directly above point B. Point E is in the middle. Point A is to the right of E at the same height. Point C is farthest right and highest.</p></description>
+<prefigure xmlns="https://prefigure.org" label="lt5-unscaled-pay">
+<diagram dimensions="(380,280)" margins="(20,30,115,25)">
+<coordinates bbox="(-3,-3,34,420)">
+<axes decorations="no" arrows="1">
+<xlabel alignment="east">Hours worked</xlabel>
+<ylabel alignment="north">Weekly pay</ylabel>
+</axes>
+<point p="(25,300)" fill="#0072CE" alignment="ne"><m>A</m></point>
+<point p="(12,150)" fill="#0072CE" alignment="se"><m>B</m></point>
+<point p="(30,390)" fill="#0072CE" alignment="se"><m>C</m></point>
+<point p="(12,228)" fill="#0072CE" alignment="ne"><m>D</m></point>
+<point p="(20,300)" fill="#0072CE" alignment="nw"><m>E</m></point>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+
+<task>
+<statement>
+<p>Match each letter to the correct person.</p>
+<p><m>A</m>: <fillin characters="8"/> <m>B</m>: <fillin characters="8"/> <m>C</m>: <fillin characters="8"/> <m>D</m>: <fillin characters="8"/> <m>E</m>: <fillin characters="8"/></p>
+</statement>
+<answer>
+<p><m>A</m> is Jordan, <m>B</m> is Nadia, <m>C</m> is Keiko, <m>D</m> is Priya, and <m>E</m> is Tomás.</p>
+</answer>
+</task>
+
+<task workspace="1.5in">
+<statement>
+<p>Points <m>B</m> and <m>D</m> line up vertically, and points <m>A</m> and <m>E</m> line up horizontally. Explain what each of these tells you about the people, and how you decided which person goes with which point in each pair.</p>
+</statement>
+<answer>
+<p>Points <m>B</m> and <m>D</m> are directly above one another, so they have the same horizontal value. These are the two people who each worked <m>12</m> hours, Nadia and Priya. Priya was paid more, so she is the higher point, <m>D</m>.</p>
+<p>Points <m>A</m> and <m>E</m> are at the same height, so they have the same vertical value. These are the two people who were each paid $300, Tomás and Jordan. Jordan worked more hours, so Jordan is the point farther right, <m>A</m>.</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<!-- ============================================================ -->
+<!-- Problem 4: finding the mistakes in a scatterplot              -->
+<!-- ============================================================ -->
+<page>
+<exercise xml:id="lt5-scatter-mistakes">
+<title>Problem 4: Finding the Mistakes</title>
+<introduction>
+<p>Marcus measured the height of a sunflower seedling once a week for six weeks.</p>
+<tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+<col right="minor"/>
+<col/>
+<row header="yes" bottom="minor"><cell>Week</cell><cell>Height (cm)</cell></row>
+<row bottom="minor"><cell>1</cell><cell>2</cell></row>
+<row bottom="minor"><cell>2</cell><cell>5</cell></row>
+<row bottom="minor"><cell>3</cell><cell>9</cell></row>
+<row bottom="minor"><cell>4</cell><cell>12</cell></row>
+<row bottom="minor"><cell>5</cell><cell>18</cell></row>
+<row><cell>6</cell><cell>22</cell></row>
+</tabular>
+<p>Here is the scatterplot Marcus made.</p>
+<image width="55%">
+<shortdescription>A scatterplot with six points, no axis titles, and an uneven vertical scale</shortdescription>
+<description><p>A scatterplot with no axis titles. The horizontal axis is numbered 1 through 6. The vertical axis has evenly spaced tick marks labeled 5, 10, 20, 25, and 30, skipping 15. Six points rise from left to right, and the upper points look closer together than they should.</p></description>
+<prefigure xmlns="https://prefigure.org" label="lt5-marcus-graph">
+<diagram dimensions="(320,280)" margins="(35,30,15,15)">
+<coordinates bbox="(0,0,7,6)">
+<axes decorations="no" hticks="(1,1,6)" hlabels="(1,1,6)" vticks="(1,1,5)"/>
+<label anchor="(0,1)" alignment="west" offset="(-6,0)"><m>5</m></label>
+<label anchor="(0,2)" alignment="west" offset="(-6,0)"><m>10</m></label>
+<label anchor="(0,3)" alignment="west" offset="(-6,0)"><m>20</m></label>
+<label anchor="(0,4)" alignment="west" offset="(-6,0)"><m>25</m></label>
+<label anchor="(0,5)" alignment="west" offset="(-6,0)"><m>30</m></label>
+<point p="(1,0.4)" fill="#0072CE"/>
+<point p="(2,1)" fill="#0072CE"/>
+<point p="(3,1.8)" fill="#0072CE"/>
+<point p="(4,2.2)" fill="#0072CE"/>
+<point p="(5,2.8)" fill="#0072CE"/>
+<point p="(6,3.4)" fill="#0072CE"/>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+
+<task workspace="1.5in">
+<statement>
+<p>Describe at least two mistakes in Marcus's scatterplot.</p>
+</statement>
+<answer>
+<p>The vertical scale is uneven. The tick marks are evenly spaced, but the labels skip <m>15</m>, so the gap from <m>10</m> to <m>20</m> is the same size as the gap from <m>20</m> to <m>25</m>. This squeezes the taller heights together and makes the seedling look like it grew more slowly in the later weeks.</p>
+<p>Neither axis has a title, so a reader cannot tell that the horizontal axis is the week and the vertical axis is the height in centimeters.</p>
+</answer>
+</task>
+
+<task>
+<statement>
+<p>Draw a correct scatterplot of Marcus's data on the grid below. Give each axis a title and mark the scale on each axis.</p>
+<image width="65%">
+<shortdescription>A blank grid with 16 squares across and 16 squares up</shortdescription>
+<description><p>A blank grid, 16 squares wide and 16 squares tall, with a horizontal axis along the bottom and a vertical axis along the left side. There are no numbers or titles on either axis.</p></description>
+<prefigure xmlns="https://prefigure.org" label="lt5-grid-sunflower">
+<diagram dimensions="(340,340)" margins="(40,40,10,10)">
+<coordinates bbox="(0,0,16,16)">
+<grid spacings="((0,1,16),(0,1,16))" stroke="lightgray"/>
+<axes decorations="no"/>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</statement>
+<answer>
+<p>The horizontal axis is titled <q>Week</q> and counts by <m>1</m>. The vertical axis is titled <q>Height (cm)</q>. Counting by <m>1</m> only reaches <m>16</m>, so count by <m>2</m>, from <m>0</m> to <m>32</m>, with every step the same size. Plot <m>(1, 2)</m>, <m>(2, 5)</m>, <m>(3, 9)</m>, <m>(4, 12)</m>, <m>(5, 18)</m>, and <m>(6, 22)</m>.</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+</worksheet>

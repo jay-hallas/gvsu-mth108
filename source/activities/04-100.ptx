@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="mth108-hundreds-chart">
+<title>Generalizing with the 100s Chart</title>
+<objectives>
+<ul>
+<li>Using the 100s chart, I can describe in words how numbers change as I move in different directions, use a variable to write expressions for the numbers around any starting number, and check that a pattern works for many different starting numbers.</li>
+</ul>
+</objectives>
+
+<introduction>
+<p>Use the 100s chart to describe numerical patterns. Then use a variable to generalize what you notice.</p>
+</introduction>
+
+<page>
+<exercise xml:id="hc-directions">
+<title>Problem 1</title>
+<introduction>
+<p>Study the 100s chart below. Describe what happens to the number when you move in each direction. Use words to describe the pattern.</p>
+<image width="85%">
+<shortdescription>A 100s chart with ten rows of ten numbers, running from 1 in the upper left to 100 in the lower right.</shortdescription>
+<description>
+<p>A grid of ten rows and ten columns. The top row holds the numbers 1 through 10 from left to right. Each row below continues the count, so the second row holds 11 through 20, the third row holds 21 through 30, and so on, with the bottom row holding 91 through 100.</p>
+</description>
+<prefigure xmlns="https://prefigure.org" label="hc-hundreds-chart">
+<diagram dimensions="(600,300)" margins="5">
+<coordinates bbox="(0,-10,10,0)">
+<repeat parameter="row=0..9">
+<repeat parameter="col=0..9">
+<rectangle lower-left="(col,-row-1)" dimensions="(1,1)" stroke="gray" thickness="1"/>
+<label anchor="(col+0.5,-row-0.5)" alignment="center"><m>${10*row+col+1}</m></label>
+</repeat>
+</repeat>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</introduction>
+
+<task workspace="0.75in">
+<statement>
+<p>Move one space to the <em>right</em>.</p>
+</statement>
+<answer>
+<p>The number goes up by <m>1</m>. For example, moving right from <m>34</m> lands on <m>35</m>. This works as long as you are not already in the last column, since the chart does not wrap around to the next row.</p>
+</answer>
+</task>
+
+<task workspace="0.75in">
+<statement>
+<p>Move one space <em>down</em>.</p>
+</statement>
+<answer>
+<p>The number goes up by <m>10</m>. For example, moving down from <m>34</m> lands on <m>44</m>. The ones digit stays the same and the tens digit goes up by one.</p>
+</answer>
+</task>
+
+<task workspace="0.85in">
+<statement>
+<p>Move one space <em>up and to the right</em> (diagonally).</p>
+</statement>
+<answer>
+<p>The number goes down by <m>9</m>. Moving up takes away <m>10</m> and moving right adds <m>1</m>, so the total change is <m>-10 + 1 = -9</m>. For example, moving up and to the right from <m>34</m> lands on <m>25</m>.</p>
+</answer>
+</task>
+
+<conclusion>
+<p><em>Look for relationships that will work no matter where you start on the chart.</em></p>
+</conclusion>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="hc-grid-expressions">
+<title>Problem 2</title>
+<introduction>
+<p>Suppose the center number in the grid below is <m>x</m>. The number immediately <em>down and to the left</em> of <m>x</m> is shown as an example.</p>
+</introduction>
+
+<task>
+<statement>
+<p>Fill in every other box with an expression in terms of <m>x</m>. Use the relationships you described in Problem 1, and show your reasoning as you work.</p>
+<image width="75%">
+<shortdescription>A five by five grid with x in the center box and x plus 9 in the box down and to the left of the center.</shortdescription>
+<description>
+<p>A grid of five rows and five columns, with all boxes empty except two. The center box, in the third row and third column, contains <m>x</m>. The box one row down and one column to the left of the center, in the fourth row and second column, contains <m>x + 9</m>.</p>
+</description>
+<prefigure xmlns="https://prefigure.org" label="hc-expression-grid">
+<diagram dimensions="(560,290)" margins="5">
+<coordinates bbox="(0,0,5,5)">
+<repeat parameter="row=0..4">
+<repeat parameter="col=0..4">
+<rectangle lower-left="(col,row)" dimensions="(1,1)" stroke="gray" thickness="1"/>
+</repeat>
+</repeat>
+<label anchor="(2.5,2.5)" alignment="center"><m>x</m></label>
+<label anchor="(1.5,1.5)" alignment="center"><m>x+9</m></label>
+</coordinates>
+</diagram>
+</prefigure>
+</image>
+</statement>
+<answer>
+<p>Each step right adds <m>1</m>, each step left subtracts <m>1</m>, each step down adds <m>10</m>, and each step up subtracts <m>10</m>. Combining these moves gives the completed grid.</p>
+<tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+<row>
+<cell><m>x-22</m></cell>
+<cell><m>x-21</m></cell>
+<cell><m>x-20</m></cell>
+<cell><m>x-19</m></cell>
+<cell><m>x-18</m></cell>
+</row>
+<row>
+<cell><m>x-12</m></cell>
+<cell><m>x-11</m></cell>
+<cell><m>x-10</m></cell>
+<cell><m>x-9</m></cell>
+<cell><m>x-8</m></cell>
+</row>
+<row>
+<cell><m>x-2</m></cell>
+<cell><m>x-1</m></cell>
+<cell><m>x</m></cell>
+<cell><m>x+1</m></cell>
+<cell><m>x+2</m></cell>
+</row>
+<row>
+<cell><m>x+8</m></cell>
+<cell><m>x+9</m></cell>
+<cell><m>x+10</m></cell>
+<cell><m>x+11</m></cell>
+<cell><m>x+12</m></cell>
+</row>
+<row>
+<cell><m>x+18</m></cell>
+<cell><m>x+19</m></cell>
+<cell><m>x+20</m></cell>
+<cell><m>x+21</m></cell>
+<cell><m>x+22</m></cell>
+</row>
+</tabular>
+<p>For example, the top left box is two steps up and two steps left of <m>x</m>, so it is <m>x - 10 - 10 - 1 - 1 = x - 22</m>. A quick check: if <m>x = 45</m>, the top left box is <m>23</m>, which matches the 100s chart.</p>
+</answer>
+</task>
+</exercise>
+
+<exercise xml:id="hc-new-pattern">
+<title>Problem 3</title>
+<task workspace="1in">
+<statement>
+<p>Find another pattern on the 100s chart that you did not use in Problem 1. Describe your pattern in words.</p>
+</statement>
+<answer>
+<p>Answers will vary. One possibility: moving one space down and to the right adds <m>11</m> to the number.</p>
+</answer>
+</task>
+
+<task workspace="1.25in">
+<statement>
+<p>Check that your pattern holds for <em>multiple starting numbers</em>. Try at least three different starting numbers and show your work.</p>
+</statement>
+<answer>
+<p>For the pattern above: starting at <m>23</m> lands on <m>34</m>, starting at <m>45</m> lands on <m>56</m>, and starting at <m>67</m> lands on <m>78</m>. In each case, <m>23 + 11 = 34</m>, <m>45 + 11 = 56</m>, and <m>67 + 11 = 78</m>.</p>
+</answer>
+</task>
+
+<task workspace="1.25in">
+<statement>
+<p>Explain why you think your pattern holds on the 100s chart.</p>
+</statement>
+<answer>
+<p>Moving down one row always adds <m>10</m> because each row holds ten numbers, and moving right one space always adds <m>1</m>. Doing both adds <m>10 + 1 = 11</m>, no matter which number you start on, as long as the move stays on the chart.</p>
+</answer>
+</task>
+
+<conclusion>
+<p><em>Generalizing means describing a pattern in a way that works for many different starting numbers.</em></p>
+</conclusion>
+</exercise>
+</page>
+
+<conclusion>
+<p>Adapted from <url href="https://gvsuoer.github.io/beckmann-textbook/bamu.html"><em>Beginning Algebra Made Useful</em></url> by Charlene E. Beckmann, Ph.D.</p>
+</conclusion>
+
+</worksheet>

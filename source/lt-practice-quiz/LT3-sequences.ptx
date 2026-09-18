@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="lt3-numerical-patterns">
+<title>Learning Target 3: Generalizing Numerical Patterns</title>
+<objectives>
+<ul>
+<li>I can identify a numerical pattern and generalize the pattern using variables.</li>
+</ul>
+</objectives>
+
+<page>
+<exercise xml:id="lt3-pattern-start-four">
+<title>Pattern 1: Starting at 4</title>
+<introduction>
+<p>The list of numbers below follows a pattern, and the pattern continues forever.</p>
+<p>
+<md>4, \quad 11, \quad 18, \quad 25, \quad 32, \quad 39, \quad 46, \quad \ldots</md>
+</p>
+</introduction>
+
+<task workspace="1in">
+<statement>
+<p>In your own words, describe how to get the next number in the list.</p>
+</statement>
+<answer>
+<p>
+Start at 4 and add 7 each time. For example, <m>4 + 7 = 11</m> and <m>11 + 7 = 18</m>. The next number after 46 would be 53.
+</p>
+</answer>
+</task>
+
+<task workspace="1.5in">
+<statement>
+<p>The number 144 is in this list. Which number comes two places before 144? Explain how you found it.</p>
+</statement>
+<answer>
+<p>
+The number two places before 144 is 130.
+</p>
+<p>
+Going backward in the list means subtracting 7. One place before 144 is <m>144 - 7 = 137</m>, and two places before is <m>137 - 7 = 130</m>. This is the same as taking away 7 twice, or <m>144 - 2(7) = 130</m>.
+</p>
+</answer>
+</task>
+
+<task>
+<statement>
+<p>Suppose <m>x</m> is a number in this list. Using <m>x</m>, write the number that comes right before <m>x</m> and the two numbers that come right after <m>x</m>.</p>
+<tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+<row header="yes">
+<cell>One before</cell>
+<cell>The number</cell>
+<cell>One after</cell>
+<cell>Two after</cell>
+</row>
+<row>
+<cell></cell>
+<cell><m>x</m></cell>
+<cell></cell>
+<cell></cell>
+</row>
+</tabular>
+</statement>
+<answer>
+<p>
+The number right before <m>x</m> is <m>x - 7</m>. The next number is <m>x + 7</m>, and the one after that is <m>x + 7 + 7</m>, which simplifies to <m>x + 14</m>.
+</p>
+<p>
+A quick check: if <m>x = 18</m>, these give <m>11</m>, <m>25</m>, and <m>32</m>, which match the list.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt3-pattern-start-fifty">
+<title>Pattern 2: Starting at 50</title>
+<introduction>
+<p>The list of numbers below follows a pattern, and the pattern continues forever.</p>
+<p>
+<md>50, \quad 44, \quad 38, \quad 32, \quad 26, \quad 20, \quad 14, \quad \ldots</md>
+</p>
+</introduction>
+
+<task workspace="1in">
+<statement>
+<p>In your own words, describe how to get the next number in the list.</p>
+</statement>
+<answer>
+<p>
+Start at 50 and subtract 6 each time. For example, <m>50 - 6 = 44</m> and <m>44 - 6 = 38</m>. The list keeps going past zero, so the numbers after 14 are 8, 2, and then <m>-4</m>.
+</p>
+</answer>
+</task>
+
+<task workspace="1.5in">
+<statement>
+<p>The number <m>-34</m> is in this list. Which number comes three places after <m>-34</m>? Explain how you found it.</p>
+</statement>
+<answer>
+<p>
+The number three places after <m>-34</m> is <m>-52</m>.
+</p>
+<p>
+Going forward in the list means subtracting 6. The next three numbers are <m>-34 - 6 = -40</m>, then <m>-40 - 6 = -46</m>, then <m>-46 - 6 = -52</m>. This is the same as <m>-34 - 3(6) = -52</m>.
+</p>
+</answer>
+</task>
+
+<task>
+<statement>
+<p>Suppose <m>x</m> is a number in this list. Using <m>x</m>, write the number that comes right before <m>x</m> and the two numbers that come right after <m>x</m>.</p>
+<tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+<row header="yes">
+<cell>One before</cell>
+<cell>The number</cell>
+<cell>One after</cell>
+<cell>Two after</cell>
+</row>
+<row>
+<cell></cell>
+<cell><m>x</m></cell>
+<cell></cell>
+<cell></cell>
+</row>
+</tabular>
+</statement>
+<answer>
+<p>
+Since the list goes down by 6, going backward means adding 6. The number right before <m>x</m> is <m>x + 6</m>. The next number is <m>x - 6</m>, and the one after that is <m>x - 6 - 6</m>, which simplifies to <m>x - 12</m>.
+</p>
+<p>
+A quick check: if <m>x = 38</m>, these give <m>44</m>, <m>32</m>, and <m>26</m>, which match the list.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+<page>
+<exercise xml:id="lt3-pattern-decimals">
+<title>Pattern 3: A List with Decimals</title>
+<introduction>
+<p>The list of numbers below follows a pattern, and the pattern continues forever.</p>
+<p>
+<md>2.5, \quad 4, \quad 5.5, \quad 7, \quad 8.5, \quad 10, \quad 11.5, \quad \ldots</md>
+</p>
+</introduction>
+
+<task workspace="1in">
+<statement>
+<p>In your own words, describe how to get the next number in the list.</p>
+</statement>
+<answer>
+<p>
+Start at 2.5 and add 1.5 each time. For example, <m>2.5 + 1.5 = 4</m> and <m>4 + 1.5 = 5.5</m>. The next number after 11.5 would be 13.
+</p>
+</answer>
+</task>
+
+<task workspace="1.5in">
+<statement>
+<p>The number 32.5 is in this list. Which number comes four places before 32.5? Explain how you found it.</p>
+</statement>
+<answer>
+<p>
+The number four places before 32.5 is 26.5.
+</p>
+<p>
+Going backward in the list means subtracting 1.5. Counting back four places gives <m>31</m>, <m>29.5</m>, <m>28</m>, and then <m>26.5</m>. This is the same as taking away 1.5 four times, or <m>32.5 - 4(1.5) = 32.5 - 6 = 26.5</m>.
+</p>
+</answer>
+</task>
+
+<task>
+<statement>
+<p>Suppose <m>x</m> is a number in this list. Using <m>x</m>, write the number that comes right before <m>x</m> and the two numbers that come right after <m>x</m>.</p>
+<tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+<row header="yes">
+<cell>One before</cell>
+<cell>The number</cell>
+<cell>One after</cell>
+<cell>Two after</cell>
+</row>
+<row>
+<cell></cell>
+<cell><m>x</m></cell>
+<cell></cell>
+<cell></cell>
+</row>
+</tabular>
+</statement>
+<answer>
+<p>
+The number right before <m>x</m> is <m>x - 1.5</m>. The next number is <m>x + 1.5</m>, and the one after that is <m>x + 1.5 + 1.5</m>, which simplifies to <m>x + 3</m>.
+</p>
+<p>
+A quick check: if <m>x = 7</m>, these give <m>5.5</m>, <m>8.5</m>, and <m>10</m>, which match the list.
+</p>
+</answer>
+</task>
+</exercise>
+</page>
+
+</worksheet>
