@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: denver                         *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Learning Target 7: Reading Qualitative Graphs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+lang: "en-US",
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta name="twitter:title" content="Algebra - Stretch I">
+<meta property="og:title" content="Algebra - Stretch I">
+<meta property="book:title" content="Algebra - Stretch I">
+<meta name="twitter:description" content="MTH 108">
+<meta property="og:description" content="MTH 108">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.52"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.52"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.2.13';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.a45d14e8fc8c534a.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.538acb8e671a3b5d.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.1bda041f5a098305.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner"><div class="title-container">
+<div class="heading ptx-banner-heading"><a href="root-1-2.html"><span class="title">Algebra - Stretch I</span> <span class="subtitle">MTH 108</span></a></div>
+<p class="byline">Professor Jamie Hallas</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close" id="ptx-search-close" class="ptx-search-close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="heading ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
+</div>
+<span class="nav-other-controls"><button id="ptx-embed-button" class="ptx-embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><dialog class="ptx-dialog ptx-embed-popup" id="ptx-embed-popup"><div class="ptx-embed-popup-controls">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<button class="ptx-embed-close-button button" id="ptx-embed-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-embed-code-container">
+<textarea class="ptx-embed-code-textbox" id="ptx-embed-code-textbox" readonly aria-label="Embed"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button autofocus="autofocus" class="ptx-embed-copy-button button" id="ptx-embed-copy-button" title="Copy"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div></dialog><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
+</div>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
+</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Readability settings</h2>
+<button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-line-height"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line height</span><output id="ptx-readability-line-height-value" for="ptx-readability-line-height">1.35</output></label><input type="range" id="ptx-readability-line-height" min="1.10" max="3" step="0.05" value="1.35">
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Content font size</span><output id="ptx-readability-font-size-value" for="ptx-readability-font-size">100%</output></label><input type="range" id="ptx-readability-font-size" min="0.8" max="1.5" step="0.05" value="1">
+</div>
+<fieldset class="ptx-readability-options-group ptx-readability-options-group-theme">
+<legend>Theme</legend>
+<label for="ptx-readability-theme-system"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-system" value="system"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe1ab;</span><span>System</span></label><label for="ptx-readability-theme-light"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-light" value="light"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe518;</span><span>Light</span></label><label for="ptx-readability-theme-dark"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-dark" value="dark"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span>Dark</span></label>
+</fieldset>
+<fieldset class="ptx-readability-options-group">
+<legend>Assistive technologies</legend>
+<label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
+</fieldset>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="lt6-practice-quiz.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="handouts.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="homework.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="course-documents.html" class="internal"><span class="title">Course Documents</span></a></div>
+<ul id="ptx-toc-group-course-documents" class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="syllabus.html" class="internal"><span class="title">Syllabus</span></a></div>
+<ul id="ptx-toc-group-syllabus" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-course-info" class="internal"><span class="title">Course Information</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-assessments" class="internal"><span class="title">Assessments and Grades</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="course-notes.html" class="internal"><span class="title">Course Notes</span></a></div>
+<ul id="ptx-toc-group-course-notes" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="course-notes-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-01.html" class="internal"><span class="title">Week 1</span></a></div>
+<ul id="ptx-toc-group-notes-week-01" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-3" class="internal"><span class="title">Monday 8/22</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-4" class="internal"><span class="title">Wednesday 8/24</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-5" class="internal"><span class="title">Friday 8/26</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-02.html" class="internal"><span class="title">Week 2</span></a></div>
+<ul id="ptx-toc-group-notes-week-02" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-2" class="internal"><span class="title">Monday</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-3" class="internal"><span class="title">Wednesday</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-4" class="internal"><span class="title">Friday</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="activities.html" class="internal"><span class="title">In-Class Activities</span></a></div>
+<ul id="ptx-toc-group-activities" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="activities-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="mth108-order-of-operations.html" class="internal"><span class="title">Order of Operations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-four-fours.html" class="internal"><span class="title">Four Fours</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="mth108-growth-patterns.html" class="internal"><span class="title">Growth Patterns</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="mth108-hundreds-chart.html" class="internal"><span class="title">Generalizing with the 100s Chart</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="mth108-number-patterns.html" class="internal"><span class="title">Generalizing Number Patterns</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="mth108-distributing-combining.html" class="internal"><span class="title">Distributing and Combining</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="handouts.html" class="internal"><span class="title">Learning Target Practice</span></a></div>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-handouts">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt1-order-of-operations-v2.html" class="internal"><span class="title">Learning Target 1: Order of Operations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt2-visual-patterns.html" class="internal"><span class="title">Learning Target 2: Describing Visual Patterns</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt3-numerical-patterns.html" class="internal"><span class="title">Learning Target 3: Generalizing Numerical Patterns</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt4-combining-like-terms.html" class="internal"><span class="title">Learning Target 4: Combining Like Terms</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt5-scatterplots.html" class="internal"><span class="title">Learning Target 5: Creating Scatterplots</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt6-practice-quiz.html" class="internal"><span class="title">Learning Target 6: Sketching Qualitative Graphs</span></a></div></li>
+<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="lt7-practice-quiz.html" class="internal"><span class="title">Learning Target 7: Reading Qualitative Graphs</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter"><div class="toc-title-box"><a href="homework.html" class="internal"><span class="title">Homework</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="hide-solutions-options"><div class="hide-option">
+<label for="hide-answer-checkbox">Hide answers</label><input type="checkbox" id="hide-answer-checkbox">
+</div></div>
+<div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="worksheet" id="lt7-practice-quiz" data-margins="0.75in 0.75in 0.75in 0.75in">
+<h1 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Learning Target 7: Reading Qualitative Graphs</span><div class="print-links"><a href="?printpreview=lt7-practice-quiz" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h1>
+<article class="objectives goal-like" id="lt7-practice-quiz-2"><h2 class="heading"><span class="type">Objectives</span></h2>
+<ul class="disc" id="lt7-practice-quiz-2-1">
+<li id="lt7-practice-quiz-2-1-1">
+<div class="para" id="p-derived-lt7-practice-quiz-2-1-1">I can describe a situation given a qualitative graph with defined inputs and outputs.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Objective"><a tabindex="-1" href="#lt7-practice-quiz-2-1-1" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Objectives"><a tabindex="-1" href="#lt7-practice-quiz-2" title="Copy heading and permalink for Objectives" aria-label="Copy heading and permalink for Objectives">🔗</a></div>
+</article><section class="onepage" id="lt7-practice-quiz-3">
+<article class="exercise exercise-like" id="lt7-heartrate"><h2 class="heading">
+<span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Heart Rate During a Workout.</span>
+</h2>
+<div class="introduction" id="lt7-heartrate-2">
+<div class="para" id="lt7-heartrate-2-1">The graph shows a runner’s heart rate during a workout, from the moment they begin warming up until a few minutes after they finish.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-heartrate-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;">
+<img src="generated/prefigure/lt2-heartrate-graph.svg" role="img" class="contained" alt="Heart rate versus time during a workout: it rises from 60 beats per minute to a flat stretch at 100 from 5 to 10 minutes, climbs to a flat stretch at 160 from 15 to 25 minutes, dips to 120 by 30 minutes, then gradually declines to 80 by 40 minutes."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="lt7-heartrate-2-2-description">
+<div class="para" id="lt7-heartrate-2-2-2-1">A graph with time in minutes on the horizontal axis (0 to 40) and heart rate in beats per minute on the vertical axis (0 to 200). The line begins at 60 beats per minute, rises to 100 by 5 minutes, and stays flat at 100 from 5 to 10 minutes. It then climbs to 160 by 15 minutes and stays flat at 160 from 15 to 25 minutes. After 25 minutes it drops more quickly to 120 by 30 minutes, then declines gradually to 80 by 40 minutes.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-heartrate-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+</div>
+<article class="task exercise-like" id="lt7-heartrate-3"><h3 class="heading"><span class="codenumber">(a)</span></h3>
+<div class="para" id="lt7-heartrate-3-1-1">Identify the independent variable (the input) and the dependent variable (the output) for this graph, including their units.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-heartrate-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt7-heartrate-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt7-heartrate-3-2-1">The independent variable (input) is the time, measured in minutes, shown on the horizontal axis. The dependent variable (output) is the heart rate, measured in beats per minute (bpm), shown on the vertical axis. The heart rate depends on how much time has passed, so heart rate is a function of time.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-heartrate-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 1.a.1"><a tabindex="-1" href="#lt7-heartrate-3-2" title="Copy heading and permalink for Answer 1.a.1" aria-label="Copy heading and permalink for Answer 1.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.25in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.a"><a tabindex="-1" href="#lt7-heartrate-3" title="Copy heading and permalink for Task 1.a" aria-label="Copy heading and permalink for Task 1.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt7-heartrate-4"><h3 class="heading"><span class="codenumber">(b)</span></h3>
+<div class="para" id="lt7-heartrate-4-1-1">Over what period of time is the runner exercising most intensely, and what is the highest heart rate they reached during the workout?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-heartrate-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt7-heartrate-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt7-heartrate-4-2-1">The runner is working hardest where the heart rate is highest, which is the upper flat stretch from <span class="process-math">\(15\)</span> to <span class="process-math">\(25\)</span> minutes. The highest heart rate reached is <span class="process-math">\(160\)</span> bpm, and they hold it there for about <span class="process-math">\(10\)</span> minutes.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-heartrate-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 1.b.1"><a tabindex="-1" href="#lt7-heartrate-4-2" title="Copy heading and permalink for Answer 1.b.1" aria-label="Copy heading and permalink for Answer 1.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.b"><a tabindex="-1" href="#lt7-heartrate-4" title="Copy heading and permalink for Task 1.b" aria-label="Copy heading and permalink for Task 1.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt7-heartrate-5"><h3 class="heading"><span class="codenumber">(c)</span></h3>
+<div class="para" id="lt7-heartrate-5-1-1">During which interval(s) is the heart rate staying constant? What is the runner most likely doing during each of those times?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-heartrate-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt7-heartrate-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt7-heartrate-5-2-1">The graph is horizontal in two places, so the heart rate is constant there. From <span class="process-math">\(5\)</span> to <span class="process-math">\(10\)</span> minutes it holds steady at <span class="process-math">\(100\)</span> bpm, an easy effort during the warm-up. From <span class="process-math">\(15\)</span> to <span class="process-math">\(25\)</span> minutes it holds steady at <span class="process-math">\(160\)</span> bpm, the hard, steady part of the workout. A flat (horizontal) graph means the heart rate is neither rising nor falling.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-heartrate-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 1.c.1"><a tabindex="-1" href="#lt7-heartrate-5-2" title="Copy heading and permalink for Answer 1.c.1" aria-label="Copy heading and permalink for Answer 1.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.75in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.c"><a tabindex="-1" href="#lt7-heartrate-5" title="Copy heading and permalink for Task 1.c" aria-label="Copy heading and permalink for Task 1.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt7-heartrate-6"><h3 class="heading"><span class="codenumber">(d)</span></h3>
+<div class="para" id="lt7-heartrate-6-1-1">Describe what happens to the heart rate after <span class="process-math">\(25\)</span> minutes. What is the runner doing, and is their heart rate back to where it started by the end of the graph?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-heartrate-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt7-heartrate-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt7-heartrate-6-2-1">After <span class="process-math">\(25\)</span> minutes the heart rate drops fairly quickly from <span class="process-math">\(160\)</span> to <span class="process-math">\(120\)</span> bpm (by <span class="process-math">\(30\)</span> minutes), then declines more gradually to <span class="process-math">\(80\)</span> bpm at <span class="process-math">\(40\)</span> minutes. The runner has finished the hard effort and is cooling down, so the heart slows back toward its resting rate. It has not returned to the starting value yet: the graph begins at <span class="process-math">\(60\)</span> bpm but ends at <span class="process-math">\(80\)</span> bpm, so the runner is still recovering at the end.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-heartrate-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 1.d.1"><a tabindex="-1" href="#lt7-heartrate-6-2" title="Copy heading and permalink for Answer 1.d.1" aria-label="Copy heading and permalink for Answer 1.d.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.75in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 1.d"><a tabindex="-1" href="#lt7-heartrate-6" title="Copy heading and permalink for Task 1.d" aria-label="Copy heading and permalink for Task 1.d">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 1: Heart Rate During a Workout"><a tabindex="-1" href="#lt7-heartrate" title="Copy heading and permalink for Worksheet Exercise 1: Heart Rate During a Workout" aria-label="Copy heading and permalink for Worksheet Exercise 1: Heart Rate During a Workout">🔗</a></div>
+</article></section><section class="onepage" id="lt7-practice-quiz-4">
+<article class="exercise exercise-like" id="lt7-savings"><h2 class="heading">
+<span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">A Savings Account.</span>
+</h2>
+<div class="introduction" id="lt7-savings-2">
+<div class="para" id="lt7-savings-2-1">The graph shows the balance in a student’s savings account over a ten-week period. The input is the time in weeks and the output is the balance in dollars.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-savings-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;">
+<img src="generated/prefigure/lt2-savings-graph.svg" role="img" class="contained" alt="A savings balance versus time: it starts at 100 dollars, rises steadily to 300 dollars by week 4, stays flat through week 5, drops sharply to 100 dollars at week 6, then rises steadily back to 300 dollars by week 10."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="lt7-savings-2-2-description">
+<div class="para" id="lt7-savings-2-2-2-1">A graph with time in weeks on the horizontal axis (0 to 10) and balance in dollars on the vertical axis (0 to 500). The line starts at 100 dollars at week 0 and rises steadily to 300 dollars at week 4. It is flat from week 4 to week 5. It then drops sharply to 100 dollars at week 6, and finally rises steadily back to 300 dollars at week 10.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-savings-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+</div>
+<article class="task exercise-like" id="lt7-savings-3"><h3 class="heading"><span class="codenumber">(a)</span></h3>
+<div class="para" id="lt7-savings-3-1-1">What was the balance at the start of the ten weeks? What does this starting value (the vertical intercept) tell you?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-savings-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt7-savings-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt7-savings-3-2-1">At week <span class="process-math">\(0\)</span> the balance is <span class="process-math">\(\$100\)</span> . The vertical intercept <span class="process-math">\((0,100)\)</span> is the amount of money already in the account when the ten-week period began.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-savings-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 2.a.1"><a tabindex="-1" href="#lt7-savings-3-2" title="Copy heading and permalink for Answer 2.a.1" aria-label="Copy heading and permalink for Answer 2.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.25in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.a"><a tabindex="-1" href="#lt7-savings-3" title="Copy heading and permalink for Task 2.a" aria-label="Copy heading and permalink for Task 2.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt7-savings-4"><h3 class="heading"><span class="codenumber">(b)</span></h3>
+<div class="para" id="lt7-savings-4-1-1">During which week does the balance go down, and what does that tell you about the story?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-savings-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt7-savings-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt7-savings-4-2-1">Between week <span class="process-math">\(5\)</span> and week <span class="process-math">\(6\)</span> the balance falls from <span class="process-math">\(\$300\)</span> to <span class="process-math">\(\$100\)</span> , a decrease of <span class="process-math">\(\$200\)</span> . A segment that goes downward means money was taken out, so the student likely made a large purchase that week.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-savings-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 2.b.1"><a tabindex="-1" href="#lt7-savings-4-2" title="Copy heading and permalink for Answer 2.b.1" aria-label="Copy heading and permalink for Answer 2.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.b"><a tabindex="-1" href="#lt7-savings-4" title="Copy heading and permalink for Task 2.b" aria-label="Copy heading and permalink for Task 2.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt7-savings-5"><h3 class="heading"><span class="codenumber">(c)</span></h3>
+<div class="para" id="lt7-savings-5-1-1">Compare how fast the balance is growing during weeks <span class="process-math">\(0\)</span> to <span class="process-math">\(4\)</span> with how fast it grows during weeks <span class="process-math">\(6\)</span> to <span class="process-math">\(10\)</span> . How can you tell from the graph?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-savings-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt7-savings-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt7-savings-5-2-1">In both stretches the balance climbs from <span class="process-math">\(\$100\)</span> to <span class="process-math">\(\$300\)</span> , a gain of <span class="process-math">\(\$200\)</span> over <span class="process-math">\(4\)</span> weeks, or <span class="process-math">\(\$50\)</span> per week. The two rising segments have the same steepness, so the student is saving at the same steady rate in both stretches. (The steepest segment overall is the drop from week <span class="process-math">\(5\)</span> to week <span class="process-math">\(6\)</span> , but there the balance is decreasing, not growing.)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-savings-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 2.c.1"><a tabindex="-1" href="#lt7-savings-5-2" title="Copy heading and permalink for Answer 2.c.1" aria-label="Copy heading and permalink for Answer 2.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.75in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.c"><a tabindex="-1" href="#lt7-savings-5" title="Copy heading and permalink for Task 2.c" aria-label="Copy heading and permalink for Task 2.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 2: A Savings Account"><a tabindex="-1" href="#lt7-savings" title="Copy heading and permalink for Worksheet Exercise 2: A Savings Account" aria-label="Copy heading and permalink for Worksheet Exercise 2: A Savings Account">🔗</a></div>
+</article></section><section class="onepage" id="lt7-practice-quiz-5">
+<article class="exercise exercise-like" id="lt7-hike"><h2 class="heading">
+<span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">A Mountain Hike.</span>
+</h2>
+<div class="introduction" id="lt7-hike-2">
+<div class="para" id="lt7-hike-2-1">The graph shows your elevation as you walk along a hiking trail. Note: the input here is the distance you have hiked, in miles, not the time. The output is your elevation in feet.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-hike-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;">
+<img src="generated/prefigure/lt2-hike-graph.svg" role="img" class="contained" alt="Elevation versus distance on a hike: it starts at 200 feet, climbs to 600 feet by mile 2, stays flat to mile 3, climbs steeply to 1000 feet at mile 4, then descends back to 200 feet at mile 6."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="lt7-hike-2-2-description">
+<div class="para" id="lt7-hike-2-2-2-1">A graph with distance in miles on the horizontal axis (0 to 6) and elevation in feet on the vertical axis (0 to 1000). The line starts at 200 feet at mile 0 and rises to 600 feet at mile 2. It is flat from mile 2 to mile 3. It then climbs steeply to 1000 feet at mile 4, and finally descends steadily back to 200 feet at mile 6.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-hike-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+</div>
+<article class="task exercise-like" id="lt7-hike-3"><h3 class="heading"><span class="codenumber">(a)</span></h3>
+<div class="para" id="lt7-hike-3-1-1">Over which interval are you climbing most steeply? How does the graph show this?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-hike-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt7-hike-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt7-hike-3-2-1">From mile <span class="process-math">\(3\)</span> to mile <span class="process-math">\(4\)</span> the elevation rises from <span class="process-math">\(600\)</span> to <span class="process-math">\(1000\)</span> feet, a rate of <span class="process-math">\(400\)</span> feet per mile. From mile <span class="process-math">\(0\)</span> to mile <span class="process-math">\(2\)</span> it rises only <span class="process-math">\(200\)</span> feet per mile. The segment from <span class="process-math">\(3\)</span> to <span class="process-math">\(4\)</span> is the steepest uphill part, so you climb most steeply there. The steeper the upward line, the faster you are gaining elevation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-hike-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 3.a.1"><a tabindex="-1" href="#lt7-hike-3-2" title="Copy heading and permalink for Answer 3.a.1" aria-label="Copy heading and permalink for Answer 3.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.a"><a tabindex="-1" href="#lt7-hike-3" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt7-hike-4"><h3 class="heading"><span class="codenumber">(b)</span></h3>
+<div class="para" id="lt7-hike-4-1-1">Where is the trail flat? What does that mean for your hike, even though you keep walking forward?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-hike-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt7-hike-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt7-hike-4-2-1">From mile <span class="process-math">\(2\)</span> to mile <span class="process-math">\(3\)</span> the graph is horizontal at <span class="process-math">\(600\)</span> feet, so your elevation does not change. You are walking along level ground (a flat ridge): you keep moving forward along the trail, but you are neither climbing nor descending.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-hike-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 3.b.1"><a tabindex="-1" href="#lt7-hike-4-2" title="Copy heading and permalink for Answer 3.b.1" aria-label="Copy heading and permalink for Answer 3.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.b"><a tabindex="-1" href="#lt7-hike-4" title="Copy heading and permalink for Task 3.b" aria-label="Copy heading and permalink for Task 3.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt7-hike-5"><h3 class="heading"><span class="codenumber">(c)</span></h3>
+<div class="para" id="lt7-hike-5-1-1">Compare your elevation at the end of the hike with where you started. What does the graph tell you?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-hike-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt7-hike-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt7-hike-5-2-1">You start at <span class="process-math">\((0,200)\)</span> and end at <span class="process-math">\((6,200)\)</span> , both at <span class="process-math">\(200\)</span> feet. The trail climbs to a high point of <span class="process-math">\(1000\)</span> feet at mile <span class="process-math">\(4\)</span> and then descends. So even though you hiked <span class="process-math">\(6\)</span> miles and gained a lot of elevation along the way, you finish at the same height as the trailhead where you began.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt7-hike-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 3.c.1"><a tabindex="-1" href="#lt7-hike-5-2" title="Copy heading and permalink for Answer 3.c.1" aria-label="Copy heading and permalink for Answer 3.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.75in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.c"><a tabindex="-1" href="#lt7-hike-5" title="Copy heading and permalink for Task 3.c" aria-label="Copy heading and permalink for Task 3.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 3: A Mountain Hike"><a tabindex="-1" href="#lt7-hike" title="Copy heading and permalink for Worksheet Exercise 3: A Mountain Hike" aria-label="Copy heading and permalink for Worksheet Exercise 3: A Mountain Hike">🔗</a></div>
+</article></section><section class="onepage" id="lt7-practice-quiz-6">
+<article class="exercise exercise-like" id="lt2-battery"><h2 class="heading">
+<span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Charging a Phone Battery.</span>
+</h2>
+<div class="introduction" id="lt2-battery-2">
+<div class="para" id="lt2-battery-2-1">The graph shows the charge of a phone battery over time. The phone starts at <span class="process-math">\(20\%\text{,}\)</span> is plugged in to charge, and is later unplugged and used.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt2-battery-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;">
+<img src="generated/prefigure/lt7-battery-graph.svg" role="img" class="contained" alt="Battery charge versus time: starting at 20 percent, the charge rises in a curve that levels off to about 90 percent at 30 minutes, then declines gently to 80 percent at 45 minutes, and finally drops more steeply to 60 percent at 50 minutes."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="lt2-battery-2-2-description">
+<div class="para" id="lt2-battery-2-2-2-1">A graph with time in minutes on the horizontal axis (0 to 50) and battery charge as a percent on the vertical axis (0 to 100). Starting at 20 percent, the curve rises quickly and then flattens as it climbs, reaching about 90 percent at 30 minutes. After 30 minutes the graph turns downward: it declines gently from 90 percent to 80 percent between 30 and 45 minutes, then declines more steeply from 80 percent to 60 percent between 45 and 50 minutes.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt2-battery-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+</div>
+<article class="task exercise-like" id="lt2-battery-3"><h3 class="heading"><span class="codenumber">(a)</span></h3>
+<div class="para" id="lt2-battery-3-1-1">Identify the independent variable (the input) and the dependent variable (the output) for this graph, including their units.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt2-battery-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt2-battery-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt2-battery-3-2-1">The independent variable (input) is the time, measured in minutes, shown on the horizontal axis. The dependent variable (output) is the battery charge, measured as a percent, shown on the vertical axis. The charge depends on how much time has passed, so charge is a function of time.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt2-battery-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 4.a.1"><a tabindex="-1" href="#lt2-battery-3-2" title="Copy heading and permalink for Answer 4.a.1" aria-label="Copy heading and permalink for Answer 4.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.25in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 4.a"><a tabindex="-1" href="#lt2-battery-3" title="Copy heading and permalink for Task 4.a" aria-label="Copy heading and permalink for Task 4.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt2-battery-4"><h3 class="heading"><span class="codenumber">(b)</span></h3>
+<div class="para" id="lt2-battery-4-1-1">For how long was the phone plugged in and charging, and when was it unplugged? How does the graph show this?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt2-battery-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt2-battery-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt2-battery-4-2-1">The charge rises from <span class="process-math">\(0\)</span> to <span class="process-math">\(30\)</span> minutes, so the phone was charging for <span class="process-math">\(30\)</span> minutes. It was unplugged at <span class="process-math">\(30\)</span> minutes: that is the highest point on the graph (about <span class="process-math">\(90\%\)</span>), where the charge stops rising and begins to fall.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt2-battery-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 4.b.1"><a tabindex="-1" href="#lt2-battery-4-2" title="Copy heading and permalink for Answer 4.b.1" aria-label="Copy heading and permalink for Answer 4.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 4.b"><a tabindex="-1" href="#lt2-battery-4" title="Copy heading and permalink for Task 4.b" aria-label="Copy heading and permalink for Task 4.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt2-battery-5"><h3 class="heading"><span class="codenumber">(c)</span></h3>
+<div class="para" id="lt2-battery-5-1-1">The charging part of the graph is curved, not a straight line. What does its shape tell you about how the battery charges?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt2-battery-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt2-battery-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt2-battery-5-2-1">The curve is steep at first and flattens as it rises, so the charge increases quickly at the start and more slowly as the battery fills. In other words, the battery charges fastest when it is nearly empty and slows down as it approaches full. Because the curve is not straight, the rate of charging is not constant—each extra percent takes a little longer than the one before.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt2-battery-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 4.c.1"><a tabindex="-1" href="#lt2-battery-5-2" title="Copy heading and permalink for Answer 4.c.1" aria-label="Copy heading and permalink for Answer 4.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.75in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 4.c"><a tabindex="-1" href="#lt2-battery-5" title="Copy heading and permalink for Task 4.c" aria-label="Copy heading and permalink for Task 4.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="lt2-battery-6"><h3 class="heading"><span class="codenumber">(d)</span></h3>
+<div class="para" id="lt2-battery-6-1-1">After the phone is unplugged, when is the battery draining the fastest? What is happening to the phone then, compared with the time just after it was unplugged?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt2-battery-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="lt2-battery-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="lt2-battery-6-2-1">From <span class="process-math">\(45\)</span> to <span class="process-math">\(50\)</span> minutes the graph falls most steeply, dropping from <span class="process-math">\(80\%\)</span> to <span class="process-math">\(60\%\)</span>—about <span class="process-math">\(4\%\)</span> per minute. That is when a video or app is running and using power quickly. Just after being unplugged, from <span class="process-math">\(30\)</span> to <span class="process-math">\(45\)</span> minutes, the phone sat mostly idle and lost only about <span class="process-math">\(0.7\%\)</span> per minute, so that part of the graph is much less steep.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#lt2-battery-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 4.d.1"><a tabindex="-1" href="#lt2-battery-6-2" title="Copy heading and permalink for Answer 4.d.1" aria-label="Copy heading and permalink for Answer 4.d.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="1.75in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 4.d"><a tabindex="-1" href="#lt2-battery-6" title="Copy heading and permalink for Task 4.d" aria-label="Copy heading and permalink for Task 4.d">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 4: Charging a Phone Battery"><a tabindex="-1" href="#lt2-battery" title="Copy heading and permalink for Worksheet Exercise 4: Charging a Phone Battery" aria-label="Copy heading and permalink for Worksheet Exercise 4: Charging a Phone Battery">🔗</a></div>
+</article></section><div class="autopermalink" aria-hidden="true" data-description="Worksheet: Learning Target 7: Reading Qualitative Graphs"><a tabindex="-1" href="#lt7-practice-quiz" title="Copy heading and permalink for Worksheet: Learning Target 7: Reading Qualitative Graphs" aria-label="Copy heading and permalink for Worksheet: Learning Target 7: Reading Qualitative Graphs">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="lt6-practice-quiz.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="homework.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,440 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="lt2-heartrate-graph-figure" width="755" height="413" viewBox="0 0 755 413">
+  <defs>
+    <clipPath id="lt2-heartrate-graph-__clipPath-0">
+      <rect x="60.0" y="18.0" width="560.0" height="340.0"/>
+    </clipPath>
+    <clipPath id="lt2-heartrate-graph-__clipPath-1">
+      <rect x="60.0" y="18.0" width="560.0" height="340.0"/>
+    </clipPath>
+  </defs>
+  <g id="lt2-heartrate-graph-grid-axes">
+    <g id="lt2-heartrate-graph-grid" stroke="#ccc" stroke-width="1">
+      <line x1="85.5" y1="358.0" x2="85.5" y2="18.0"/>
+      <line x1="149.1" y1="358.0" x2="149.1" y2="18.0"/>
+      <line x1="212.7" y1="358.0" x2="212.7" y2="18.0"/>
+      <line x1="276.4" y1="358.0" x2="276.4" y2="18.0"/>
+      <line x1="340.0" y1="358.0" x2="340.0" y2="18.0"/>
+      <line x1="403.6" y1="358.0" x2="403.6" y2="18.0"/>
+      <line x1="467.3" y1="358.0" x2="467.3" y2="18.0"/>
+      <line x1="530.9" y1="358.0" x2="530.9" y2="18.0"/>
+      <line x1="594.5" y1="358.0" x2="594.5" y2="18.0"/>
+      <line x1="60.0" y1="333.4" x2="620.0" y2="333.4"/>
+      <line x1="60.0" y1="302.6" x2="620.0" y2="302.6"/>
+      <line x1="60.0" y1="271.8" x2="620.0" y2="271.8"/>
+      <line x1="60.0" y1="241.1" x2="620.0" y2="241.1"/>
+      <line x1="60.0" y1="210.3" x2="620.0" y2="210.3"/>
+      <line x1="60.0" y1="179.5" x2="620.0" y2="179.5"/>
+      <line x1="60.0" y1="148.8" x2="620.0" y2="148.8"/>
+      <line x1="60.0" y1="118.0" x2="620.0" y2="118.0"/>
+      <line x1="60.0" y1="87.2" x2="620.0" y2="87.2"/>
+      <line x1="60.0" y1="56.5" x2="620.0" y2="56.5"/>
+      <line x1="60.0" y1="25.7" x2="620.0" y2="25.7"/>
+    </g>
+    <g id="lt2-heartrate-graph-axes" stroke="black" stroke-width="2">
+      <line id="lt2-heartrate-graph-__line-20" x1="60.0" y1="333.4" x2="620.0" y2="333.4" stroke="black" stroke-width="2"/>
+      <g id="lt2-heartrate-graph-__g-0">
+        <line id="lt2-heartrate-graph-__line-21" x1="85.5" y1="336.4" x2="85.5" y2="330.4"/>
+        <line id="lt2-heartrate-graph-__line-22" x1="149.1" y1="336.4" x2="149.1" y2="330.4"/>
+        <line id="lt2-heartrate-graph-__line-23" x1="212.7" y1="336.4" x2="212.7" y2="330.4"/>
+        <line id="lt2-heartrate-graph-__line-24" x1="276.4" y1="336.4" x2="276.4" y2="330.4"/>
+        <line id="lt2-heartrate-graph-__line-25" x1="340.0" y1="336.4" x2="340.0" y2="330.4"/>
+        <line id="lt2-heartrate-graph-__line-26" x1="403.6" y1="336.4" x2="403.6" y2="330.4"/>
+        <line id="lt2-heartrate-graph-__line-27" x1="467.3" y1="336.4" x2="467.3" y2="330.4"/>
+        <line id="lt2-heartrate-graph-__line-28" x1="530.9" y1="336.4" x2="530.9" y2="330.4"/>
+        <line id="lt2-heartrate-graph-__line-29" x1="594.5" y1="336.4" x2="594.5" y2="330.4"/>
+        <line id="lt2-heartrate-graph-__line-30" x1="85.5" y1="336.4" x2="85.5" y2="330.4"/>
+        <line id="lt2-heartrate-graph-__line-31" x1="149.1" y1="336.4" x2="149.1" y2="330.4"/>
+        <line id="lt2-heartrate-graph-__line-32" x1="212.7" y1="336.4" x2="212.7" y2="330.4"/>
+        <line id="lt2-heartrate-graph-__line-33" x1="276.4" y1="336.4" x2="276.4" y2="330.4"/>
+        <line id="lt2-heartrate-graph-__line-34" x1="340.0" y1="336.4" x2="340.0" y2="330.4"/>
+        <line id="lt2-heartrate-graph-__line-35" x1="403.6" y1="336.4" x2="403.6" y2="330.4"/>
+        <line id="lt2-heartrate-graph-__line-36" x1="467.3" y1="336.4" x2="467.3" y2="330.4"/>
+        <line id="lt2-heartrate-graph-__line-37" x1="530.9" y1="336.4" x2="530.9" y2="330.4"/>
+        <line id="lt2-heartrate-graph-__line-38" x1="594.5" y1="336.4" x2="594.5" y2="330.4"/>
+      </g>
+      <line id="lt2-heartrate-graph-__line-39" x1="85.5" y1="358.0" x2="85.5" y2="18.0" stroke="black" stroke-width="2"/>
+      <g id="lt2-heartrate-graph-__g-1">
+        <line id="lt2-heartrate-graph-__line-40" x1="82.5" y1="302.6" x2="88.5" y2="302.6"/>
+        <line id="lt2-heartrate-graph-__line-41" x1="82.5" y1="271.8" x2="88.5" y2="271.8"/>
+        <line id="lt2-heartrate-graph-__line-42" x1="82.5" y1="241.1" x2="88.5" y2="241.1"/>
+        <line id="lt2-heartrate-graph-__line-43" x1="82.5" y1="210.3" x2="88.5" y2="210.3"/>
+        <line id="lt2-heartrate-graph-__line-44" x1="82.5" y1="179.5" x2="88.5" y2="179.5"/>
+        <line id="lt2-heartrate-graph-__line-45" x1="82.5" y1="148.8" x2="88.5" y2="148.8"/>
+        <line id="lt2-heartrate-graph-__line-46" x1="82.5" y1="118.0" x2="88.5" y2="118.0"/>
+        <line id="lt2-heartrate-graph-__line-47" x1="82.5" y1="87.2" x2="88.5" y2="87.2"/>
+        <line id="lt2-heartrate-graph-__line-48" x1="82.5" y1="56.5" x2="88.5" y2="56.5"/>
+        <line id="lt2-heartrate-graph-__line-49" x1="82.5" y1="25.7" x2="88.5" y2="25.7"/>
+        <line id="lt2-heartrate-graph-__line-50" x1="82.5" y1="302.6" x2="88.5" y2="302.6"/>
+        <line id="lt2-heartrate-graph-__line-51" x1="82.5" y1="271.8" x2="88.5" y2="271.8"/>
+        <line id="lt2-heartrate-graph-__line-52" x1="82.5" y1="241.1" x2="88.5" y2="241.1"/>
+        <line id="lt2-heartrate-graph-__line-53" x1="82.5" y1="210.3" x2="88.5" y2="210.3"/>
+        <line id="lt2-heartrate-graph-__line-54" x1="82.5" y1="179.5" x2="88.5" y2="179.5"/>
+        <line id="lt2-heartrate-graph-__line-55" x1="82.5" y1="148.8" x2="88.5" y2="148.8"/>
+        <line id="lt2-heartrate-graph-__line-56" x1="82.5" y1="118.0" x2="88.5" y2="118.0"/>
+        <line id="lt2-heartrate-graph-__line-57" x1="82.5" y1="87.2" x2="88.5" y2="87.2"/>
+        <line id="lt2-heartrate-graph-__line-58" x1="82.5" y1="56.5" x2="88.5" y2="56.5"/>
+        <line id="lt2-heartrate-graph-__line-59" x1="82.5" y1="25.7" x2="88.5" y2="25.7"/>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-0" transform="translate(625.0,337.4) translate(0.0,-0.0)">
+      <g id="lt2-heartrate-graph-__g-2">
+        <text font-family="sans-serif" font-size="14" x="0.0" y="10.6">Time (minutes)</text>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-1" transform="translate(89.5,14.0) translate(0.0,-13.5)">
+      <g id="lt2-heartrate-graph-__g-3">
+        <text font-family="sans-serif" font-size="14" x="0.0" y="10.6">Heart rate (bpm)</text>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-2" transform="translate(85.5,344.4) translate(-4.5,-0.0)">
+      <g id="lt2-heartrate-graph-__g-4">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-2-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="0">
+                <use data-c="30" xlink:href="#lt2-heartrate-graph-MJX-2-TEX-N-30"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-3" transform="translate(149.1,344.4) translate(-4.5,-0.0)">
+      <g id="lt2-heartrate-graph-__g-5">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-3-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="5">
+                <use data-c="35" xlink:href="#lt2-heartrate-graph-MJX-3-TEX-N-35"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-4" transform="translate(212.7,344.4) translate(-9.0,-0.0)">
+      <g id="lt2-heartrate-graph-__g-6">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-4-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="lt2-heartrate-graph-MJX-4-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="10">
+                <use data-c="31" xlink:href="#lt2-heartrate-graph-MJX-4-TEX-N-31"/>
+                <use data-c="30" xlink:href="#lt2-heartrate-graph-MJX-4-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-5" transform="translate(276.4,344.4) translate(-9.0,-0.0)">
+      <g id="lt2-heartrate-graph-__g-7">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-5-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="lt2-heartrate-graph-MJX-5-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="15">
+                <use data-c="31" xlink:href="#lt2-heartrate-graph-MJX-5-TEX-N-31"/>
+                <use data-c="35" xlink:href="#lt2-heartrate-graph-MJX-5-TEX-N-35" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-6" transform="translate(340.0,344.4) translate(-9.0,-0.0)">
+      <g id="lt2-heartrate-graph-__g-8">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-6-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+            <path id="lt2-heartrate-graph-MJX-6-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="20">
+                <use data-c="32" xlink:href="#lt2-heartrate-graph-MJX-6-TEX-N-32"/>
+                <use data-c="30" xlink:href="#lt2-heartrate-graph-MJX-6-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-7" transform="translate(403.6,344.4) translate(-9.0,-0.0)">
+      <g id="lt2-heartrate-graph-__g-9">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-7-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+            <path id="lt2-heartrate-graph-MJX-7-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="25">
+                <use data-c="32" xlink:href="#lt2-heartrate-graph-MJX-7-TEX-N-32"/>
+                <use data-c="35" xlink:href="#lt2-heartrate-graph-MJX-7-TEX-N-35" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-8" transform="translate(467.3,344.4) translate(-9.0,-0.0)">
+      <g id="lt2-heartrate-graph-__g-10">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-8-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"/>
+            <path id="lt2-heartrate-graph-MJX-8-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="30">
+                <use data-c="33" xlink:href="#lt2-heartrate-graph-MJX-8-TEX-N-33"/>
+                <use data-c="30" xlink:href="#lt2-heartrate-graph-MJX-8-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-9" transform="translate(530.9,344.4) translate(-9.0,-0.0)">
+      <g id="lt2-heartrate-graph-__g-11">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-9-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"/>
+            <path id="lt2-heartrate-graph-MJX-9-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="35">
+                <use data-c="33" xlink:href="#lt2-heartrate-graph-MJX-9-TEX-N-33"/>
+                <use data-c="35" xlink:href="#lt2-heartrate-graph-MJX-9-TEX-N-35" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-10" transform="translate(594.5,344.4) translate(-9.0,-0.0)">
+      <g id="lt2-heartrate-graph-__g-12">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.648px" role="img" focusable="false" viewBox="0 -677 1000 699" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-10-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+            <path id="lt2-heartrate-graph-MJX-10-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="40">
+                <use data-c="34" xlink:href="#lt2-heartrate-graph-MJX-10-TEX-N-34"/>
+                <use data-c="30" xlink:href="#lt2-heartrate-graph-MJX-10-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-11" transform="translate(74.5,302.6) translate(-18.1,-6.2)">
+      <g id="lt2-heartrate-graph-__g-13">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-11-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+            <path id="lt2-heartrate-graph-MJX-11-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="20">
+                <use data-c="32" xlink:href="#lt2-heartrate-graph-MJX-11-TEX-N-32"/>
+                <use data-c="30" xlink:href="#lt2-heartrate-graph-MJX-11-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-12" transform="translate(74.5,271.8) translate(-18.1,-6.3)">
+      <g id="lt2-heartrate-graph-__g-14">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.648px" role="img" focusable="false" viewBox="0 -677 1000 699" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-12-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+            <path id="lt2-heartrate-graph-MJX-12-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="40">
+                <use data-c="34" xlink:href="#lt2-heartrate-graph-MJX-12-TEX-N-34"/>
+                <use data-c="30" xlink:href="#lt2-heartrate-graph-MJX-12-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-13" transform="translate(74.5,241.1) translate(-18.1,-6.2)">
+      <g id="lt2-heartrate-graph-__g-15">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-13-TEX-N-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"/>
+            <path id="lt2-heartrate-graph-MJX-13-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="60">
+                <use data-c="36" xlink:href="#lt2-heartrate-graph-MJX-13-TEX-N-36"/>
+                <use data-c="30" xlink:href="#lt2-heartrate-graph-MJX-13-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-14" transform="translate(74.5,210.3) translate(-18.1,-6.2)">
+      <g id="lt2-heartrate-graph-__g-16">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-14-TEX-N-38" d="M70 417T70 494T124 618T248 666Q319 666 374 624T429 515Q429 485 418 459T392 417T361 389T335 371T324 363L338 354Q352 344 366 334T382 323Q457 264 457 174Q457 95 399 37T249 -22Q159 -22 101 29T43 155Q43 263 172 335L154 348Q133 361 127 368Q70 417 70 494ZM286 386L292 390Q298 394 301 396T311 403T323 413T334 425T345 438T355 454T364 471T369 491T371 513Q371 556 342 586T275 624Q268 625 242 625Q201 625 165 599T128 534Q128 511 141 492T167 463T217 431Q224 426 228 424L286 386ZM250 21Q308 21 350 55T392 137Q392 154 387 169T375 194T353 216T330 234T301 253T274 270Q260 279 244 289T218 306L210 311Q204 311 181 294T133 239T107 157Q107 98 150 60T250 21Z"/>
+            <path id="lt2-heartrate-graph-MJX-14-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="80">
+                <use data-c="38" xlink:href="#lt2-heartrate-graph-MJX-14-TEX-N-38"/>
+                <use data-c="30" xlink:href="#lt2-heartrate-graph-MJX-14-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-15" transform="translate(74.5,179.5) translate(-27.2,-6.2)">
+      <g id="lt2-heartrate-graph-__g-17">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-15-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="lt2-heartrate-graph-MJX-15-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="100">
+                <use data-c="31" xlink:href="#lt2-heartrate-graph-MJX-15-TEX-N-31"/>
+                <use data-c="30" xlink:href="#lt2-heartrate-graph-MJX-15-TEX-N-30" transform="translate(500,0)"/>
+                <use data-c="30" xlink:href="#lt2-heartrate-graph-MJX-15-TEX-N-30" transform="translate(1000,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-16" transform="translate(74.5,148.8) translate(-27.2,-6.2)">
+      <g id="lt2-heartrate-graph-__g-18">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-16-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="lt2-heartrate-graph-MJX-16-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+            <path id="lt2-heartrate-graph-MJX-16-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="120">
+                <use data-c="31" xlink:href="#lt2-heartrate-graph-MJX-16-TEX-N-31"/>
+                <use data-c="32" xlink:href="#lt2-heartrate-graph-MJX-16-TEX-N-32" transform="translate(500,0)"/>
+                <use data-c="30" xlink:href="#lt2-heartrate-graph-MJX-16-TEX-N-30" transform="translate(1000,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-17" transform="translate(74.5,118.0) translate(-27.2,-6.3)">
+      <g id="lt2-heartrate-graph-__g-19">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.648px" role="img" focusable="false" viewBox="0 -677 1500 699" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-17-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="lt2-heartrate-graph-MJX-17-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+            <path id="lt2-heartrate-graph-MJX-17-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="140">
+                <use data-c="31" xlink:href="#lt2-heartrate-graph-MJX-17-TEX-N-31"/>
+                <use data-c="34" xlink:href="#lt2-heartrate-graph-MJX-17-TEX-N-34" transform="translate(500,0)"/>
+                <use data-c="30" xlink:href="#lt2-heartrate-graph-MJX-17-TEX-N-30" transform="translate(1000,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-18" transform="translate(74.5,87.2) translate(-27.2,-6.2)">
+      <g id="lt2-heartrate-graph-__g-20">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-18-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="lt2-heartrate-graph-MJX-18-TEX-N-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"/>
+            <path id="lt2-heartrate-graph-MJX-18-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="160">
+                <use data-c="31" xlink:href="#lt2-heartrate-graph-MJX-18-TEX-N-31"/>
+                <use data-c="36" xlink:href="#lt2-heartrate-graph-MJX-18-TEX-N-36" transform="translate(500,0)"/>
+                <use data-c="30" xlink:href="#lt2-heartrate-graph-MJX-18-TEX-N-30" transform="translate(1000,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-19" transform="translate(74.5,56.5) translate(-27.2,-6.2)">
+      <g id="lt2-heartrate-graph-__g-21">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-19-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="lt2-heartrate-graph-MJX-19-TEX-N-38" d="M70 417T70 494T124 618T248 666Q319 666 374 624T429 515Q429 485 418 459T392 417T361 389T335 371T324 363L338 354Q352 344 366 334T382 323Q457 264 457 174Q457 95 399 37T249 -22Q159 -22 101 29T43 155Q43 263 172 335L154 348Q133 361 127 368Q70 417 70 494ZM286 386L292 390Q298 394 301 396T311 403T323 413T334 425T345 438T355 454T364 471T369 491T371 513Q371 556 342 586T275 624Q268 625 242 625Q201 625 165 599T128 534Q128 511 141 492T167 463T217 431Q224 426 228 424L286 386ZM250 21Q308 21 350 55T392 137Q392 154 387 169T375 194T353 216T330 234T301 253T274 270Q260 279 244 289T218 306L210 311Q204 311 181 294T133 239T107 157Q107 98 150 60T250 21Z"/>
+            <path id="lt2-heartrate-graph-MJX-19-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="180">
+                <use data-c="31" xlink:href="#lt2-heartrate-graph-MJX-19-TEX-N-31"/>
+                <use data-c="38" xlink:href="#lt2-heartrate-graph-MJX-19-TEX-N-38" transform="translate(500,0)"/>
+                <use data-c="30" xlink:href="#lt2-heartrate-graph-MJX-19-TEX-N-30" transform="translate(1000,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="lt2-heartrate-graph-__label-20" transform="translate(74.5,25.7) translate(-27.2,-6.2)">
+      <g id="lt2-heartrate-graph-__g-22">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="lt2-heartrate-graph-MJX-20-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+            <path id="lt2-heartrate-graph-MJX-20-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="200">
+                <use data-c="32" xlink:href="#lt2-heartrate-graph-MJX-20-TEX-N-32"/>
+                <use data-c="30" xlink:href="#lt2-heartrate-graph-MJX-20-TEX-N-30" transform="translate(500,0)"/>
+                <use data-c="30" xlink:href="#lt2-heartrate-graph-MJX-20-TEX-N-30" transform="translate(1000,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="lt2-heartrate-graph-__path-0" d="M 85.5 241.1 L 149.1 179.5 L 212.7 179.5 L 276.4 87.2 L 403.6 87.2 L 467.3 148.8 L 594.5 210.3" stroke="purple" stroke-width="3" fill="none" clip-path="url(#lt2-heartrate-graph-__clipPath-1)"/>
+  <circle id="lt2-heartrate-graph-__circle-0" cx="85.5" cy="241.1" r="3" stroke="black" stroke-width="2" fill="purple"/>
+</svg>
