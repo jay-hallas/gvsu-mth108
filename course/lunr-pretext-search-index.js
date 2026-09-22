@@ -766,13 +766,40 @@ var ptx_lunr_docs = [
   "body": " Charging a Phone Battery   The graph shows the charge of a phone battery over time. The phone starts at , is plugged in to charge, and is later unplugged and used.   Battery charge versus time: starting at 20 percent, the charge rises in a curve that levels off to about 90 percent at 30 minutes, then declines gently to 80 percent at 45 minutes, and finally drops more steeply to 60 percent at 50 minutes.   A graph with time in minutes on the horizontal axis (0 to 50) and battery charge as a percent on the vertical axis (0 to 100). Starting at 20 percent, the curve rises quickly and then flattens as it climbs, reaching about 90 percent at 30 minutes. After 30 minutes the graph turns downward: it declines gently from 90 percent to 80 percent between 30 and 45 minutes, then declines more steeply from 80 percent to 60 percent between 45 and 50 minutes.     charge(t) = 100 - 80*exp(-t\/14.43)    Time (minutes)  Battery charge (percent)               Identify the independent variable (the input) and the dependent variable (the output) for this graph, including their units.    The independent variable (input) is the time, measured in minutes, shown on the horizontal axis. The dependent variable (output) is the battery charge, measured as a percent, shown on the vertical axis. The charge depends on how much time has passed, so charge is a function of time.      For how long was the phone plugged in and charging, and when was it unplugged? How does the graph show this?    The charge rises from to minutes, so the phone was charging for minutes. It was unplugged at minutes: that is the highest point on the graph (about ), where the charge stops rising and begins to fall.      The charging part of the graph is curved, not a straight line. What does its shape tell you about how the battery charges?    The curve is steep at first and flattens as it rises, so the charge increases quickly at the start and more slowly as the battery fills. In other words, the battery charges fastest when it is nearly empty and slows down as it approaches full. Because the curve is not straight, the rate of charging is not constant—each extra percent takes a little longer than the one before.      After the phone is unplugged, when is the battery draining the fastest? What is happening to the phone then, compared with the time just after it was unplugged?    From to minutes the graph falls most steeply, dropping from to —about per minute. That is when a video or app is running and using power quickly. Just after being unplugged, from to minutes, the phone sat mostly idle and lost only about per minute, so that part of the graph is much less steep.    "
 },
 {
-  "id": "homework",
+  "id": "writing-assignment-1",
   "level": "1",
-  "url": "homework.html",
-  "type": "Chapter",
+  "url": "writing-assignment-1.html",
+  "type": "Worksheet",
   "number": "",
-  "title": "Homework",
-  "body": " Homework    "
+  "title": "Writing Assignment 1",
+  "body": " Writing Assignment 1   This assignment asks you to find the rule that builds Pascal's Triangle, use it to extend the triangle, and explain the patterns that come out of it. It ends with a short problem on writing expressions that share a value.    Show your work; an answer with no supporting reasoning earns no credit.  Every answer that asks you to describe or explain should be written in complete sentences.  Upload a clean, high-quality scan of both sides to Blackboard when complete.        Patterns in Pascal's Triangle   The arrangement of numbers below is called Pascal's Triangle . The top row is called Row , the next row is Row , and so on. Row has some entries missing.   Pascal's Triangle, Rows 0 through 6, with three entries of Row 6 left blank.   Pascal's Triangle from Row 0 to Row 6, with blank boxes in Row 6.   Row 0: 1. Row 1: 1, 1. Row 2: 1, 2, 1. Row 3: 1, 3, 3, 1. Row 4: 1, 4, 6, 4, 1. Row 5: 1, 5, 10, 10, 5, 1. Row 6: 1, 6, blank, 20, blank, blank, 1.        Row ${r}                          1   1  1   1  2  1   1  3  3  1   1  4  6  4  1   1  5  10  10  5  1   1  6  20  1          Study the triangle. Describe in complete sentences how the numbers in one row are used to build the numbers in the next row. Be specific enough that someone who has never seen the triangle could build Row from Row using only your description.      Fill in the missing numbers in Row on the figure. Then use your rule from the previous part to write out Row and Row .  Row :   Row :       Add up the numbers in each row and record the sums in the table.        Row             Sum      Describe the pattern in the row sums, and use it to predict the sum of Row without writing out Row .  Sum of Row :          Patterns in Pascal's Triangle, continued   Use your rule for building the triangle to explain why the row sums follow the pattern you found.   Hint: think about how many times each number in one row gets used when you build the next row.      Many Expressions, One Value   Suppose . There are many expressions using that are equal to . For example, is one of them, because .     Write four different expressions using that are each equal to when . You may not use the example . At least one of your expressions must include multiplication, and at least one must include parentheses. Check each expression by substituting and showing the arithmetic.        Expression  Check with   1  2  3  4       Find the number so that is equal to when . Then find the number so that is equal to when . Show how you found each one.            Pick two of your expressions from the table. Evaluate both of them at and record the values.       "
+},
+{
+  "id": "ex-pascal",
+  "level": "2",
+  "url": "writing-assignment-1.html#ex-pascal",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Patterns in Pascal’s Triangle.",
+  "body": " Patterns in Pascal's Triangle   The arrangement of numbers below is called Pascal's Triangle . The top row is called Row , the next row is Row , and so on. Row has some entries missing.   Pascal's Triangle, Rows 0 through 6, with three entries of Row 6 left blank.   Pascal's Triangle from Row 0 to Row 6, with blank boxes in Row 6.   Row 0: 1. Row 1: 1, 1. Row 2: 1, 2, 1. Row 3: 1, 3, 3, 1. Row 4: 1, 4, 6, 4, 1. Row 5: 1, 5, 10, 10, 5, 1. Row 6: 1, 6, blank, 20, blank, blank, 1.        Row ${r}                          1   1  1   1  2  1   1  3  3  1   1  4  6  4  1   1  5  10  10  5  1   1  6  20  1          Study the triangle. Describe in complete sentences how the numbers in one row are used to build the numbers in the next row. Be specific enough that someone who has never seen the triangle could build Row from Row using only your description.      Fill in the missing numbers in Row on the figure. Then use your rule from the previous part to write out Row and Row .  Row :   Row :       Add up the numbers in each row and record the sums in the table.        Row             Sum      Describe the pattern in the row sums, and use it to predict the sum of Row without writing out Row .  Sum of Row :     "
+},
+{
+  "id": "ex-pascal-why",
+  "level": "2",
+  "url": "writing-assignment-1.html#ex-pascal-why",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Patterns in Pascal’s Triangle, continued.",
+  "body": " Patterns in Pascal's Triangle, continued   Use your rule for building the triangle to explain why the row sums follow the pattern you found.   Hint: think about how many times each number in one row gets used when you build the next row.    "
+},
+{
+  "id": "ex-many-expressions",
+  "level": "2",
+  "url": "writing-assignment-1.html#ex-many-expressions",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Many Expressions, One Value.",
+  "body": " Many Expressions, One Value   Suppose . There are many expressions using that are equal to . For example, is one of them, because .     Write four different expressions using that are each equal to when . You may not use the example . At least one of your expressions must include multiplication, and at least one must include parentheses. Check each expression by substituting and showing the arithmetic.        Expression  Check with   1  2  3  4       Find the number so that is equal to when . Then find the number so that is equal to when . Show how you found each one.            Pick two of your expressions from the table. Evaluate both of them at and record the values.    "
 }
 ]
 
