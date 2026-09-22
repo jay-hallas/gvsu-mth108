@@ -1,21 +1,273 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="writing-assignment-1"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
 
-<worksheet>
-  <title>Homework 01</title>
+  <title>Writing Assignment 1</title>
+
   <introduction>
     <p>
-      <alert>Instructions:</alert> Complete all the exercises below and submit your work by the due date.
+      This assignment asks you to find the rule that builds Pascal's Triangle, use it to extend
+      the triangle, and explain the patterns that come out of it. It ends with a short problem on
+      writing expressions that share a value.
+    </p>
+    <p>
+      <ul>
+        <li><p>Show your work; an answer with no supporting reasoning earns no credit.</p></li>
+        <li><p>Every answer that asks you to describe or explain should be written in complete sentences.</p></li>
+        <li><p>Upload a clean, high-quality scan of both sides to Blackboard when complete.</p></li>
+      </ul>
     </p>
   </introduction>
 
+  <!-- ===================================================
+       PAGE 1: Patterns in Pascal's Triangle
+       =================================================== -->
   <page>
-    <exercise>
+    <exercise xml:id="ex-pascal">
+      <title>Patterns in Pascal's Triangle</title>
+      <introduction>
+        <p>
+          The arrangement of numbers below is called <term>Pascal's Triangle</term>. The top row
+          is called Row <m>0</m>, the next row is Row <m>1</m>, and so on. Row <m>6</m> has some
+          entries missing.
+        </p>
+        <figure xml:id="fig-pascal-triangle">
+          <caption>Pascal's Triangle, Rows 0 through 6, with three entries of Row 6 left blank.</caption>
+          <image xml:id="img-pascal-triangle" width="80%">
+            <shortdescription>Pascal's Triangle from Row 0 to Row 6, with blank boxes in Row 6.</shortdescription>
+            <description>
+              <p>
+                Row 0: 1. Row 1: 1, 1. Row 2: 1, 2, 1. Row 3: 1, 3, 3, 1. Row 4: 1, 4, 6, 4, 1.
+                Row 5: 1, 5, 10, 10, 5, 1. Row 6: 1, 6, blank, 20, blank, blank, 1.
+              </p>
+            </description>
+            <prefigure xmlns="https://prefigure.org" label="pascal-triangle">
+              <diagram dimensions="(445,360)" margins="5">
+                <coordinates bbox="(-5.3,-6.6,3.6,0.6)">
+
+                  <!-- Row labels -->
+                  <repeat parameter="r=0..6">
+                    <label anchor="(-4.5,-r)">Row ${r}</label>
+                  </repeat>
+
+                  <!-- Boxes: entry k of row r is centered at (k - r/2, -r) -->
+                  <repeat parameter="k=0..0">
+                    <rectangle lower-left="(k-0.45,-0.35)" dimensions="(0.9,0.7)" stroke="navy" thickness="1.5" fill="none"/>
+                  </repeat>
+                  <repeat parameter="k=0..1">
+                    <rectangle lower-left="(k-0.5-0.45,-1-0.35)" dimensions="(0.9,0.7)" stroke="navy" thickness="1.5" fill="none"/>
+                  </repeat>
+                  <repeat parameter="k=0..2">
+                    <rectangle lower-left="(k-1-0.45,-2-0.35)" dimensions="(0.9,0.7)" stroke="navy" thickness="1.5" fill="none"/>
+                  </repeat>
+                  <repeat parameter="k=0..3">
+                    <rectangle lower-left="(k-1.5-0.45,-3-0.35)" dimensions="(0.9,0.7)" stroke="navy" thickness="1.5" fill="none"/>
+                  </repeat>
+                  <repeat parameter="k=0..4">
+                    <rectangle lower-left="(k-2-0.45,-4-0.35)" dimensions="(0.9,0.7)" stroke="navy" thickness="1.5" fill="none"/>
+                  </repeat>
+                  <repeat parameter="k=0..5">
+                    <rectangle lower-left="(k-2.5-0.45,-5-0.35)" dimensions="(0.9,0.7)" stroke="navy" thickness="1.5" fill="none"/>
+                  </repeat>
+                  <repeat parameter="k=0..6">
+                    <rectangle lower-left="(k-3-0.45,-6-0.35)" dimensions="(0.9,0.7)" stroke="navy" thickness="1.5" fill="none"/>
+                  </repeat>
+
+                  <!-- Row 0 -->
+                  <label anchor="(0,0)"><m>1</m></label>
+                  <!-- Row 1 -->
+                  <label anchor="(-0.5,-1)"><m>1</m></label>
+                  <label anchor="(0.5,-1)"><m>1</m></label>
+                  <!-- Row 2 -->
+                  <label anchor="(-1,-2)"><m>1</m></label>
+                  <label anchor="(0,-2)"><m>2</m></label>
+                  <label anchor="(1,-2)"><m>1</m></label>
+                  <!-- Row 3 -->
+                  <label anchor="(-1.5,-3)"><m>1</m></label>
+                  <label anchor="(-0.5,-3)"><m>3</m></label>
+                  <label anchor="(0.5,-3)"><m>3</m></label>
+                  <label anchor="(1.5,-3)"><m>1</m></label>
+                  <!-- Row 4 -->
+                  <label anchor="(-2,-4)"><m>1</m></label>
+                  <label anchor="(-1,-4)"><m>4</m></label>
+                  <label anchor="(0,-4)"><m>6</m></label>
+                  <label anchor="(1,-4)"><m>4</m></label>
+                  <label anchor="(2,-4)"><m>1</m></label>
+                  <!-- Row 5 -->
+                  <label anchor="(-2.5,-5)"><m>1</m></label>
+                  <label anchor="(-1.5,-5)"><m>5</m></label>
+                  <label anchor="(-0.5,-5)"><m>10</m></label>
+                  <label anchor="(0.5,-5)"><m>10</m></label>
+                  <label anchor="(1.5,-5)"><m>5</m></label>
+                  <label anchor="(2.5,-5)"><m>1</m></label>
+                  <!-- Row 6 (positions 2, 4, 5 left blank) -->
+                  <label anchor="(-3,-6)"><m>1</m></label>
+                  <label anchor="(-2,-6)"><m>6</m></label>
+                  <label anchor="(0,-6)"><m>20</m></label>
+                  <label anchor="(3,-6)"><m>1</m></label>
+
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+        </figure>
+      </introduction>
+
+      <task xml:id="ex-pascal-rule" workspace="1.25in">
+        <statement>
+          <p>
+            Study the triangle. Describe in complete sentences how the numbers in one row are used
+            to build the numbers in the next row. Be specific enough that someone who has never
+            seen the triangle could build Row <m>4</m> from Row <m>3</m> using only your
+            description.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-pascal-extend">
+        <statement>
+          <p>
+            Fill in the missing numbers in Row <m>6</m> on the figure. Then use your rule from the
+            previous part to write out Row <m>7</m> and Row <m>8</m>.
+          </p>
+          <p>
+            Row <m>7</m>: <fillin characters="50"/>
+          </p>
+          <p>
+            Row <m>8</m>: <fillin characters="50"/>
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-pascal-sums" workspace="1in">
+        <statement>
+          <p>
+            Add up the numbers in each row and record the sums in the table.
+          </p>
+          <tabular halign="center" top="major" bottom="major" left="minor" right="minor">
+            <col right="minor"/>
+            <col right="minor"/><col right="minor"/><col right="minor"/><col right="minor"/>
+            <col right="minor"/><col right="minor"/><col right="minor"/><col right="minor"/>
+            <col/>
+            <row header="yes" bottom="minor">
+              <cell>Row</cell>
+              <cell><m>0</m></cell>
+              <cell><m>1</m></cell>
+              <cell><m>2</m></cell>
+              <cell><m>3</m></cell>
+              <cell><m>4</m></cell>
+              <cell><m>5</m></cell>
+              <cell><m>6</m></cell>
+              <cell><m>7</m></cell>
+              <cell><m>8</m></cell>
+            </row>
+            <row>
+              <cell>Sum</cell>
+              <cell></cell><cell></cell><cell></cell><cell></cell><cell></cell>
+              <cell></cell><cell></cell><cell></cell><cell></cell>
+            </row>
+          </tabular>
+          <p>
+            Describe the pattern in the row sums, and use it to predict the sum of Row <m>10</m>
+            without writing out Row <m>10</m>.
+          </p>
+          <p>
+            Sum of Row <m>10</m>: <fillin characters="12"/>
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ===================================================
+       PAGE 2: Pascal's Triangle (continued) and Many Expressions, One Value
+       =================================================== -->
+  <page>
+    <exercise xml:id="ex-pascal-why" workspace="1.75in">
+      <title>Patterns in Pascal's Triangle, continued</title>
       <statement>
         <p>
-          This is the first homework exercise.
+          Use your rule for building the triangle to explain <em>why</em> the row sums follow the
+          pattern you found.
+        </p>
+        <p>
+          <em>Hint: think about how many times each number in one row gets used when you build the
+          next row.</em>
         </p>
       </statement>
     </exercise>
 
+    <exercise xml:id="ex-many-expressions">
+      <title>Many Expressions, One Value</title>
+      <introduction>
+        <p>
+          Suppose <m>x = 61</m>. There are many expressions using <m>x</m> that are equal to
+          <m>68</m>. For example, <m>2x - 54</m> is one of them, because
+          <m>2(61) - 54 = 122 - 54 = 68</m>.
+        </p>
+      </introduction>
+
+      <task xml:id="ex-expr-four">
+        <statement>
+          <p>
+            Write four different expressions using <m>x</m> that are each equal to <m>68</m> when
+            <m>x = 61</m>. You may not use the example <m>2x - 54</m>. At least one of your
+            expressions must include multiplication, and at least one must include parentheses.
+            Check each expression by substituting <m>x = 61</m> and showing the arithmetic.
+          </p>
+          <tabular halign="center" top="major" bottom="major" left="minor" right="minor">
+            <col width="8%" right="minor"/>
+            <col width="36%" right="minor"/>
+            <col width="56%"/>
+            <row header="yes" bottom="minor">
+              <cell></cell>
+              <cell>Expression</cell>
+              <cell>Check with <m>x = 61</m></cell>
+            </row>
+            <row bottom="minor"><cell>1</cell><cell></cell><cell></cell></row>
+            <row bottom="minor"><cell>2</cell><cell></cell><cell></cell></row>
+            <row bottom="minor"><cell>3</cell><cell></cell><cell></cell></row>
+            <row><cell>4</cell><cell></cell><cell></cell></row>
+          </tabular>
+        </statement>
+      </task>
+
+      <task xml:id="ex-expr-unknowns" workspace="1.5in">
+        <statement>
+          <p>
+            Find the number <m>b</m> so that <m>3x + b</m> is equal to <m>68</m> when
+            <m>x = 61</m>. Then find the number <m>a</m> so that <m>ax - 176</m> is equal to
+            <m>68</m> when <m>x = 61</m>. Show how you found each one.
+          </p>
+          <p>
+            <m>b =</m> <fillin characters="10"/>
+            <m>\qquad a =</m> <fillin characters="10"/>
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-expr-ten" workspace="1.25in">
+        <statement>
+          <p>
+            Pick two of your expressions from the table. Evaluate both of them at <m>x = 10</m>
+            and record the values.
+          </p>
+        </statement>
+      </task>
+    </exercise>
   </page>
+
+  <!-- ===================================================
+       INSTRUCTOR KEY (not rendered)
+       Pascal rule: each row starts and ends with 1; every other entry is the
+         sum of the two entries directly above it.
+       Row 6: 1, 6, 15, 20, 15, 6, 1
+       Row 7: 1, 7, 21, 35, 35, 21, 7, 1
+       Row 8: 1, 8, 28, 56, 70, 56, 28, 8, 1
+       Sums: 1, 2, 4, 8, 16, 32, 64, 128, 256 (each doubles); Row 10 sum = 1024
+       Why: each number is added into two entries of the next row (below-left
+         and below-right), so it is counted twice in the next row's sum.
+       Expressions: b = -115, a = 4
+       =================================================== -->
+
 </worksheet>
