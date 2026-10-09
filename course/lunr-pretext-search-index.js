@@ -766,6 +766,528 @@ var ptx_lunr_docs = [
   "body": " Charging a Phone Battery   The graph shows the charge of a phone battery over time. The phone starts at , is plugged in to charge, and is later unplugged and used.   Battery charge versus time: starting at 20 percent, the charge rises in a curve that levels off to about 90 percent at 30 minutes, then declines gently to 80 percent at 45 minutes, and finally drops more steeply to 60 percent at 50 minutes.   A graph with time in minutes on the horizontal axis (0 to 50) and battery charge as a percent on the vertical axis (0 to 100). Starting at 20 percent, the curve rises quickly and then flattens as it climbs, reaching about 90 percent at 30 minutes. After 30 minutes the graph turns downward: it declines gently from 90 percent to 80 percent between 30 and 45 minutes, then declines more steeply from 80 percent to 60 percent between 45 and 50 minutes.     charge(t) = 100 - 80*exp(-t\/14.43)    Time (minutes)  Battery charge (percent)               Identify the independent variable (the input) and the dependent variable (the output) for this graph, including their units.    The independent variable (input) is the time, measured in minutes, shown on the horizontal axis. The dependent variable (output) is the battery charge, measured as a percent, shown on the vertical axis. The charge depends on how much time has passed, so charge is a function of time.      For how long was the phone plugged in and charging, and when was it unplugged? How does the graph show this?    The charge rises from to minutes, so the phone was charging for minutes. It was unplugged at minutes: that is the highest point on the graph (about ), where the charge stops rising and begins to fall.      The charging part of the graph is curved, not a straight line. What does its shape tell you about how the battery charges?    The curve is steep at first and flattens as it rises, so the charge increases quickly at the start and more slowly as the battery fills. In other words, the battery charges fastest when it is nearly empty and slows down as it approaches full. Because the curve is not straight, the rate of charging is not constant—each extra percent takes a little longer than the one before.      After the phone is unplugged, when is the battery draining the fastest? What is happening to the phone then, compared with the time just after it was unplugged?    From to minutes the graph falls most steeply, dropping from to —about per minute. That is when a video or app is running and using power quickly. Just after being unplugged, from to minutes, the phone sat mostly idle and lost only about per minute, so that part of the graph is much less steep.    "
 },
 {
+  "id": "lt8-practice-quiz",
+  "level": "1",
+  "url": "lt8-practice-quiz.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Learning Target 8: Proportional Relationships",
+  "body": " Learning Target 8: Proportional Relationships    I can recognize a proportional relationship and represent it in a table, graph, equation, or application.       Filling Up the Gas Tank   At a local gas station, regular gasoline costs per gallon. The total cost depends on how many gallons you pump.     Complete the table.           Gallons          Cost (dollars)            Multiply the number of gallons by . The costs are , , , , , and .      Write an equation for the total cost in terms of the number of gallons. Be sure to define each variable, including units.    Let be the number of gallons of gas pumped and let be the total cost in dollars. Then .      What is the slope of your equation? Include units.    The slope is , or per gallon. It is the number multiplying in the equation.      How much would it cost to pump gallons of gas?    Substitute : . Pumping gallons costs .      How many gallons of gas can you pump with ?    Set and solve for :     You can pump gallons of gas with .      Draw an accurate graph of the relationship on the grid below. Choose a scale that fits your table, number each axis evenly, and give each axis a title with units.   A blank grid with horizontal and vertical axes and no labels.   A blank grid 12 boxes wide and 10 boxes tall, with arrows on the horizontal and vertical axes. There are no tick labels or axis titles so that students can choose their own scale.               Label the horizontal axis Gas (gallons) and the vertical axis Cost (dollars) . A good scale is gallon per box horizontally ( to ) and per box vertically ( to ). Plot , , , , , and . The points lie on a straight line through the origin, which is what makes the relationship proportional. Since you can pump part of a gallon, it makes sense to connect the points with a line.         A Bike Ride   A cyclist rides along a flat trail at a steady speed of miles per hour. The distance traveled depends on how long they have been riding.     Complete the table.           Time (hours)          Distance (miles)            Multiply the number of hours by . The distances are , , , , , and miles.      Write an equation for the distance traveled in terms of the time spent riding. Be sure to define each variable, including units.    Let be the time spent riding in hours and let be the distance traveled in miles. Then .      What is the slope of your equation? Include units.    The slope is , or miles per hour. This is the cyclist's speed.      How far does the cyclist travel in hours?    Substitute : . The cyclist travels miles in hours.      How long does it take the cyclist to ride miles?    Set and solve for :     It takes the cyclist hours ( hours and minutes) to ride miles.      Draw an accurate graph of the relationship on the grid below. Choose a scale that fits your table, number each axis evenly, and give each axis a title with units.   A blank grid with horizontal and vertical axes and no labels.   A blank grid 12 boxes wide and 10 boxes tall, with arrows on the horizontal and vertical axes. There are no tick labels or axis titles so that students can choose their own scale.               Label the horizontal axis Time (hours) and the vertical axis Distance (miles) . A good scale is hour per box horizontally ( to ) and miles per box vertically ( to ). Plot , , , , , and . The points lie on a straight line through the origin. Since time and distance can take any value in between, connect the points with a line.         Bags of Mulch   A garden center sells bags of mulch for each. The total cost depends on how many bags you buy.     Complete the table.           Bags          Cost (dollars)            Multiply the number of bags by . The costs are , , , , , and .      Write an equation for the total cost in terms of the number of bags. Be sure to define each variable, including units.    Let be the number of bags of mulch and let be the total cost in dollars. Then .      What is the slope of your equation? Include units.    The slope is , or per bag.      How much do bags of mulch cost?    Substitute : . Twelve bags cost .      How many bags of mulch can you buy with ?    Set and solve for :     The store does not sell part of a bag, and bags would cost , which is more than you have. So you can buy bags.      Draw an accurate graph of the relationship on the grid below. Choose a scale that fits your table, number each axis evenly, and give each axis a title with units.   A blank grid with horizontal and vertical axes and no labels.   A blank grid 12 boxes wide and 10 boxes tall, with arrows on the horizontal and vertical axes. There are no tick labels or axis titles so that students can choose their own scale.               Label the horizontal axis Bags of mulch and the vertical axis Cost (dollars) . A good scale is bag per box horizontally ( to ) and per box vertically ( to ). Plot , , , , , and . The points line up on a straight line through the origin. Since you can only buy whole bags, the graph is just the points; they should not be connected.      "
+},
+{
+  "id": "lt8-practice-quiz-2",
+  "level": "2",
+  "url": "lt8-practice-quiz.html#lt8-practice-quiz-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  I can recognize a proportional relationship and represent it in a table, graph, equation, or application.   "
+},
+{
+  "id": "lt8-gas",
+  "level": "2",
+  "url": "lt8-practice-quiz.html#lt8-gas",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Filling Up the Gas Tank.",
+  "body": " Filling Up the Gas Tank   At a local gas station, regular gasoline costs per gallon. The total cost depends on how many gallons you pump.     Complete the table.           Gallons          Cost (dollars)            Multiply the number of gallons by . The costs are , , , , , and .      Write an equation for the total cost in terms of the number of gallons. Be sure to define each variable, including units.    Let be the number of gallons of gas pumped and let be the total cost in dollars. Then .      What is the slope of your equation? Include units.    The slope is , or per gallon. It is the number multiplying in the equation.      How much would it cost to pump gallons of gas?    Substitute : . Pumping gallons costs .      How many gallons of gas can you pump with ?    Set and solve for :     You can pump gallons of gas with .      Draw an accurate graph of the relationship on the grid below. Choose a scale that fits your table, number each axis evenly, and give each axis a title with units.   A blank grid with horizontal and vertical axes and no labels.   A blank grid 12 boxes wide and 10 boxes tall, with arrows on the horizontal and vertical axes. There are no tick labels or axis titles so that students can choose their own scale.               Label the horizontal axis Gas (gallons) and the vertical axis Cost (dollars) . A good scale is gallon per box horizontally ( to ) and per box vertically ( to ). Plot , , , , , and . The points lie on a straight line through the origin, which is what makes the relationship proportional. Since you can pump part of a gallon, it makes sense to connect the points with a line.    "
+},
+{
+  "id": "lt8-cycling",
+  "level": "2",
+  "url": "lt8-practice-quiz.html#lt8-cycling",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "A Bike Ride.",
+  "body": " A Bike Ride   A cyclist rides along a flat trail at a steady speed of miles per hour. The distance traveled depends on how long they have been riding.     Complete the table.           Time (hours)          Distance (miles)            Multiply the number of hours by . The distances are , , , , , and miles.      Write an equation for the distance traveled in terms of the time spent riding. Be sure to define each variable, including units.    Let be the time spent riding in hours and let be the distance traveled in miles. Then .      What is the slope of your equation? Include units.    The slope is , or miles per hour. This is the cyclist's speed.      How far does the cyclist travel in hours?    Substitute : . The cyclist travels miles in hours.      How long does it take the cyclist to ride miles?    Set and solve for :     It takes the cyclist hours ( hours and minutes) to ride miles.      Draw an accurate graph of the relationship on the grid below. Choose a scale that fits your table, number each axis evenly, and give each axis a title with units.   A blank grid with horizontal and vertical axes and no labels.   A blank grid 12 boxes wide and 10 boxes tall, with arrows on the horizontal and vertical axes. There are no tick labels or axis titles so that students can choose their own scale.               Label the horizontal axis Time (hours) and the vertical axis Distance (miles) . A good scale is hour per box horizontally ( to ) and miles per box vertically ( to ). Plot , , , , , and . The points lie on a straight line through the origin. Since time and distance can take any value in between, connect the points with a line.    "
+},
+{
+  "id": "lt8-mulch",
+  "level": "2",
+  "url": "lt8-practice-quiz.html#lt8-mulch",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Bags of Mulch.",
+  "body": " Bags of Mulch   A garden center sells bags of mulch for each. The total cost depends on how many bags you buy.     Complete the table.           Bags          Cost (dollars)            Multiply the number of bags by . The costs are , , , , , and .      Write an equation for the total cost in terms of the number of bags. Be sure to define each variable, including units.    Let be the number of bags of mulch and let be the total cost in dollars. Then .      What is the slope of your equation? Include units.    The slope is , or per bag.      How much do bags of mulch cost?    Substitute : . Twelve bags cost .      How many bags of mulch can you buy with ?    Set and solve for :     The store does not sell part of a bag, and bags would cost , which is more than you have. So you can buy bags.      Draw an accurate graph of the relationship on the grid below. Choose a scale that fits your table, number each axis evenly, and give each axis a title with units.   A blank grid with horizontal and vertical axes and no labels.   A blank grid 12 boxes wide and 10 boxes tall, with arrows on the horizontal and vertical axes. There are no tick labels or axis titles so that students can choose their own scale.               Label the horizontal axis Bags of mulch and the vertical axis Cost (dollars) . A good scale is bag per box horizontally ( to ) and per box vertically ( to ). Plot , , , , , and . The points line up on a straight line through the origin. Since you can only buy whole bags, the graph is just the points; they should not be connected.    "
+},
+{
+  "id": "lt9-practice-quiz",
+  "level": "1",
+  "url": "lt9-practice-quiz.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Learning Target 9: Interpreting Slope",
+  "body": " Learning Target 9: Interpreting Slope    I can interpret the meaning of the slope in a proportional relationship.       Hourly Pay   Let , where is the amount earned in dollars for working hours.     What is the slope?    The slope is .      What are the units of the output?    The output is measured in dollars.      What are the units of the input?    The input is measured in hours.      Write a sentence explaining what the slope means in this context.    The worker earns per hour; for each additional hour worked, the amount earned goes up by .      A Road Trip   Let , where is the distance traveled in miles after driving for hours on the highway.     What is the slope?    The slope is .      What are the units of the output?    The output is measured in miles.      What are the units of the input?    The input is measured in hours.      Write a sentence explaining what the slope means in this context.    The car travels miles per hour; for each additional hour of driving, the distance traveled goes up by miles.      Calories in Cereal   Let , where is the number of calories in servings of cereal.     What is the slope?    The slope is .      What are the units of the output?    The output is measured in calories.      What are the units of the input?    The input is measured in servings.      Write a sentence explaining what the slope means in this context.    There are calories per serving of cereal; each additional serving adds calories.         A Snowstorm   Let , where is the depth of new snow in inches hours after a snowstorm begins.     What is the slope?    The slope is .      What are the units of the output?    The output is measured in inches.      What are the units of the input?    The input is measured in hours.      Write a sentence explaining what the slope means in this context.    Snow falls at a rate of inches per hour; for each additional hour of the storm, the snow gets inches deeper.      Fuel Use   Let , where is the number of gallons of gas a car uses to drive miles.     What is the slope?    The slope is .      What are the units of the output?    The output is measured in gallons.      What are the units of the input?    The input is measured in miles.      Write a sentence explaining what the slope means in this context.    The car uses gallons of gas per mile; for each additional mile driven, it uses another gallons. Notice that gallons are the output here, so the slope is gallons per mile, not miles per gallon.      "
+},
+{
+  "id": "lt9-practice-quiz-2",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-practice-quiz-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  I can interpret the meaning of the slope in a proportional relationship.   "
+},
+{
+  "id": "lt9-wages",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-wages",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Hourly Pay.",
+  "body": " Hourly Pay   Let , where is the amount earned in dollars for working hours.     What is the slope?    The slope is .      What are the units of the output?    The output is measured in dollars.      What are the units of the input?    The input is measured in hours.      Write a sentence explaining what the slope means in this context.    The worker earns per hour; for each additional hour worked, the amount earned goes up by .    "
+},
+{
+  "id": "lt9-driving",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-driving",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "A Road Trip.",
+  "body": " A Road Trip   Let , where is the distance traveled in miles after driving for hours on the highway.     What is the slope?    The slope is .      What are the units of the output?    The output is measured in miles.      What are the units of the input?    The input is measured in hours.      Write a sentence explaining what the slope means in this context.    The car travels miles per hour; for each additional hour of driving, the distance traveled goes up by miles.    "
+},
+{
+  "id": "lt9-cereal",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-cereal",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Calories in Cereal.",
+  "body": " Calories in Cereal   Let , where is the number of calories in servings of cereal.     What is the slope?    The slope is .      What are the units of the output?    The output is measured in calories.      What are the units of the input?    The input is measured in servings.      Write a sentence explaining what the slope means in this context.    There are calories per serving of cereal; each additional serving adds calories.    "
+},
+{
+  "id": "lt9-snow",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-snow",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "A Snowstorm.",
+  "body": " A Snowstorm   Let , where is the depth of new snow in inches hours after a snowstorm begins.     What is the slope?    The slope is .      What are the units of the output?    The output is measured in inches.      What are the units of the input?    The input is measured in hours.      Write a sentence explaining what the slope means in this context.    Snow falls at a rate of inches per hour; for each additional hour of the storm, the snow gets inches deeper.    "
+},
+{
+  "id": "lt9-fuel",
+  "level": "2",
+  "url": "lt9-practice-quiz.html#lt9-fuel",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Fuel Use.",
+  "body": " Fuel Use   Let , where is the number of gallons of gas a car uses to drive miles.     What is the slope?    The slope is .      What are the units of the output?    The output is measured in gallons.      What are the units of the input?    The input is measured in miles.      Write a sentence explaining what the slope means in this context.    The car uses gallons of gas per mile; for each additional mile driven, it uses another gallons. Notice that gallons are the output here, so the slope is gallons per mile, not miles per gallon.    "
+},
+{
+  "id": "lt10-practice-quiz",
+  "level": "1",
+  "url": "lt10-practice-quiz.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Learning Target 10: Linear Patterns",
+  "body": " Learning Target 10: Linear Patterns    I can recognize and identify key characteristics of a linear pattern represented in a table, graph, equation, or application, and I can translate between those representations.       Problem 1   Is the data in the table linear? Explain how you know.                            Yes, the data is linear. Each time goes up by , goes up by . Since the rate of change is the same between every pair of points, the pattern is linear.     Problem 2   Is the data in the table linear? Explain how you know.                            No, the data is not linear. Each time goes up by , goes up by , then , then , then . The amount added keeps changing (the -values double each time), so the rate of change is not constant.     Problem 3   Is the data in the table linear? Explain how you know.                            Yes, the data is linear. The -values do not go up by the same amount, so compare the change in to the change in each time:     The rate of change is every time, so the pattern is linear.     Problem 4   Is the data in the table linear? Explain how you know.                            No, the data is not linear. Each time goes up by , goes up by , , , and . The change from to is different from the others, so the rate of change is not constant. One different change is enough to make the data not linear.        Problem 5   The table shows a linear pattern.                             What is the slope? Show how you found it.    Each time goes up by , goes up by , so the slope is .      What is the -intercept?    When , , so the -intercept is , or the point .      Write an equation for the pattern.         Check your equation by substituting at least two -values from the table and showing you get the matching -values.    When : , which matches the table.  When : , which matches the table.      Problem 6   The table shows a linear pattern.                             What is the slope? Show how you found it.    Each time goes up by , goes down by , so the slope is .      What is the -intercept? The table does not include , so explain how you found it.    Work backward one step from . Going from back to undoes one step, so add to the -value: . The -intercept is , or the point .      Write an equation for the pattern.         Check your equation by substituting at least two -values from the table and showing you get the matching -values.    When : , which matches the table.  When : , which matches the table.         Problem 7   A line passes through the points and .     What is the slope of the line?           What is the -intercept of the line?    Substitute the slope and one of the points, say , into :     The -intercept is , or the point .      Write the equation of the line.    . Check with the other point: .      Problem 8   A line passes through the points and .     What is the slope of the line?           What is the -intercept of the line?    Substitute the slope and one of the points, say , into :     The -intercept is , or the point .      Write the equation of the line.    . Check with the other point: .         Problem 9   The table shows a linear pattern. Plot the points from the table on the grid below and draw the line through them.                              A blank coordinate grid from negative 6 to 6 on both axes.   A blank coordinate grid with the -axis and -axis each running from to , with grid lines every unit and labels every units.       x  y         Plot , , , , , and . The points line up, so draw one straight line through all of them and extend it past the first and last points. The line crosses the -axis at and rises units for every unit to the right; its equation is .     "
+},
+{
+  "id": "lt10-practice-quiz-2",
+  "level": "2",
+  "url": "lt10-practice-quiz.html#lt10-practice-quiz-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  I can recognize and identify key characteristics of a linear pattern represented in a table, graph, equation, or application, and I can translate between those representations.   "
+},
+{
+  "id": "lt10-linear-1",
+  "level": "2",
+  "url": "lt10-practice-quiz.html#lt10-linear-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Problem 1.",
+  "body": " Problem 1   Is the data in the table linear? Explain how you know.                            Yes, the data is linear. Each time goes up by , goes up by . Since the rate of change is the same between every pair of points, the pattern is linear.   "
+},
+{
+  "id": "lt10-linear-2",
+  "level": "2",
+  "url": "lt10-practice-quiz.html#lt10-linear-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problem 2.",
+  "body": " Problem 2   Is the data in the table linear? Explain how you know.                            No, the data is not linear. Each time goes up by , goes up by , then , then , then . The amount added keeps changing (the -values double each time), so the rate of change is not constant.   "
+},
+{
+  "id": "lt10-linear-3",
+  "level": "2",
+  "url": "lt10-practice-quiz.html#lt10-linear-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Problem 3.",
+  "body": " Problem 3   Is the data in the table linear? Explain how you know.                            Yes, the data is linear. The -values do not go up by the same amount, so compare the change in to the change in each time:     The rate of change is every time, so the pattern is linear.   "
+},
+{
+  "id": "lt10-linear-4",
+  "level": "2",
+  "url": "lt10-practice-quiz.html#lt10-linear-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Problem 4.",
+  "body": " Problem 4   Is the data in the table linear? Explain how you know.                            No, the data is not linear. Each time goes up by , goes up by , , , and . The change from to is different from the others, so the rate of change is not constant. One different change is enough to make the data not linear.   "
+},
+{
+  "id": "lt10-table-5",
+  "level": "2",
+  "url": "lt10-practice-quiz.html#lt10-table-5",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Problem 5.",
+  "body": " Problem 5   The table shows a linear pattern.                             What is the slope? Show how you found it.    Each time goes up by , goes up by , so the slope is .      What is the -intercept?    When , , so the -intercept is , or the point .      Write an equation for the pattern.         Check your equation by substituting at least two -values from the table and showing you get the matching -values.    When : , which matches the table.  When : , which matches the table.    "
+},
+{
+  "id": "lt10-table-6",
+  "level": "2",
+  "url": "lt10-practice-quiz.html#lt10-table-6",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Problem 6.",
+  "body": " Problem 6   The table shows a linear pattern.                             What is the slope? Show how you found it.    Each time goes up by , goes down by , so the slope is .      What is the -intercept? The table does not include , so explain how you found it.    Work backward one step from . Going from back to undoes one step, so add to the -value: . The -intercept is , or the point .      Write an equation for the pattern.         Check your equation by substituting at least two -values from the table and showing you get the matching -values.    When : , which matches the table.  When : , which matches the table.    "
+},
+{
+  "id": "lt10-points-7",
+  "level": "2",
+  "url": "lt10-practice-quiz.html#lt10-points-7",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Problem 7.",
+  "body": " Problem 7   A line passes through the points and .     What is the slope of the line?           What is the -intercept of the line?    Substitute the slope and one of the points, say , into :     The -intercept is , or the point .      Write the equation of the line.    . Check with the other point: .    "
+},
+{
+  "id": "lt10-points-8",
+  "level": "2",
+  "url": "lt10-practice-quiz.html#lt10-points-8",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "Problem 8.",
+  "body": " Problem 8   A line passes through the points and .     What is the slope of the line?           What is the -intercept of the line?    Substitute the slope and one of the points, say , into :     The -intercept is , or the point .      Write the equation of the line.    . Check with the other point: .    "
+},
+{
+  "id": "lt10-graph-9",
+  "level": "2",
+  "url": "lt10-practice-quiz.html#lt10-graph-9",
+  "type": "Worksheet Exercise",
+  "number": "9",
+  "title": "Problem 9.",
+  "body": " Problem 9   The table shows a linear pattern. Plot the points from the table on the grid below and draw the line through them.                              A blank coordinate grid from negative 6 to 6 on both axes.   A blank coordinate grid with the -axis and -axis each running from to , with grid lines every unit and labels every units.       x  y         Plot , , , , , and . The points line up, so draw one straight line through all of them and extend it past the first and last points. The line crosses the -axis at and rises units for every unit to the right; its equation is .   "
+},
+{
+  "id": "lt11-practice-quiz",
+  "level": "1",
+  "url": "lt11-practice-quiz.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Learning Target 11: Reading Linear Graphs",
+  "body": " Learning Target 11: Reading Linear Graphs    Given a linear graph, I can identify the slope in context, the vertical intercept, and the horizontal intercept; evaluate ; find given ; and write the equation of the line.       Problem 1   Use the graph of the line below to answer each question.   A line rising from lower left to upper right, crossing the y-axis at negative 4 and the x-axis at 2.   A coordinate grid from to on both axes. A straight line passes through , , , , and .       x  y           The -intercept is .    The line crosses the -axis at , so the -intercept is .      The -intercept is .    The line crosses the -axis at , so the -intercept is .      The slope of the line is .    From to the line rises and runs , so the slope is .      Find when .    The point on the line with is , so .      Find when .    The point on the line with is , so .      What is the equation of the line?    With slope and -intercept , the equation is .         Problem 2   Use the graph of the line below to answer each question.   A line falling gently from upper left to lower right, crossing the y-axis at 3 and the x-axis at 6.   A coordinate grid from to on both axes. A straight line passes through , , , , and .       x  y           The -intercept is .    The line crosses the -axis at , so the -intercept is .      The -intercept is .    The line crosses the -axis at , so the -intercept is .      The slope of the line is .    From to the line falls and runs , so the slope is .      Find when .    The point on the line with is , so .      Find when .    The point on the line with is , so .      What is the equation of the line?    With slope and -intercept , the equation is .         Problem 3   Use the graph of the line below to answer each question.   A line falling steeply from upper left to lower right, crossing the x-axis at negative 2 and the y-axis at negative 3.   A coordinate grid from to on both axes. A straight line passes through , , , , and .       x  y           The -intercept is .    The line crosses the -axis at , so the -intercept is .      The -intercept is .    The line crosses the -axis at , so the -intercept is .      The slope of the line is .    From to the line falls and runs , so the slope is .      Find when .    The point on the line with is , so .      Find when .    The point on the line with is , so .      What is the equation of the line?    With slope and -intercept , the equation is .      "
+},
+{
+  "id": "lt11-practice-quiz-2",
+  "level": "2",
+  "url": "lt11-practice-quiz.html#lt11-practice-quiz-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Given a linear graph, I can identify the slope in context, the vertical intercept, and the horizontal intercept; evaluate ; find given ; and write the equation of the line.   "
+},
+{
+  "id": "lt11-graph-1",
+  "level": "2",
+  "url": "lt11-practice-quiz.html#lt11-graph-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Problem 1.",
+  "body": " Problem 1   Use the graph of the line below to answer each question.   A line rising from lower left to upper right, crossing the y-axis at negative 4 and the x-axis at 2.   A coordinate grid from to on both axes. A straight line passes through , , , , and .       x  y           The -intercept is .    The line crosses the -axis at , so the -intercept is .      The -intercept is .    The line crosses the -axis at , so the -intercept is .      The slope of the line is .    From to the line rises and runs , so the slope is .      Find when .    The point on the line with is , so .      Find when .    The point on the line with is , so .      What is the equation of the line?    With slope and -intercept , the equation is .    "
+},
+{
+  "id": "lt11-graph-2",
+  "level": "2",
+  "url": "lt11-practice-quiz.html#lt11-graph-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problem 2.",
+  "body": " Problem 2   Use the graph of the line below to answer each question.   A line falling gently from upper left to lower right, crossing the y-axis at 3 and the x-axis at 6.   A coordinate grid from to on both axes. A straight line passes through , , , , and .       x  y           The -intercept is .    The line crosses the -axis at , so the -intercept is .      The -intercept is .    The line crosses the -axis at , so the -intercept is .      The slope of the line is .    From to the line falls and runs , so the slope is .      Find when .    The point on the line with is , so .      Find when .    The point on the line with is , so .      What is the equation of the line?    With slope and -intercept , the equation is .    "
+},
+{
+  "id": "lt11-graph-3",
+  "level": "2",
+  "url": "lt11-practice-quiz.html#lt11-graph-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Problem 3.",
+  "body": " Problem 3   Use the graph of the line below to answer each question.   A line falling steeply from upper left to lower right, crossing the x-axis at negative 2 and the y-axis at negative 3.   A coordinate grid from to on both axes. A straight line passes through , , , , and .       x  y           The -intercept is .    The line crosses the -axis at , so the -intercept is .      The -intercept is .    The line crosses the -axis at , so the -intercept is .      The slope of the line is .    From to the line falls and runs , so the slope is .      Find when .    The point on the line with is , so .      Find when .    The point on the line with is , so .      What is the equation of the line?    With slope and -intercept , the equation is .    "
+},
+{
+  "id": "lt12-practice-quiz",
+  "level": "1",
+  "url": "lt12-practice-quiz.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Learning Target 12: Linear Models in Context",
+  "body": " Learning Target 12: Linear Models in Context    Given a linear word situation, I can write an equation; identify and explain the meaning of the slope and the vertical intercept in context; find and explain its meaning; find given and explain its meaning; and determine what inputs make sense.       Taking a Rideshare   A rideshare app charges a booking fee for every ride, plus for each mile driven.     Write an equation for the total cost of a ride in terms of the number of miles driven. Be sure to define each variable, including units.    Let be the number of miles driven and let be the total cost of the ride in dollars. Then .      How much does an -mile ride cost? Explain what your answer means in this situation.    Substitute : . An -mile ride costs , including the booking fee.      A ride cost . How many miles long was the ride? Explain what your answer means in this situation.    Set and solve for :     A ride that costs covered miles.         Dining Dollars   A student starts the semester with in dining dollars on their campus ID card. They spend each day on lunch.     Write an equation for the balance on the card in terms of the number of days since the semester started. Be sure to define each variable, including units.    Let be the number of days since the semester started and let be the balance on the card in dollars. Then .      What is the balance after days? Explain what your answer means in this situation.    Substitute : . After days of buying lunch, the student has left on the card, which is half of what they started with.      After how many days will the student have left? Explain what your answer means in this situation.    Set and solve for :     After days of buying lunch, the student has in dining dollars left.         A Gym Membership   A gym charges a one-time sign-up fee plus the same fee every month. After months, a member has paid a total of . After months, they have paid a total of .     Find the rate of change, including units. What does it tell you about the cost of the membership?       The rate of change is per month. The gym charges each month, so the total paid goes up by for each additional month of membership.      What is the initial value? What does it mean in this situation?    Work back months from : . The initial value is . This is the one-time sign-up fee, the amount paid at months before any monthly fees.      Write an equation for the total amount paid in terms of the number of months. Be sure to define each variable, including units.    Let be the number of months of membership and let be the total amount paid in dollars. Then .      How much will a member have paid in total after one year? Explain what your answer means in this situation.    One year is months. Substitute : . After one year, a member has paid in total, including the sign-up fee.         An Electric Scooter   A student rides an electric scooter to campus, and the battery drains at a steady rate as they ride. After riding miles, the battery shows charge. After riding miles, it shows charge.     Find the rate of change, including units. What does it tell you about the battery?       The rate of change is percent per mile. The battery loses of its charge for each additional mile ridden.      What is the initial value? What does it mean in this situation?    Work back miles from . Each mile used , so add it back: . The initial value is , which means the battery was fully charged when the student started riding.      Write an equation for the battery charge in terms of the number of miles ridden. Be sure to define each variable, including units.    Let be the number of miles ridden and let be the battery charge as a percent. Then .      What will the battery show after riding miles? Explain what your answer means in this situation.    Substitute : . After riding miles, the battery has of its charge left.      "
+},
+{
+  "id": "lt12-practice-quiz-2",
+  "level": "2",
+  "url": "lt12-practice-quiz.html#lt12-practice-quiz-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Given a linear word situation, I can write an equation; identify and explain the meaning of the slope and the vertical intercept in context; find and explain its meaning; find given and explain its meaning; and determine what inputs make sense.   "
+},
+{
+  "id": "lt12-rideshare",
+  "level": "2",
+  "url": "lt12-practice-quiz.html#lt12-rideshare",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Taking a Rideshare.",
+  "body": " Taking a Rideshare   A rideshare app charges a booking fee for every ride, plus for each mile driven.     Write an equation for the total cost of a ride in terms of the number of miles driven. Be sure to define each variable, including units.    Let be the number of miles driven and let be the total cost of the ride in dollars. Then .      How much does an -mile ride cost? Explain what your answer means in this situation.    Substitute : . An -mile ride costs , including the booking fee.      A ride cost . How many miles long was the ride? Explain what your answer means in this situation.    Set and solve for :     A ride that costs covered miles.    "
+},
+{
+  "id": "lt12-dining",
+  "level": "2",
+  "url": "lt12-practice-quiz.html#lt12-dining",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Dining Dollars.",
+  "body": " Dining Dollars   A student starts the semester with in dining dollars on their campus ID card. They spend each day on lunch.     Write an equation for the balance on the card in terms of the number of days since the semester started. Be sure to define each variable, including units.    Let be the number of days since the semester started and let be the balance on the card in dollars. Then .      What is the balance after days? Explain what your answer means in this situation.    Substitute : . After days of buying lunch, the student has left on the card, which is half of what they started with.      After how many days will the student have left? Explain what your answer means in this situation.    Set and solve for :     After days of buying lunch, the student has in dining dollars left.    "
+},
+{
+  "id": "lt12-gym",
+  "level": "2",
+  "url": "lt12-practice-quiz.html#lt12-gym",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "A Gym Membership.",
+  "body": " A Gym Membership   A gym charges a one-time sign-up fee plus the same fee every month. After months, a member has paid a total of . After months, they have paid a total of .     Find the rate of change, including units. What does it tell you about the cost of the membership?       The rate of change is per month. The gym charges each month, so the total paid goes up by for each additional month of membership.      What is the initial value? What does it mean in this situation?    Work back months from : . The initial value is . This is the one-time sign-up fee, the amount paid at months before any monthly fees.      Write an equation for the total amount paid in terms of the number of months. Be sure to define each variable, including units.    Let be the number of months of membership and let be the total amount paid in dollars. Then .      How much will a member have paid in total after one year? Explain what your answer means in this situation.    One year is months. Substitute : . After one year, a member has paid in total, including the sign-up fee.    "
+},
+{
+  "id": "lt12-scooter",
+  "level": "2",
+  "url": "lt12-practice-quiz.html#lt12-scooter",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "An Electric Scooter.",
+  "body": " An Electric Scooter   A student rides an electric scooter to campus, and the battery drains at a steady rate as they ride. After riding miles, the battery shows charge. After riding miles, it shows charge.     Find the rate of change, including units. What does it tell you about the battery?       The rate of change is percent per mile. The battery loses of its charge for each additional mile ridden.      What is the initial value? What does it mean in this situation?    Work back miles from . Each mile used , so add it back: . The initial value is , which means the battery was fully charged when the student started riding.      Write an equation for the battery charge in terms of the number of miles ridden. Be sure to define each variable, including units.    Let be the number of miles ridden and let be the battery charge as a percent. Then .      What will the battery show after riding miles? Explain what your answer means in this situation.    Substitute : . After riding miles, the battery has of its charge left.    "
+},
+{
+  "id": "lt13-practice-quiz",
+  "level": "1",
+  "url": "lt13-practice-quiz.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Learning Target 13: Solving Linear Equations",
+  "body": " Learning Target 13: Solving Linear Equations    I can solve linear equations symbolically or with a graph.       Problem 1   Solve the equation. Show your work and check your answer.       Subtract from both sides:     Subtract from both sides and divide by :     Check: and .     Problem 2   Solve the equation. Show your work and check your answer.       Subtract from both sides:     Add to both sides and divide by :     Check: and .        Problem 3   Solve the equation. Show your work and check your answer.       Distribute the :     Subtract from both sides, then add to both sides:     Check: and . A solution does not have to be a whole number.     Problem 4   Solve the equation. Show your work and check your answer.       Distribute the :     Combine the like terms on the left:     Add to both sides and divide by :     Check: .        Problem 5   Solve the equation. Show your work and check your answer.       Distribute the negative sign to both terms in the parentheses:     Combine the like terms on the left:     Add to both sides, then add to both sides:     Check: and . A common mistake is writing ; the negative sign applies to the as well.     Problem 6   Solve the equation. Show your work and check your answer.       Distribute on both sides:     Subtract from both sides, then add to both sides:     Check: and .        Problem 7   Solve the equation. Show your work and check your answer.       Distribute on both sides:     Combine the like terms on each side:     Add to both sides, then subtract from both sides:     Check: and .     Problem 8   Solve the equation. Show your work and check your answer.       Distribute on both sides:     Combine the like terms on each side:     Subtract from both sides, then add to both sides:     Check: and .        Problem 9 (Challenge)   This equation has squared terms, but it can still be solved like a linear equation. Solve it, show your work, and check your answer.       Distribute the on the left:     Subtract from both sides. The squared terms cancel, leaving a linear equation:     Add to both sides, then add to both sides:     Check: and .     Problem 10 (Challenge)   Treat as a single quantity and solve the equation the same way you would a linear equation. Then find . Show your work and check your answer.       Subtract from both sides, then subtract from both sides:     The number whose cube is is , since . So .  Check: and .     "
+},
+{
+  "id": "lt13-practice-quiz-2",
+  "level": "2",
+  "url": "lt13-practice-quiz.html#lt13-practice-quiz-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  I can solve linear equations symbolically or with a graph.   "
+},
+{
+  "id": "lt13-solve-1",
+  "level": "2",
+  "url": "lt13-practice-quiz.html#lt13-solve-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Problem 1.",
+  "body": " Problem 1   Solve the equation. Show your work and check your answer.       Subtract from both sides:     Subtract from both sides and divide by :     Check: and .   "
+},
+{
+  "id": "lt13-solve-2",
+  "level": "2",
+  "url": "lt13-practice-quiz.html#lt13-solve-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problem 2.",
+  "body": " Problem 2   Solve the equation. Show your work and check your answer.       Subtract from both sides:     Add to both sides and divide by :     Check: and .   "
+},
+{
+  "id": "lt13-solve-3",
+  "level": "2",
+  "url": "lt13-practice-quiz.html#lt13-solve-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Problem 3.",
+  "body": " Problem 3   Solve the equation. Show your work and check your answer.       Distribute the :     Subtract from both sides, then add to both sides:     Check: and . A solution does not have to be a whole number.   "
+},
+{
+  "id": "lt13-solve-4",
+  "level": "2",
+  "url": "lt13-practice-quiz.html#lt13-solve-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Problem 4.",
+  "body": " Problem 4   Solve the equation. Show your work and check your answer.       Distribute the :     Combine the like terms on the left:     Add to both sides and divide by :     Check: .   "
+},
+{
+  "id": "lt13-solve-5",
+  "level": "2",
+  "url": "lt13-practice-quiz.html#lt13-solve-5",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Problem 5.",
+  "body": " Problem 5   Solve the equation. Show your work and check your answer.       Distribute the negative sign to both terms in the parentheses:     Combine the like terms on the left:     Add to both sides, then add to both sides:     Check: and . A common mistake is writing ; the negative sign applies to the as well.   "
+},
+{
+  "id": "lt13-solve-6",
+  "level": "2",
+  "url": "lt13-practice-quiz.html#lt13-solve-6",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Problem 6.",
+  "body": " Problem 6   Solve the equation. Show your work and check your answer.       Distribute on both sides:     Subtract from both sides, then add to both sides:     Check: and .   "
+},
+{
+  "id": "lt13-solve-7",
+  "level": "2",
+  "url": "lt13-practice-quiz.html#lt13-solve-7",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Problem 7.",
+  "body": " Problem 7   Solve the equation. Show your work and check your answer.       Distribute on both sides:     Combine the like terms on each side:     Add to both sides, then subtract from both sides:     Check: and .   "
+},
+{
+  "id": "lt13-solve-8",
+  "level": "2",
+  "url": "lt13-practice-quiz.html#lt13-solve-8",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "Problem 8.",
+  "body": " Problem 8   Solve the equation. Show your work and check your answer.       Distribute on both sides:     Combine the like terms on each side:     Subtract from both sides, then add to both sides:     Check: and .   "
+},
+{
+  "id": "lt13-solve-9",
+  "level": "2",
+  "url": "lt13-practice-quiz.html#lt13-solve-9",
+  "type": "Worksheet Exercise",
+  "number": "9",
+  "title": "Problem 9 (Challenge).",
+  "body": " Problem 9 (Challenge)   This equation has squared terms, but it can still be solved like a linear equation. Solve it, show your work, and check your answer.       Distribute the on the left:     Subtract from both sides. The squared terms cancel, leaving a linear equation:     Add to both sides, then add to both sides:     Check: and .   "
+},
+{
+  "id": "lt13-solve-10",
+  "level": "2",
+  "url": "lt13-practice-quiz.html#lt13-solve-10",
+  "type": "Worksheet Exercise",
+  "number": "10",
+  "title": "Problem 10 (Challenge).",
+  "body": " Problem 10 (Challenge)   Treat as a single quantity and solve the equation the same way you would a linear equation. Then find . Show your work and check your answer.       Subtract from both sides, then subtract from both sides:     The number whose cube is is , since . So .  Check: and .   "
+},
+{
+  "id": "lt14-practice-quiz",
+  "level": "1",
+  "url": "lt14-practice-quiz.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Learning Target 14: Linear Regression",
+  "body": " Learning Target 14: Linear Regression    Given a data set, I can build a linear regression model in Desmos; identify and explain the meaning of the slope and the vertical intercept in context; find and explain its meaning; and find given and explain its meaning.     To find a linear regression model in Desmos:    Enter the data. Click the plus sign ( ) to add a table and type in the values. The columns will be labeled and .  Find the regression line. In a new line below the table, type . Desmos will fit a line to the data and display and .  Round. Round and to decimal places when you write your model.        Carbon Dioxide in the Atmosphere   Scientists have measured the amount of carbon dioxide in the air at the Mauna Loa Observatory in Hawaii since 1958. The table shows the average concentration for each year from 2014 to 2023, measured in parts per million (ppm). Data source: NOAA Global Monitoring Laboratory, annual mean carbon dioxide at Mauna Loa Observatory.                Year  2014  2015  2016  2017  2018  2019  2020  2021  2022  2023    Years since 2014              CO 2 (ppm)               Use this Desmos graph to enter the data and find your model.       Define your variables, including units.  Let   Let     Let be the number of years since 2014 and let be the average carbon dioxide concentration in parts per million (ppm).      Use Desmos to find the linear regression model. Round to decimal places.           What is the slope of your model? Write one sentence explaining what it means in this context.    The slope is . Each year, the average carbon dioxide concentration goes up by about ppm.      What is the vertical intercept of your model? Write one sentence explaining what it means in this context.    The vertical intercept is . The model estimates that the average carbon dioxide concentration in 2014 was about ppm, which is close to the measured value of ppm.      Use your model to predict the carbon dioxide concentration in 2030. Explain what your answer means.    The year 2030 is years after 2014, so substitute : . If the trend continues, the average carbon dioxide concentration in 2030 will be about ppm.      According to your model, in what year will the carbon dioxide concentration reach ppm? Explain what your answer means.    Set and solve for :     That is about years after 2014. If the trend continues, the carbon dioxide concentration will reach ppm during 2034, a little before 2035.         The U.S. Population   Every ten years, the U.S. Census Bureau counts the number of people living in the United States. The table shows the population from each census since 1950, in millions of people. Data source: U.S. Census Bureau, decennial census counts of the resident population.              Year  1950  1960  1970  1980  1990  2000  2010  2020    Years since 1950            Population (millions)             Use this Desmos graph to enter the data and find your model.       Define your variables, including units.  Let   Let     Let be the number of years since 1950 and let be the U.S. population in millions of people.      Use Desmos to find the linear regression model. Round to decimal places.           What is the slope of your model? Write one sentence explaining what it means in this context.    The slope is . The U.S. population grows by about million people each year.      What is the vertical intercept of your model? Write one sentence explaining what it means in this context.    The vertical intercept is . The model estimates that the U.S. population in 1950 was about million people.      Use your model to predict the U.S. population in 2030. Explain what your answer means.    The year 2030 is years after 1950, so substitute : . If the trend continues, the U.S. population in 2030 will be about million people.      According to your model, in what year will the U.S. population reach million people? Explain what your answer means.    Set and solve for :     That is about years after 1950. If the trend continues, the U.S. population will reach million people during 2046, a little before 2047.         The Speed of Sound   Sound travels faster in warm air than in cold air. The table shows the speed of sound in dry air at several temperatures, measured in meters per second (m\/s). Data source: standard physics reference values for the speed of sound in dry air at sea-level pressure.             Temperature ( C)           Speed of sound (m\/s)            Use this Desmos graph to enter the data and find your model.       Define your variables, including units.  Let   Let     Let be the air temperature in degrees Celsius and let be the speed of sound in meters per second.      Use Desmos to find the linear regression model. Round to decimal places.           What is the slope of your model? Write one sentence explaining what it means in this context.    The slope is . For each additional degree Celsius, sound travels about meters per second faster.      What is the vertical intercept of your model? Write one sentence explaining what it means in this context.    The vertical intercept is . The model estimates that at C, the temperature at which water freezes, sound travels about meters per second.      Use your model to predict the speed of sound on a C day. Explain what your answer means.    Substitute : . When the air temperature is C, sound travels about meters per second.      According to your model, at what temperature does sound travel at meters per second? Explain what your answer means.    Set and solve for :     Sound travels at meters per second when the air temperature is about C.      "
+},
+{
+  "id": "lt14-practice-quiz-2",
+  "level": "2",
+  "url": "lt14-practice-quiz.html#lt14-practice-quiz-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Given a data set, I can build a linear regression model in Desmos; identify and explain the meaning of the slope and the vertical intercept in context; find and explain its meaning; and find given and explain its meaning.   "
+},
+{
+  "id": "lt14-co2",
+  "level": "2",
+  "url": "lt14-practice-quiz.html#lt14-co2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Carbon Dioxide in the Atmosphere.",
+  "body": " Carbon Dioxide in the Atmosphere   Scientists have measured the amount of carbon dioxide in the air at the Mauna Loa Observatory in Hawaii since 1958. The table shows the average concentration for each year from 2014 to 2023, measured in parts per million (ppm). Data source: NOAA Global Monitoring Laboratory, annual mean carbon dioxide at Mauna Loa Observatory.                Year  2014  2015  2016  2017  2018  2019  2020  2021  2022  2023    Years since 2014              CO 2 (ppm)               Use this Desmos graph to enter the data and find your model.       Define your variables, including units.  Let   Let     Let be the number of years since 2014 and let be the average carbon dioxide concentration in parts per million (ppm).      Use Desmos to find the linear regression model. Round to decimal places.           What is the slope of your model? Write one sentence explaining what it means in this context.    The slope is . Each year, the average carbon dioxide concentration goes up by about ppm.      What is the vertical intercept of your model? Write one sentence explaining what it means in this context.    The vertical intercept is . The model estimates that the average carbon dioxide concentration in 2014 was about ppm, which is close to the measured value of ppm.      Use your model to predict the carbon dioxide concentration in 2030. Explain what your answer means.    The year 2030 is years after 2014, so substitute : . If the trend continues, the average carbon dioxide concentration in 2030 will be about ppm.      According to your model, in what year will the carbon dioxide concentration reach ppm? Explain what your answer means.    Set and solve for :     That is about years after 2014. If the trend continues, the carbon dioxide concentration will reach ppm during 2034, a little before 2035.    "
+},
+{
+  "id": "lt14-population",
+  "level": "2",
+  "url": "lt14-practice-quiz.html#lt14-population",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "The U.S. Population.",
+  "body": " The U.S. Population   Every ten years, the U.S. Census Bureau counts the number of people living in the United States. The table shows the population from each census since 1950, in millions of people. Data source: U.S. Census Bureau, decennial census counts of the resident population.              Year  1950  1960  1970  1980  1990  2000  2010  2020    Years since 1950            Population (millions)             Use this Desmos graph to enter the data and find your model.       Define your variables, including units.  Let   Let     Let be the number of years since 1950 and let be the U.S. population in millions of people.      Use Desmos to find the linear regression model. Round to decimal places.           What is the slope of your model? Write one sentence explaining what it means in this context.    The slope is . The U.S. population grows by about million people each year.      What is the vertical intercept of your model? Write one sentence explaining what it means in this context.    The vertical intercept is . The model estimates that the U.S. population in 1950 was about million people.      Use your model to predict the U.S. population in 2030. Explain what your answer means.    The year 2030 is years after 1950, so substitute : . If the trend continues, the U.S. population in 2030 will be about million people.      According to your model, in what year will the U.S. population reach million people? Explain what your answer means.    Set and solve for :     That is about years after 1950. If the trend continues, the U.S. population will reach million people during 2046, a little before 2047.    "
+},
+{
+  "id": "lt14-sound",
+  "level": "2",
+  "url": "lt14-practice-quiz.html#lt14-sound",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "The Speed of Sound.",
+  "body": " The Speed of Sound   Sound travels faster in warm air than in cold air. The table shows the speed of sound in dry air at several temperatures, measured in meters per second (m\/s). Data source: standard physics reference values for the speed of sound in dry air at sea-level pressure.             Temperature ( C)           Speed of sound (m\/s)            Use this Desmos graph to enter the data and find your model.       Define your variables, including units.  Let   Let     Let be the air temperature in degrees Celsius and let be the speed of sound in meters per second.      Use Desmos to find the linear regression model. Round to decimal places.           What is the slope of your model? Write one sentence explaining what it means in this context.    The slope is . For each additional degree Celsius, sound travels about meters per second faster.      What is the vertical intercept of your model? Write one sentence explaining what it means in this context.    The vertical intercept is . The model estimates that at C, the temperature at which water freezes, sound travels about meters per second.      Use your model to predict the speed of sound on a C day. Explain what your answer means.    Substitute : . When the air temperature is C, sound travels about meters per second.      According to your model, at what temperature does sound travel at meters per second? Explain what your answer means.    Set and solve for :     Sound travels at meters per second when the air temperature is about C.    "
+},
+{
+  "id": "lt15-practice-quiz",
+  "level": "1",
+  "url": "lt15-practice-quiz.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Learning Target 15: Systems of Linear Equations",
+  "body": " Learning Target 15: Systems of Linear Equations    Given a system of linear equations, a word situation, or data sets, I can create a system of equations as applicable and solve the system.     For each problem, write two equations, graph them in Desmos, and use the point where the lines cross to answer the question. Desmos only graphs with and , so keep track of which quantity each letter stands for.   Use this Desmos graph to graph your systems.        Bubble Tea Sales   A bubble tea shop sells small drinks for each and large drinks for each. During one afternoon, the shop sold drinks and brought in . How many small drinks and how many large drinks did the shop sell?     Define your variables. Then write an equation for the total number of drinks sold.    Let be the number of small drinks and let be the number of large drinks. The total number of drinks is .      Write an equation for the total amount of money the shop brought in.    Small drinks bring in dollars and large drinks bring in dollars, so .      Rewrite both equations using and so you can graph them in Desmos. Which quantity does stand for, and which does stand for?    Let stand for small drinks and stand for large drinks. In Desmos, enter and .      Where do the two lines cross?    The lines cross at . Check: and .      Write a complete sentence that answers the question, using your solution point.    The shop sold small drinks and large drinks, for a total of drinks and .         Ordering Club Merch   A student organization orders hoodies and T-shirts with its logo. Each hoodie costs and each T-shirt costs . The club orders items in all and spends . How many hoodies and how many T-shirts did the club order?     Define your variables. Then write an equation for the total number of items ordered.    Let be the number of hoodies and let be the number of T-shirts. The total number of items is .      Write an equation for the total amount the club spent.    Hoodies cost dollars and T-shirts cost dollars, so .      Rewrite both equations using and so you can graph them in Desmos. Which quantity does stand for, and which does stand for?    Let stand for hoodies and stand for T-shirts. In Desmos, enter and .      Where do the two lines cross?    The lines cross at . Check: and .      Write a complete sentence that answers the question, using your solution point.    The club ordered hoodies and T-shirts, for a total of items costing .         Comparing Scooter Rentals   Two companies rent electric scooters downtown. ZipRide charges to unlock a scooter plus per minute. GoScoot has no unlock fee but charges per minute. For what length of ride do the two companies cost the same, and what is that cost?     Define your variables. Then write an equation for the cost of a ZipRide ride.    Let be the length of the ride in minutes and let be the cost of the ride in dollars. For ZipRide, .      Write an equation for the cost of a GoScoot ride.    For GoScoot, .      Rewrite both equations using and so you can graph them in Desmos. Which quantity does stand for, and which does stand for?    Let stand for minutes and stand for cost in dollars. In Desmos, enter and .      Where do the two lines cross?    The lines cross at . Check: and .      Write a complete sentence that answers the question, using your solution point.    A -minute ride costs with either company. For rides shorter than minutes GoScoot is cheaper, and for longer rides ZipRide is cheaper.         Racing to Subscribers   Two YouTube channels are each gaining subscribers at a steady rate. The tables show the number of subscribers each channel has, in months since the start of the year. When will the two channels have the same number of subscribers, and how many will each have?     Month  Channel A                      Month  Channel B                        Define your variables. Then write an equation for the number of subscribers Channel A has.    Let be the number of months since the start of the year and let be the number of subscribers. Channel A starts at and gains each month, so .      Write an equation for the number of subscribers Channel B has.    Channel B starts at and gains each month, so .      Rewrite both equations using and so you can graph them in Desmos. Which quantity does stand for, and which does stand for? You will need to adjust the window to see where the lines cross.    Let stand for months and stand for subscribers. In Desmos, enter and . A window with from to and from to shows where they cross.      Where do the two lines cross?    The lines cross at . Check: and .      Write a complete sentence that answers the question, using your solution point.    After months, both channels will have subscribers. After that, Channel A will have more subscribers because it is growing faster.      "
+},
+{
+  "id": "lt15-practice-quiz-2",
+  "level": "2",
+  "url": "lt15-practice-quiz.html#lt15-practice-quiz-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Given a system of linear equations, a word situation, or data sets, I can create a system of equations as applicable and solve the system.   "
+},
+{
+  "id": "lt15-practice-quiz-3-2",
+  "level": "2",
+  "url": "lt15-practice-quiz.html#lt15-practice-quiz-3-2",
+  "type": "Figure",
+  "number": "10",
+  "title": "",
+  "body": " Use this Desmos graph to graph your systems.   "
+},
+{
+  "id": "lt15-boba",
+  "level": "2",
+  "url": "lt15-practice-quiz.html#lt15-boba",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Bubble Tea Sales.",
+  "body": " Bubble Tea Sales   A bubble tea shop sells small drinks for each and large drinks for each. During one afternoon, the shop sold drinks and brought in . How many small drinks and how many large drinks did the shop sell?     Define your variables. Then write an equation for the total number of drinks sold.    Let be the number of small drinks and let be the number of large drinks. The total number of drinks is .      Write an equation for the total amount of money the shop brought in.    Small drinks bring in dollars and large drinks bring in dollars, so .      Rewrite both equations using and so you can graph them in Desmos. Which quantity does stand for, and which does stand for?    Let stand for small drinks and stand for large drinks. In Desmos, enter and .      Where do the two lines cross?    The lines cross at . Check: and .      Write a complete sentence that answers the question, using your solution point.    The shop sold small drinks and large drinks, for a total of drinks and .    "
+},
+{
+  "id": "lt15-merch",
+  "level": "2",
+  "url": "lt15-practice-quiz.html#lt15-merch",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Ordering Club Merch.",
+  "body": " Ordering Club Merch   A student organization orders hoodies and T-shirts with its logo. Each hoodie costs and each T-shirt costs . The club orders items in all and spends . How many hoodies and how many T-shirts did the club order?     Define your variables. Then write an equation for the total number of items ordered.    Let be the number of hoodies and let be the number of T-shirts. The total number of items is .      Write an equation for the total amount the club spent.    Hoodies cost dollars and T-shirts cost dollars, so .      Rewrite both equations using and so you can graph them in Desmos. Which quantity does stand for, and which does stand for?    Let stand for hoodies and stand for T-shirts. In Desmos, enter and .      Where do the two lines cross?    The lines cross at . Check: and .      Write a complete sentence that answers the question, using your solution point.    The club ordered hoodies and T-shirts, for a total of items costing .    "
+},
+{
+  "id": "lt15-scooters",
+  "level": "2",
+  "url": "lt15-practice-quiz.html#lt15-scooters",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Comparing Scooter Rentals.",
+  "body": " Comparing Scooter Rentals   Two companies rent electric scooters downtown. ZipRide charges to unlock a scooter plus per minute. GoScoot has no unlock fee but charges per minute. For what length of ride do the two companies cost the same, and what is that cost?     Define your variables. Then write an equation for the cost of a ZipRide ride.    Let be the length of the ride in minutes and let be the cost of the ride in dollars. For ZipRide, .      Write an equation for the cost of a GoScoot ride.    For GoScoot, .      Rewrite both equations using and so you can graph them in Desmos. Which quantity does stand for, and which does stand for?    Let stand for minutes and stand for cost in dollars. In Desmos, enter and .      Where do the two lines cross?    The lines cross at . Check: and .      Write a complete sentence that answers the question, using your solution point.    A -minute ride costs with either company. For rides shorter than minutes GoScoot is cheaper, and for longer rides ZipRide is cheaper.    "
+},
+{
+  "id": "lt15-channels",
+  "level": "2",
+  "url": "lt15-practice-quiz.html#lt15-channels",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Racing to Subscribers.",
+  "body": " Racing to Subscribers   Two YouTube channels are each gaining subscribers at a steady rate. The tables show the number of subscribers each channel has, in months since the start of the year. When will the two channels have the same number of subscribers, and how many will each have?     Month  Channel A                      Month  Channel B                        Define your variables. Then write an equation for the number of subscribers Channel A has.    Let be the number of months since the start of the year and let be the number of subscribers. Channel A starts at and gains each month, so .      Write an equation for the number of subscribers Channel B has.    Channel B starts at and gains each month, so .      Rewrite both equations using and so you can graph them in Desmos. Which quantity does stand for, and which does stand for? You will need to adjust the window to see where the lines cross.    Let stand for months and stand for subscribers. In Desmos, enter and . A window with from to and from to shows where they cross.      Where do the two lines cross?    The lines cross at . Check: and .      Write a complete sentence that answers the question, using your solution point.    After months, both channels will have subscribers. After that, Channel A will have more subscribers because it is growing faster.    "
+},
+{
   "id": "writing-assignment-1",
   "level": "1",
   "url": "writing-assignment-1.html",
