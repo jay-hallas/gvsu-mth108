@@ -66,6 +66,14 @@
 <xi:include href="./lt-practice-quiz/LT5-Scatter.ptx"/>
 <xi:include href="./lt-practice-quiz/LT6-draw.ptx"/>
 <xi:include href="./lt-practice-quiz/LT7-describe.ptx"/>
+<xi:include href="./lt-practice-quiz/LT8-proportion.ptx"/>
+<xi:include href="./lt-practice-quiz/LT9-slope.ptx"/>
+<xi:include href="./lt-practice-quiz/LT10-linearforms.ptx"/>
+<xi:include href="./lt-practice-quiz/LT11-lineargraph.ptx"/>
+<xi:include href="./lt-practice-quiz/LT12-linearapps.ptx"/>
+<xi:include href="./lt-practice-quiz/LT13-lineareq.ptx"/>
+<xi:include href="./lt-practice-quiz/LT14-regression.ptx"/>
+<xi:include href="./lt-practice-quiz/LT15-systems.ptx"/>
     </chapter>
 
     <chapter xml:id="homework">

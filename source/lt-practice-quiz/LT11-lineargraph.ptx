@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="lt11-practice-quiz">
+  <title>Learning Target 11: Reading Linear Graphs</title>
+  <objectives>
+    <ul>
+      <li>Given a linear graph, I can identify the slope in context, the vertical intercept, and the horizontal intercept; evaluate <m>f(a)</m>; find <m>x</m> given <m>f(a)</m>; and write the equation of the line.</li>
+    </ul>
+  </objectives>
+
+  <!-- ============================================================
+       PROBLEM 1: y = 2x - 4
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt11-graph-1">
+      <title>Problem 1</title>
+      <introduction>
+        <p>Use the graph of the line below to answer each question.</p>
+        <image width="60%">
+          <shortdescription>A line rising from lower left to upper right, crossing the y-axis at negative 4 and the x-axis at 2.</shortdescription>
+          <description>
+            <p>A coordinate grid from <m>-6</m> to <m>6</m> on both axes. A straight line passes through <m>(-1,-6)</m>, <m>(0,-4)</m>, <m>(2,0)</m>, <m>(4,4)</m>, and <m>(5,6)</m>.</p>
+          </description>
+          <prefigure xmlns="https://prefigure.org" label="lt11-graph-1">
+            <diagram dimensions="(360,360)" margins="(5,5,5,5)">
+              <coordinates bbox="(-6.5,-6.5,6.5,6.5)">
+                <grid-axes spacings="((-6,1,6),(-6,1,6))" hlabels="(-6,2,6)" vlabels="(-6,2,6)">
+                  <xlabel>x</xlabel>
+                  <ylabel>y</ylabel>
+                </grid-axes>
+                <line endpoints="((-1,-6),(5,6))" stroke="#0072CE" thickness="3" arrows="2"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>The <m>y</m>-intercept is <fillin characters="20"/>.</p>
+        </statement>
+        <answer>
+          <p>The line crosses the <m>y</m>-axis at <m>(0,-4)</m>, so the <m>y</m>-intercept is <m>-4</m>.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>The <m>x</m>-intercept is <fillin characters="20"/>.</p>
+        </statement>
+        <answer>
+          <p>The line crosses the <m>x</m>-axis at <m>(2,0)</m>, so the <m>x</m>-intercept is <m>2</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.6in">
+        <statement>
+          <p>The slope of the line is <fillin characters="20"/>.</p>
+        </statement>
+        <answer>
+          <p>From <m>(0,-4)</m> to <m>(2,0)</m> the line rises <m>4</m> and runs <m>2</m>, so the slope is <m>\frac{4}{2} = 2</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.5in">
+        <statement>
+          <p>Find <m>y</m> when <m>x = 3</m>. <fillin characters="20"/></p>
+        </statement>
+        <answer>
+          <p>The point on the line with <m>x = 3</m> is <m>(3,2)</m>, so <m>y = 2</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.5in">
+        <statement>
+          <p>Find <m>x</m> when <m>y = 4</m>. <fillin characters="20"/></p>
+        </statement>
+        <answer>
+          <p>The point on the line with <m>y = 4</m> is <m>(4,4)</m>, so <m>x = 4</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.5in">
+        <statement>
+          <p>What is the equation of the line? <fillin characters="30"/></p>
+        </statement>
+        <answer>
+          <p>With slope <m>2</m> and <m>y</m>-intercept <m>-4</m>, the equation is <m>y = 2x - 4</m>.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 2: y = -(1/2)x + 3
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt11-graph-2">
+      <title>Problem 2</title>
+      <introduction>
+        <p>Use the graph of the line below to answer each question.</p>
+        <image width="60%">
+          <shortdescription>A line falling gently from upper left to lower right, crossing the y-axis at 3 and the x-axis at 6.</shortdescription>
+          <description>
+            <p>A coordinate grid from <m>-7</m> to <m>7</m> on both axes. A straight line passes through <m>(-6,6)</m>, <m>(-2,4)</m>, <m>(0,3)</m>, <m>(4,1)</m>, and <m>(6,0)</m>.</p>
+          </description>
+          <prefigure xmlns="https://prefigure.org" label="lt11-graph-2">
+            <diagram dimensions="(360,360)" margins="(5,5,5,5)">
+              <coordinates bbox="(-7.5,-7.5,7.5,7.5)">
+                <grid-axes spacings="((-7,1,7),(-7,1,7))" hlabels="(-6,2,6)" vlabels="(-6,2,6)">
+                  <xlabel>x</xlabel>
+                  <ylabel>y</ylabel>
+                </grid-axes>
+                <line endpoints="((-7,6.5),(7,-0.5))" stroke="#0072CE" thickness="3" arrows="2"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>The <m>y</m>-intercept is <fillin characters="20"/>.</p>
+        </statement>
+        <answer>
+          <p>The line crosses the <m>y</m>-axis at <m>(0,3)</m>, so the <m>y</m>-intercept is <m>3</m>.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>The <m>x</m>-intercept is <fillin characters="20"/>.</p>
+        </statement>
+        <answer>
+          <p>The line crosses the <m>x</m>-axis at <m>(6,0)</m>, so the <m>x</m>-intercept is <m>6</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.6in">
+        <statement>
+          <p>The slope of the line is <fillin characters="20"/>.</p>
+        </statement>
+        <answer>
+          <p>From <m>(0,3)</m> to <m>(6,0)</m> the line falls <m>3</m> and runs <m>6</m>, so the slope is <m>\frac{-3}{6} = -\frac{1}{2}</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.5in">
+        <statement>
+          <p>Find <m>y</m> when <m>x = -2</m>. <fillin characters="20"/></p>
+        </statement>
+        <answer>
+          <p>The point on the line with <m>x = -2</m> is <m>(-2,4)</m>, so <m>y = 4</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.5in">
+        <statement>
+          <p>Find <m>x</m> when <m>y = 1</m>. <fillin characters="20"/></p>
+        </statement>
+        <answer>
+          <p>The point on the line with <m>y = 1</m> is <m>(4,1)</m>, so <m>x = 4</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.5in">
+        <statement>
+          <p>What is the equation of the line? <fillin characters="30"/></p>
+        </statement>
+        <answer>
+          <p>With slope <m>-\frac{1}{2}</m> and <m>y</m>-intercept <m>3</m>, the equation is <m>y = -\frac{1}{2}x + 3</m>.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 3: y = -(3/2)x - 3
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt11-graph-3">
+      <title>Problem 3</title>
+      <introduction>
+        <p>Use the graph of the line below to answer each question.</p>
+        <image width="60%">
+          <shortdescription>A line falling steeply from upper left to lower right, crossing the x-axis at negative 2 and the y-axis at negative 3.</shortdescription>
+          <description>
+            <p>A coordinate grid from <m>-6</m> to <m>6</m> on both axes. A straight line passes through <m>(-6,6)</m>, <m>(-4,3)</m>, <m>(-2,0)</m>, <m>(0,-3)</m>, and <m>(2,-6)</m>.</p>
+          </description>
+          <prefigure xmlns="https://prefigure.org" label="lt11-graph-3">
+            <diagram dimensions="(360,360)" margins="(5,5,5,5)">
+              <coordinates bbox="(-6.5,-6.5,6.5,6.5)">
+                <grid-axes spacings="((-6,1,6),(-6,1,6))" hlabels="(-6,2,6)" vlabels="(-6,2,6)">
+                  <xlabel>x</xlabel>
+                  <ylabel>y</ylabel>
+                </grid-axes>
+                <line endpoints="((-6,6),(2,-6))" stroke="#0072CE" thickness="3" arrows="2"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>The <m>y</m>-intercept is <fillin characters="20"/>.</p>
+        </statement>
+        <answer>
+          <p>The line crosses the <m>y</m>-axis at <m>(0,-3)</m>, so the <m>y</m>-intercept is <m>-3</m>.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>The <m>x</m>-intercept is <fillin characters="20"/>.</p>
+        </statement>
+        <answer>
+          <p>The line crosses the <m>x</m>-axis at <m>(-2,0)</m>, so the <m>x</m>-intercept is <m>-2</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.6in">
+        <statement>
+          <p>The slope of the line is <fillin characters="20"/>.</p>
+        </statement>
+        <answer>
+          <p>From <m>(-2,0)</m> to <m>(0,-3)</m> the line falls <m>3</m> and runs <m>2</m>, so the slope is <m>\frac{-3}{2} = -\frac{3}{2}</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.5in">
+        <statement>
+          <p>Find <m>y</m> when <m>x = -4</m>. <fillin characters="20"/></p>
+        </statement>
+        <answer>
+          <p>The point on the line with <m>x = -4</m> is <m>(-4,3)</m>, so <m>y = 3</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.5in">
+        <statement>
+          <p>Find <m>x</m> when <m>y = -6</m>. <fillin characters="20"/></p>
+        </statement>
+        <answer>
+          <p>The point on the line with <m>y = -6</m> is <m>(2,-6)</m>, so <m>x = 2</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.5in">
+        <statement>
+          <p>What is the equation of the line? <fillin characters="30"/></p>
+        </statement>
+        <answer>
+          <p>With slope <m>-\frac{3}{2}</m> and <m>y</m>-intercept <m>-3</m>, the equation is <m>y = -\frac{3}{2}x - 3</m>.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+</worksheet>

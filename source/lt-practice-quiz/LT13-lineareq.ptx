@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="lt13-practice-quiz">
+  <title>Learning Target 13: Solving Linear Equations</title>
+  <objectives>
+    <ul>
+      <li>I can solve linear equations symbolically or with a graph.</li>
+    </ul>
+  </objectives>
+
+  <!-- ============================================================
+       PAGE 1: Problems 1-2
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt13-solve-1" workspace="3.25in">
+      <title>Problem 1</title>
+      <statement>
+        <p>Solve the equation. Show your work and check your answer.</p>
+        <p>
+          <md>
+            <mrow>4x + 3 = x + 9</mrow>
+          </md>
+        </p>
+      </statement>
+      <answer>
+        <p>Subtract <m>x</m> from both sides:</p>
+        <p>
+          <md>
+            <mrow>3x + 3 = 9</mrow>
+          </md>
+        </p>
+        <p>Subtract <m>3</m> from both sides and divide by <m>3</m>:</p>
+        <p>
+          <md>
+            <mrow>3x \amp= 6</mrow>
+            <mrow>x \amp= 2</mrow>
+          </md>
+        </p>
+        <p>Check: <m>4(2) + 3 = 11</m> and <m>2 + 9 = 11</m>.</p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="lt13-solve-2" workspace="3.25in">
+      <title>Problem 2</title>
+      <statement>
+        <p>Solve the equation. Show your work and check your answer.</p>
+        <p>
+          <md>
+            <mrow>5n - 7 = 2n + 8</mrow>
+          </md>
+        </p>
+      </statement>
+      <answer>
+        <p>Subtract <m>2n</m> from both sides:</p>
+        <p>
+          <md>
+            <mrow>3n - 7 = 8</mrow>
+          </md>
+        </p>
+        <p>Add <m>7</m> to both sides and divide by <m>3</m>:</p>
+        <p>
+          <md>
+            <mrow>3n \amp= 15</mrow>
+            <mrow>n \amp= 5</mrow>
+          </md>
+        </p>
+        <p>Check: <m>5(5) - 7 = 18</m> and <m>2(5) + 8 = 18</m>.</p>
+      </answer>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PAGE 2: Problems 3-4
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt13-solve-3" workspace="3.25in">
+      <title>Problem 3</title>
+      <statement>
+        <p>Solve the equation. Show your work and check your answer.</p>
+        <p>
+          <md>
+            <mrow>-3(x + 4) = 2x - 16</mrow>
+          </md>
+        </p>
+      </statement>
+      <answer>
+        <p>Distribute the <m>-3</m>:</p>
+        <p>
+          <md>
+            <mrow>-3x - 12 = 2x - 16</mrow>
+          </md>
+        </p>
+        <p>Subtract <m>2x</m> from both sides, then add <m>12</m> to both sides:</p>
+        <p>
+          <md>
+            <mrow>-5x - 12 \amp= -16</mrow>
+            <mrow>-5x \amp= -4</mrow>
+            <mrow>x \amp= \frac{4}{5}</mrow>
+          </md>
+        </p>
+        <p>Check: <m>-3\left(\frac{4}{5} + 4\right) = -3\left(\frac{24}{5}\right) = -\frac{72}{5}</m> and <m>2\left(\frac{4}{5}\right) - 16 = \frac{8}{5} - \frac{80}{5} = -\frac{72}{5}</m>. A solution does not have to be a whole number.</p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="lt13-solve-4" workspace="3.25in">
+      <title>Problem 4</title>
+      <statement>
+        <p>Solve the equation. Show your work and check your answer.</p>
+        <p>
+          <md>
+            <mrow>2(t - 5) + 3t = 20</mrow>
+          </md>
+        </p>
+      </statement>
+      <answer>
+        <p>Distribute the <m>2</m>:</p>
+        <p>
+          <md>
+            <mrow>2t - 10 + 3t = 20</mrow>
+          </md>
+        </p>
+        <p>Combine the like terms on the left:</p>
+        <p>
+          <md>
+            <mrow>5t - 10 = 20</mrow>
+          </md>
+        </p>
+        <p>Add <m>10</m> to both sides and divide by <m>5</m>:</p>
+        <p>
+          <md>
+            <mrow>5t \amp= 30</mrow>
+            <mrow>t \amp= 6</mrow>
+          </md>
+        </p>
+        <p>Check: <m>2(6 - 5) + 3(6) = 2 + 18 = 20</m>.</p>
+      </answer>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PAGE 3: Problems 5-6
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt13-solve-5" workspace="3.25in">
+      <title>Problem 5</title>
+      <statement>
+        <p>Solve the equation. Show your work and check your answer.</p>
+        <p>
+          <md>
+            <mrow>7 - (y + 3) = 3y - 8</mrow>
+          </md>
+        </p>
+      </statement>
+      <answer>
+        <p>Distribute the negative sign to both terms in the parentheses:</p>
+        <p>
+          <md>
+            <mrow>7 - y - 3 = 3y - 8</mrow>
+          </md>
+        </p>
+        <p>Combine the like terms on the left:</p>
+        <p>
+          <md>
+            <mrow>4 - y = 3y - 8</mrow>
+          </md>
+        </p>
+        <p>Add <m>y</m> to both sides, then add <m>8</m> to both sides:</p>
+        <p>
+          <md>
+            <mrow>4 \amp= 4y - 8</mrow>
+            <mrow>12 \amp= 4y</mrow>
+            <mrow>3 \amp= y</mrow>
+          </md>
+        </p>
+        <p>Check: <m>7 - (3 + 3) = 1</m> and <m>3(3) - 8 = 1</m>. A common mistake is writing <m>7 - y + 3</m>; the negative sign applies to the <m>3</m> as well.</p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="lt13-solve-6" workspace="3.25in">
+      <title>Problem 6</title>
+      <statement>
+        <p>Solve the equation. Show your work and check your answer.</p>
+        <p>
+          <md>
+            <mrow>4(2a - 1) = 3(a + 7)</mrow>
+          </md>
+        </p>
+      </statement>
+      <answer>
+        <p>Distribute on both sides:</p>
+        <p>
+          <md>
+            <mrow>8a - 4 = 3a + 21</mrow>
+          </md>
+        </p>
+        <p>Subtract <m>3a</m> from both sides, then add <m>4</m> to both sides:</p>
+        <p>
+          <md>
+            <mrow>5a - 4 \amp= 21</mrow>
+            <mrow>5a \amp= 25</mrow>
+            <mrow>a \amp= 5</mrow>
+          </md>
+        </p>
+        <p>Check: <m>4(2(5) - 1) = 4(9) = 36</m> and <m>3(5 + 7) = 3(12) = 36</m>.</p>
+      </answer>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PAGE 4: Problems 7-8
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt13-solve-7" workspace="3.25in">
+      <title>Problem 7</title>
+      <statement>
+        <p>Solve the equation. Show your work and check your answer.</p>
+        <p>
+          <md>
+            <mrow>6 - 2(w - 3) = 5(w + 1) - 4w + 1</mrow>
+          </md>
+        </p>
+      </statement>
+      <answer>
+        <p>Distribute on both sides:</p>
+        <p>
+          <md>
+            <mrow>6 - 2w + 6 = 5w + 5 - 4w + 1</mrow>
+          </md>
+        </p>
+        <p>Combine the like terms on each side:</p>
+        <p>
+          <md>
+            <mrow>12 - 2w = w + 6</mrow>
+          </md>
+        </p>
+        <p>Add <m>2w</m> to both sides, then subtract <m>6</m> from both sides:</p>
+        <p>
+          <md>
+            <mrow>12 \amp= 3w + 6</mrow>
+            <mrow>6 \amp= 3w</mrow>
+            <mrow>2 \amp= w</mrow>
+          </md>
+        </p>
+        <p>Check: <m>6 - 2(2 - 3) = 6 + 2 = 8</m> and <m>5(2 + 1) - 4(2) + 1 = 15 - 8 + 1 = 8</m>.</p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="lt13-solve-8" workspace="3.25in">
+      <title>Problem 8</title>
+      <statement>
+        <p>Solve the equation. Show your work and check your answer.</p>
+        <p>
+          <md>
+            <mrow>\frac{1}{2}(6k + 4) - k = 3(k - 2) + 4</mrow>
+          </md>
+        </p>
+      </statement>
+      <answer>
+        <p>Distribute on both sides:</p>
+        <p>
+          <md>
+            <mrow>3k + 2 - k = 3k - 6 + 4</mrow>
+          </md>
+        </p>
+        <p>Combine the like terms on each side:</p>
+        <p>
+          <md>
+            <mrow>2k + 2 = 3k - 2</mrow>
+          </md>
+        </p>
+        <p>Subtract <m>2k</m> from both sides, then add <m>2</m> to both sides:</p>
+        <p>
+          <md>
+            <mrow>2 \amp= k - 2</mrow>
+            <mrow>4 \amp= k</mrow>
+          </md>
+        </p>
+        <p>Check: <m>\frac{1}{2}(28) - 4 = 14 - 4 = 10</m> and <m>3(4 - 2) + 4 = 6 + 4 = 10</m>.</p>
+      </answer>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PAGE 5: Problems 9-10 (challenge)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt13-solve-9" workspace="3.25in">
+      <title>Problem 9 (Challenge)</title>
+      <statement>
+        <p>This equation has squared terms, but it can still be solved like a linear equation. Solve it, show your work, and check your answer.</p>
+        <p>
+          <md>
+            <mrow>m(m + 3) - 4 = m^2 - 2m + 11</mrow>
+          </md>
+        </p>
+      </statement>
+      <answer>
+        <p>Distribute the <m>m</m> on the left:</p>
+        <p>
+          <md>
+            <mrow>m^2 + 3m - 4 = m^2 - 2m + 11</mrow>
+          </md>
+        </p>
+        <p>Subtract <m>m^2</m> from both sides. The squared terms cancel, leaving a linear equation:</p>
+        <p>
+          <md>
+            <mrow>3m - 4 = -2m + 11</mrow>
+          </md>
+        </p>
+        <p>Add <m>2m</m> to both sides, then add <m>4</m> to both sides:</p>
+        <p>
+          <md>
+            <mrow>5m - 4 \amp= 11</mrow>
+            <mrow>5m \amp= 15</mrow>
+            <mrow>m \amp= 3</mrow>
+          </md>
+        </p>
+        <p>Check: <m>3(3 + 3) - 4 = 18 - 4 = 14</m> and <m>3^2 - 2(3) + 11 = 9 - 6 + 11 = 14</m>.</p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="lt13-solve-10" workspace="3.25in">
+      <title>Problem 10 (Challenge)</title>
+      <statement>
+        <p>Treat <m>z^3</m> as a single quantity and solve the equation the same way you would a linear equation. Then find <m>z</m>. Show your work and check your answer.</p>
+        <p>
+          <md>
+            <mrow>5z^3 + 4 = 2z^3 - 20</mrow>
+          </md>
+        </p>
+      </statement>
+      <answer>
+        <p>Subtract <m>2z^3</m> from both sides, then subtract <m>4</m> from both sides:</p>
+        <p>
+          <md>
+            <mrow>3z^3 + 4 \amp= -20</mrow>
+            <mrow>3z^3 \amp= -24</mrow>
+            <mrow>z^3 \amp= -8</mrow>
+          </md>
+        </p>
+        <p>The number whose cube is <m>-8</m> is <m>-2</m>, since <m>(-2)(-2)(-2) = -8</m>. So <m>z = -2</m>.</p>
+        <p>Check: <m>5(-8) + 4 = -36</m> and <m>2(-8) - 20 = -36</m>.</p>
+      </answer>
+    </exercise>
+  </page>
+
+</worksheet>

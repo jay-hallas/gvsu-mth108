@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="lt10-practice-quiz">
+  <title>Learning Target 10: Linear Patterns</title>
+  <objectives>
+    <ul>
+      <li>I can recognize and identify key characteristics of a linear pattern represented in a table, graph, equation, or application, and I can translate between those representations.</li>
+    </ul>
+  </objectives>
+
+  <!-- ============================================================
+       PAGE 1: Problems 1-4, is the table linear?
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt10-linear-1" workspace="1in">
+      <title>Problem 1</title>
+      <statement>
+        <p>Is the data in the table linear? Explain how you know.</p>
+        <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <row>
+            <cell><m>x</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell>
+          </row>
+          <row>
+            <cell><m>y</m></cell>
+            <cell><m>5</m></cell>
+            <cell><m>8</m></cell>
+            <cell><m>11</m></cell>
+            <cell><m>14</m></cell>
+            <cell><m>17</m></cell>
+          </row>
+        </tabular>
+      </statement>
+      <answer>
+        <p>Yes, the data is linear. Each time <m>x</m> goes up by <m>1</m>, <m>y</m> goes up by <m>3</m>. Since the rate of change is the same between every pair of points, the pattern is linear.</p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="lt10-linear-2" workspace="1in">
+      <title>Problem 2</title>
+      <statement>
+        <p>Is the data in the table linear? Explain how you know.</p>
+        <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <row>
+            <cell><m>x</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell>
+          </row>
+          <row>
+            <cell><m>y</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>4</m></cell>
+            <cell><m>8</m></cell>
+            <cell><m>16</m></cell>
+            <cell><m>32</m></cell>
+          </row>
+        </tabular>
+      </statement>
+      <answer>
+        <p>No, the data is not linear. Each time <m>x</m> goes up by <m>1</m>, <m>y</m> goes up by <m>2</m>, then <m>4</m>, then <m>8</m>, then <m>16</m>. The amount added keeps changing (the <m>y</m>-values double each time), so the rate of change is not constant.</p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="lt10-linear-3" workspace="1in">
+      <title>Problem 3</title>
+      <statement>
+        <p>Is the data in the table linear? Explain how you know.</p>
+        <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <row>
+            <cell><m>x</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>5</m></cell>
+            <cell><m>8</m></cell>
+          </row>
+          <row>
+            <cell><m>y</m></cell>
+            <cell><m>10</m></cell>
+            <cell><m>6</m></cell>
+            <cell><m>4</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>-6</m></cell>
+          </row>
+        </tabular>
+      </statement>
+      <answer>
+        <p>Yes, the data is linear. The <m>x</m>-values do not go up by the same amount, so compare the change in <m>y</m> to the change in <m>x</m> each time:</p>
+        <p>
+          <md>
+            <mrow>\frac{-4}{2} = -2, \quad \frac{-2}{1} = -2, \quad \frac{-4}{2} = -2, \quad \frac{-6}{3} = -2</mrow>
+          </md>
+        </p>
+        <p>The rate of change is <m>-2</m> every time, so the pattern is linear.</p>
+      </answer>
+    </exercise>
+
+    <exercise xml:id="lt10-linear-4" workspace="1in">
+      <title>Problem 4</title>
+      <statement>
+        <p>Is the data in the table linear? Explain how you know.</p>
+        <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <row>
+            <cell><m>x</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell>
+            <cell><m>5</m></cell>
+          </row>
+          <row>
+            <cell><m>y</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>7</m></cell>
+            <cell><m>11</m></cell>
+            <cell><m>14</m></cell>
+            <cell><m>18</m></cell>
+          </row>
+        </tabular>
+      </statement>
+      <answer>
+        <p>No, the data is not linear. Each time <m>x</m> goes up by <m>1</m>, <m>y</m> goes up by <m>4</m>, <m>4</m>, <m>3</m>, and <m>4</m>. The change from <m>x = 3</m> to <m>x = 4</m> is different from the others, so the rate of change is not constant. One different change is enough to make the data not linear.</p>
+      </answer>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PAGE 2: Problems 5-6, equation from a linear table
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt10-table-5">
+      <title>Problem 5</title>
+      <introduction>
+        <p>The table shows a linear pattern.</p>
+        <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <row>
+            <cell><m>x</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell>
+          </row>
+          <row>
+            <cell><m>y</m></cell>
+            <cell><m>7</m></cell>
+            <cell><m>11</m></cell>
+            <cell><m>15</m></cell>
+            <cell><m>19</m></cell>
+            <cell><m>23</m></cell>
+          </row>
+        </tabular>
+      </introduction>
+
+      <task workspace="0.9in">
+        <statement>
+          <p>What is the slope? Show how you found it.</p>
+        </statement>
+        <answer>
+          <p>Each time <m>x</m> goes up by <m>1</m>, <m>y</m> goes up by <m>4</m>, so the slope is <m>\frac{4}{1} = 4</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.75in">
+        <statement>
+          <p>What is the <m>y</m>-intercept?</p>
+        </statement>
+        <answer>
+          <p>When <m>x = 0</m>, <m>y = 7</m>, so the <m>y</m>-intercept is <m>7</m>, or the point <m>(0,7)</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.6in">
+        <statement>
+          <p>Write an equation for the pattern.</p>
+        </statement>
+        <answer>
+          <p><m>y = 4x + 7</m></p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>Check your equation by substituting at least two <m>x</m>-values from the table and showing you get the matching <m>y</m>-values.</p>
+        </statement>
+        <answer>
+          <p>When <m>x = 2</m>: <m>y = 4(2) + 7 = 15</m>, which matches the table.</p>
+          <p>When <m>x = 4</m>: <m>y = 4(4) + 7 = 23</m>, which matches the table.</p>
+        </answer>
+      </task>
+    </exercise>
+
+    <exercise xml:id="lt10-table-6">
+      <title>Problem 6</title>
+      <introduction>
+        <p>The table shows a linear pattern.</p>
+        <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <row>
+            <cell><m>x</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>4</m></cell>
+            <cell><m>6</m></cell>
+            <cell><m>8</m></cell>
+            <cell><m>10</m></cell>
+          </row>
+          <row>
+            <cell><m>y</m></cell>
+            <cell><m>13</m></cell>
+            <cell><m>10</m></cell>
+            <cell><m>7</m></cell>
+            <cell><m>4</m></cell>
+            <cell><m>1</m></cell>
+          </row>
+        </tabular>
+      </introduction>
+
+      <task workspace="0.9in">
+        <statement>
+          <p>What is the slope? Show how you found it.</p>
+        </statement>
+        <answer>
+          <p>Each time <m>x</m> goes up by <m>2</m>, <m>y</m> goes down by <m>3</m>, so the slope is <m>\frac{-3}{2} = -1.5</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.1in">
+        <statement>
+          <p>What is the <m>y</m>-intercept? The table does not include <m>x = 0</m>, so explain how you found it.</p>
+        </statement>
+        <answer>
+          <p>Work backward one step from <m>(2,13)</m>. Going from <m>x = 2</m> back to <m>x = 0</m> undoes one step, so add <m>3</m> to the <m>y</m>-value: <m>13 + 3 = 16</m>. The <m>y</m>-intercept is <m>16</m>, or the point <m>(0,16)</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.6in">
+        <statement>
+          <p>Write an equation for the pattern.</p>
+        </statement>
+        <answer>
+          <p><m>y = -1.5x + 16</m></p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>Check your equation by substituting at least two <m>x</m>-values from the table and showing you get the matching <m>y</m>-values.</p>
+        </statement>
+        <answer>
+          <p>When <m>x = 4</m>: <m>y = -1.5(4) + 16 = -6 + 16 = 10</m>, which matches the table.</p>
+          <p>When <m>x = 10</m>: <m>y = -1.5(10) + 16 = -15 + 16 = 1</m>, which matches the table.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PAGE 3: Problems 7-8, equation from two points
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt10-points-7">
+      <title>Problem 7</title>
+      <introduction>
+        <p>A line passes through the points <m>(2,5)</m> and <m>(6,17)</m>.</p>
+      </introduction>
+
+      <task workspace="1in">
+        <statement>
+          <p>What is the slope of the line?</p>
+        </statement>
+        <answer>
+          <p>
+            <md>
+              <mrow>m \amp= \frac{17 - 5}{6 - 2} = \frac{12}{4} = 3</mrow>
+            </md>
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>What is the <m>y</m>-intercept of the line?</p>
+        </statement>
+        <answer>
+          <p>Substitute the slope and one of the points, say <m>(2,5)</m>, into <m>y = mx + b</m>:</p>
+          <p>
+            <md>
+              <mrow>5 \amp= 3(2) + b</mrow>
+              <mrow>5 \amp= 6 + b</mrow>
+              <mrow>-1 \amp= b</mrow>
+            </md>
+          </p>
+          <p>The <m>y</m>-intercept is <m>-1</m>, or the point <m>(0,-1)</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.75in">
+        <statement>
+          <p>Write the equation of the line.</p>
+        </statement>
+        <answer>
+          <p><m>y = 3x - 1</m>. Check with the other point: <m>3(6) - 1 = 17</m>.</p>
+        </answer>
+      </task>
+    </exercise>
+
+    <exercise xml:id="lt10-points-8">
+      <title>Problem 8</title>
+      <introduction>
+        <p>A line passes through the points <m>(-3,10)</m> and <m>(5,-6)</m>.</p>
+      </introduction>
+
+      <task workspace="1in">
+        <statement>
+          <p>What is the slope of the line?</p>
+        </statement>
+        <answer>
+          <p>
+            <md>
+              <mrow>m \amp= \frac{-6 - 10}{5 - (-3)} = \frac{-16}{8} = -2</mrow>
+            </md>
+          </p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>What is the <m>y</m>-intercept of the line?</p>
+        </statement>
+        <answer>
+          <p>Substitute the slope and one of the points, say <m>(-3,10)</m>, into <m>y = mx + b</m>:</p>
+          <p>
+            <md>
+              <mrow>10 \amp= -2(-3) + b</mrow>
+              <mrow>10 \amp= 6 + b</mrow>
+              <mrow>4 \amp= b</mrow>
+            </md>
+          </p>
+          <p>The <m>y</m>-intercept is <m>4</m>, or the point <m>(0,4)</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.75in">
+        <statement>
+          <p>Write the equation of the line.</p>
+        </statement>
+        <answer>
+          <p><m>y = -2x + 4</m>. Check with the other point: <m>-2(5) + 4 = -6</m>.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PAGE 4: Problem 9, graph a line from a table
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt10-graph-9">
+      <title>Problem 9</title>
+      <statement>
+        <p>The table shows a linear pattern. Plot the points from the table on the grid below and draw the line through them.</p>
+        <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+          <row>
+            <cell><m>x</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell>
+          </row>
+          <row>
+            <cell><m>y</m></cell>
+            <cell><m>-5</m></cell>
+            <cell><m>-3</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>5</m></cell>
+          </row>
+        </tabular>
+        <image width="60%">
+          <shortdescription>A blank coordinate grid from negative 6 to 6 on both axes.</shortdescription>
+          <description>
+            <p>A blank coordinate grid with the <m>x</m>-axis and <m>y</m>-axis each running from <m>-6</m> to <m>6</m>, with grid lines every <m>1</m> unit and labels every <m>2</m> units.</p>
+          </description>
+          <prefigure xmlns="https://prefigure.org" label="lt10-graph-grid">
+            <diagram dimensions="(360,360)" margins="(5,5,5,5)">
+              <coordinates bbox="(-6.5,-6.5,6.5,6.5)">
+                <grid-axes spacings="((-6,1,6),(-6,1,6))" hlabels="(-6,2,6)" vlabels="(-6,2,6)">
+                  <xlabel>x</xlabel>
+                  <ylabel>y</ylabel>
+                </grid-axes>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </statement>
+      <answer>
+        <p>Plot <m>(-1,-5)</m>, <m>(0,-3)</m>, <m>(1,-1)</m>, <m>(2,1)</m>, <m>(3,3)</m>, and <m>(4,5)</m>. The points line up, so draw one straight line through all of them and extend it past the first and last points. The line crosses the <m>y</m>-axis at <m>(0,-3)</m> and rises <m>2</m> units for every <m>1</m> unit to the right; its equation is <m>y = 2x - 3</m>.</p>
+      </answer>
+    </exercise>
+  </page>
+
+</worksheet>

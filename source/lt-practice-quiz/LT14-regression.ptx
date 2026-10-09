@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="lt14-practice-quiz">
+  <title>Learning Target 14: Linear Regression</title>
+  <objectives>
+    <ul>
+      <li>Given a data set, I can build a linear regression model in Desmos; identify and explain the meaning of the slope and the vertical intercept in context; find <m>f(a)</m> and explain its meaning; and find <m>x</m> given <m>f(a)</m> and explain its meaning.</li>
+    </ul>
+  </objectives>
+
+  <introduction>
+    <p>To find a linear regression model in Desmos:</p>
+    <p>
+      <ol>
+        <li><p><em>Enter the data.</em> Click the plus sign (<m>+</m>) to add a table and type in the values. The columns will be labeled <m>x_1</m> and <m>y_1</m>.</p></li>
+        <li><p><em>Find the regression line.</em> In a new line below the table, type <m>y_1 \sim mx_1 + b</m>. Desmos will fit a line to the data and display <m>m</m> and <m>b</m>.</p></li>
+        <li><p><em>Round.</em> Round <m>m</m> and <m>b</m> to <m>3</m> decimal places when you write your model.</p></li>
+      </ol>
+    </p>
+  </introduction>
+
+  <!-- ============================================================
+       PROBLEM 1: Carbon dioxide at Mauna Loa (CO2 vs. years since 2014)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt14-co2">
+      <title>Carbon Dioxide in the Atmosphere</title>
+      <introduction>
+        <p>
+          Scientists have measured the amount of carbon dioxide in the air at the Mauna Loa Observatory in Hawaii since 1958. The table shows the average concentration for each year from 2014 to 2023, measured in parts per million (ppm).<fn>Data source: NOAA Global Monitoring Laboratory, annual mean carbon dioxide at Mauna Loa Observatory.</fn>
+        </p>
+        <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+          <col width="22%"/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <row>
+            <cell>Year</cell>
+            <cell>2014</cell>
+            <cell>2015</cell>
+            <cell>2016</cell>
+            <cell>2017</cell>
+            <cell>2018</cell>
+            <cell>2019</cell>
+            <cell>2020</cell>
+            <cell>2021</cell>
+            <cell>2022</cell>
+            <cell>2023</cell>
+          </row>
+          <row>
+            <cell>Years since 2014</cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell>
+            <cell><m>5</m></cell>
+            <cell><m>6</m></cell>
+            <cell><m>7</m></cell>
+            <cell><m>8</m></cell>
+            <cell><m>9</m></cell>
+          </row>
+          <row>
+            <cell>CO<sub>2</sub> (ppm)</cell>
+            <cell><m>398.81</m></cell>
+            <cell><m>401.01</m></cell>
+            <cell><m>404.41</m></cell>
+            <cell><m>406.76</m></cell>
+            <cell><m>408.72</m></cell>
+            <cell><m>411.65</m></cell>
+            <cell><m>414.21</m></cell>
+            <cell><m>416.41</m></cell>
+            <cell><m>418.53</m></cell>
+            <cell><m>421.08</m></cell>
+          </row>
+        </tabular>
+        <figure>
+          <caption>Use this Desmos graph to enter the data and find your model.</caption>
+          <interactive xml:id="lt14-co2-desmos" desmos="h1yganxrsi" width="80%" aspect="4:3">
+            <shortdescription>A blank Desmos graph for entering data.</shortdescription>
+            <description>
+              <p>An empty Desmos graphing calculator. Add a table, enter the data, and type a regression command to fit a line.</p>
+            </description>
+          </interactive>
+        </figure>
+      </introduction>
+
+      <task workspace="0.4in">
+        <statement>
+          <p>Define your variables, including units.</p>
+          <p>Let <m>x =</m> <fillin characters="40"/></p>
+          <p>Let <m>y =</m> <fillin characters="40"/></p>
+        </statement>
+        <answer>
+          <p>Let <m>x</m> be the number of years since 2014 and let <m>y</m> be the average carbon dioxide concentration in parts per million (ppm).</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>Use Desmos to find the linear regression model. Round to <m>3</m> decimal places.</p>
+          <p><m>y =</m> <fillin characters="30"/></p>
+        </statement>
+        <answer>
+          <p><m>y = 2.475x + 399.022</m></p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>What is the slope of your model? Write one sentence explaining what it means in this context.</p>
+        </statement>
+        <answer>
+          <p>The slope is <m>2.475</m>. Each year, the average carbon dioxide concentration goes up by about <m>2.475</m> ppm.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>What is the vertical intercept of your model? Write one sentence explaining what it means in this context.</p>
+        </statement>
+        <answer>
+          <p>The vertical intercept is <m>(0, 399.022)</m>. The model estimates that the average carbon dioxide concentration in 2014 was about <m>399.022</m> ppm, which is close to the measured value of <m>398.81</m> ppm.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>Use your model to predict the carbon dioxide concentration in 2030. Explain what your answer means.</p>
+        </statement>
+        <answer>
+          <p>The year 2030 is <m>16</m> years after 2014, so substitute <m>x = 16</m>: <m>y = 2.475(16) + 399.022 = 438.622</m>. If the trend continues, the average carbon dioxide concentration in 2030 will be about <m>438.6</m> ppm.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>According to your model, in what year will the carbon dioxide concentration reach <m>450</m> ppm? Explain what your answer means.</p>
+        </statement>
+        <answer>
+          <p>Set <m>y = 450</m> and solve for <m>x</m>:</p>
+          <p>
+            <md>
+              <mrow>450 \amp= 2.475x + 399.022</mrow>
+              <mrow>50.978 \amp= 2.475x</mrow>
+              <mrow>20.6 \amp\approx x</mrow>
+            </md>
+          </p>
+          <p>That is about <m>20.6</m> years after 2014. If the trend continues, the carbon dioxide concentration will reach <m>450</m> ppm during 2034, a little before 2035.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 2: U.S. population (population vs. years since 1950)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt14-population">
+      <title>The U.S. Population</title>
+      <introduction>
+        <p>
+          Every ten years, the U.S. Census Bureau counts the number of people living in the United States. The table shows the population from each census since 1950, in millions of people.<fn>Data source: U.S. Census Bureau, decennial census counts of the resident population.</fn>
+        </p>
+        <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+          <col width="24%"/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <row>
+            <cell>Year</cell>
+            <cell>1950</cell>
+            <cell>1960</cell>
+            <cell>1970</cell>
+            <cell>1980</cell>
+            <cell>1990</cell>
+            <cell>2000</cell>
+            <cell>2010</cell>
+            <cell>2020</cell>
+          </row>
+          <row>
+            <cell>Years since 1950</cell>
+            <cell><m>0</m></cell>
+            <cell><m>10</m></cell>
+            <cell><m>20</m></cell>
+            <cell><m>30</m></cell>
+            <cell><m>40</m></cell>
+            <cell><m>50</m></cell>
+            <cell><m>60</m></cell>
+            <cell><m>70</m></cell>
+          </row>
+          <row>
+            <cell>Population (millions)</cell>
+            <cell><m>151.3</m></cell>
+            <cell><m>179.3</m></cell>
+            <cell><m>203.2</m></cell>
+            <cell><m>226.5</m></cell>
+            <cell><m>248.7</m></cell>
+            <cell><m>281.4</m></cell>
+            <cell><m>308.7</m></cell>
+            <cell><m>331.4</m></cell>
+          </row>
+        </tabular>
+        <figure>
+          <caption>Use this Desmos graph to enter the data and find your model.</caption>
+          <interactive xml:id="lt14-population-desmos" desmos="h1yganxrsi" width="80%" aspect="4:3">
+            <shortdescription>A blank Desmos graph for entering data.</shortdescription>
+            <description>
+              <p>An empty Desmos graphing calculator. Add a table, enter the data, and type a regression command to fit a line.</p>
+            </description>
+          </interactive>
+        </figure>
+      </introduction>
+
+      <task workspace="0.4in">
+        <statement>
+          <p>Define your variables, including units.</p>
+          <p>Let <m>x =</m> <fillin characters="40"/></p>
+          <p>Let <m>y =</m> <fillin characters="40"/></p>
+        </statement>
+        <answer>
+          <p>Let <m>x</m> be the number of years since 1950 and let <m>y</m> be the U.S. population in millions of people.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>Use Desmos to find the linear regression model. Round to <m>3</m> decimal places.</p>
+          <p><m>y =</m> <fillin characters="30"/></p>
+        </statement>
+        <answer>
+          <p><m>y = 2.577x + 151.125</m></p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>What is the slope of your model? Write one sentence explaining what it means in this context.</p>
+        </statement>
+        <answer>
+          <p>The slope is <m>2.577</m>. The U.S. population grows by about <m>2.577</m> million people each year.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>What is the vertical intercept of your model? Write one sentence explaining what it means in this context.</p>
+        </statement>
+        <answer>
+          <p>The vertical intercept is <m>(0, 151.125)</m>. The model estimates that the U.S. population in 1950 was about <m>151.125</m> million people.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>Use your model to predict the U.S. population in 2030. Explain what your answer means.</p>
+        </statement>
+        <answer>
+          <p>The year 2030 is <m>80</m> years after 1950, so substitute <m>x = 80</m>: <m>y = 2.577(80) + 151.125 = 357.285</m>. If the trend continues, the U.S. population in 2030 will be about <m>357.3</m> million people.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>According to your model, in what year will the U.S. population reach <m>400</m> million people? Explain what your answer means.</p>
+        </statement>
+        <answer>
+          <p>Set <m>y = 400</m> and solve for <m>x</m>:</p>
+          <p>
+            <md>
+              <mrow>400 \amp= 2.577x + 151.125</mrow>
+              <mrow>248.875 \amp= 2.577x</mrow>
+              <mrow>96.6 \amp\approx x</mrow>
+            </md>
+          </p>
+          <p>That is about <m>96.6</m> years after 1950. If the trend continues, the U.S. population will reach <m>400</m> million people during 2046, a little before 2047.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 3: Speed of sound (speed vs. air temperature)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt14-sound">
+      <title>The Speed of Sound</title>
+      <introduction>
+        <p>
+          Sound travels faster in warm air than in cold air. The table shows the speed of sound in dry air at several temperatures, measured in meters per second (m/s).<fn>Data source: standard physics reference values for the speed of sound in dry air at sea-level pressure.</fn>
+        </p>
+        <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+          <col width="26%"/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <row>
+            <cell>Temperature (<m>{}^\circ</m>C)</cell>
+            <cell><m>-20</m></cell>
+            <cell><m>-10</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>10</m></cell>
+            <cell><m>20</m></cell>
+            <cell><m>30</m></cell>
+            <cell><m>40</m></cell>
+          </row>
+          <row>
+            <cell>Speed of sound (m/s)</cell>
+            <cell><m>318.9</m></cell>
+            <cell><m>325.2</m></cell>
+            <cell><m>331.3</m></cell>
+            <cell><m>337.3</m></cell>
+            <cell><m>343.2</m></cell>
+            <cell><m>349.0</m></cell>
+            <cell><m>354.7</m></cell>
+          </row>
+        </tabular>
+        <figure>
+          <caption>Use this Desmos graph to enter the data and find your model.</caption>
+          <interactive xml:id="lt14-sound-desmos" desmos="h1yganxrsi" width="80%" aspect="4:3">
+            <shortdescription>A blank Desmos graph for entering data.</shortdescription>
+            <description>
+              <p>An empty Desmos graphing calculator. Add a table, enter the data, and type a regression command to fit a line.</p>
+            </description>
+          </interactive>
+        </figure>
+      </introduction>
+
+      <task workspace="0.4in">
+        <statement>
+          <p>Define your variables, including units.</p>
+          <p>Let <m>x =</m> <fillin characters="40"/></p>
+          <p>Let <m>y =</m> <fillin characters="40"/></p>
+        </statement>
+        <answer>
+          <p>Let <m>x</m> be the air temperature in degrees Celsius and let <m>y</m> be the speed of sound in meters per second.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>Use Desmos to find the linear regression model. Round to <m>3</m> decimal places.</p>
+          <p><m>y =</m> <fillin characters="30"/></p>
+        </statement>
+        <answer>
+          <p><m>y = 0.596x + 331.125</m></p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>What is the slope of your model? Write one sentence explaining what it means in this context.</p>
+        </statement>
+        <answer>
+          <p>The slope is <m>0.596</m>. For each additional degree Celsius, sound travels about <m>0.596</m> meters per second faster.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>What is the vertical intercept of your model? Write one sentence explaining what it means in this context.</p>
+        </statement>
+        <answer>
+          <p>The vertical intercept is <m>(0, 331.125)</m>. The model estimates that at <m>0^\circ</m>C, the temperature at which water freezes, sound travels about <m>331.125</m> meters per second.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>Use your model to predict the speed of sound on a <m>25^\circ</m>C day. Explain what your answer means.</p>
+        </statement>
+        <answer>
+          <p>Substitute <m>x = 25</m>: <m>y = 0.596(25) + 331.125 = 346.025</m>. When the air temperature is <m>25^\circ</m>C, sound travels about <m>346.0</m> meters per second.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>According to your model, at what temperature does sound travel at <m>340</m> meters per second? Explain what your answer means.</p>
+        </statement>
+        <answer>
+          <p>Set <m>y = 340</m> and solve for <m>x</m>:</p>
+          <p>
+            <md>
+              <mrow>340 \amp= 0.596x + 331.125</mrow>
+              <mrow>8.875 \amp= 0.596x</mrow>
+              <mrow>14.9 \amp\approx x</mrow>
+            </md>
+          </p>
+          <p>Sound travels at <m>340</m> meters per second when the air temperature is about <m>14.9^\circ</m>C.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+</worksheet>

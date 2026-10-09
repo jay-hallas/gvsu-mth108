@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="lt12-practice-quiz">
+  <title>Learning Target 12: Linear Models in Context</title>
+  <objectives>
+    <ul>
+      <li>Given a linear word situation, I can write an equation; identify and explain the meaning of the slope and the vertical intercept in context; find <m>f(a)</m> and explain its meaning; find <m>x</m> given <m>f(a)</m> and explain its meaning; and determine what inputs make sense.</li>
+    </ul>
+  </objectives>
+
+  <!-- ============================================================
+       PROBLEM 1: Rideshare cost (initial value and rate given)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt12-rideshare">
+      <title>Taking a Rideshare</title>
+      <introduction>
+        <p>
+          A rideshare app charges a <m>\$3.50</m> booking fee for every ride, plus <m>\$1.75</m> for each mile driven.
+        </p>
+      </introduction>
+
+      <task workspace="1in">
+        <statement>
+          <p>Write an equation for the total cost of a ride in terms of the number of miles driven. Be sure to define each variable, including units.</p>
+        </statement>
+        <answer>
+          <p>Let <m>m</m> be the number of miles driven and let <m>C</m> be the total cost of the ride in dollars. Then <m>C = 1.75m + 3.5</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>How much does an <m>8</m>-mile ride cost? Explain what your answer means in this situation.</p>
+        </statement>
+        <answer>
+          <p>Substitute <m>m = 8</m>: <m>C = 1.75(8) + 3.5 = 14 + 3.5 = 17.5</m>. An <m>8</m>-mile ride costs <m>\$17.50</m>, including the booking fee.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.75in">
+        <statement>
+          <p>A ride cost <m>\$24.50</m>. How many miles long was the ride? Explain what your answer means in this situation.</p>
+        </statement>
+        <answer>
+          <p>Set <m>C = 24.5</m> and solve for <m>m</m>:</p>
+          <p>
+            <md>
+              <mrow>24.5 \amp= 1.75m + 3.5</mrow>
+              <mrow>21 \amp= 1.75m</mrow>
+              <mrow>12 \amp= m</mrow>
+            </md>
+          </p>
+          <p>A ride that costs <m>\$24.50</m> covered <m>12</m> miles.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 2: Dining dollars (initial value and rate given)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt12-dining">
+      <title>Dining Dollars</title>
+      <introduction>
+        <p>
+          A student starts the semester with <m>\$240</m> in dining dollars on their campus ID card. They spend <m>\$8</m> each day on lunch.
+        </p>
+      </introduction>
+
+      <task workspace="1in">
+        <statement>
+          <p>Write an equation for the balance on the card in terms of the number of days since the semester started. Be sure to define each variable, including units.</p>
+        </statement>
+        <answer>
+          <p>Let <m>d</m> be the number of days since the semester started and let <m>B</m> be the balance on the card in dollars. Then <m>B = 240 - 8d</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>What is the balance after <m>15</m> days? Explain what your answer means in this situation.</p>
+        </statement>
+        <answer>
+          <p>Substitute <m>d = 15</m>: <m>B = 240 - 8(15) = 240 - 120 = 120</m>. After <m>15</m> days of buying lunch, the student has <m>\$120</m> left on the card, which is half of what they started with.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.75in">
+        <statement>
+          <p>After how many days will the student have <m>\$56</m> left? Explain what your answer means in this situation.</p>
+        </statement>
+        <answer>
+          <p>Set <m>B = 56</m> and solve for <m>d</m>:</p>
+          <p>
+            <md>
+              <mrow>56 \amp= 240 - 8d</mrow>
+              <mrow>-184 \amp= -8d</mrow>
+              <mrow>23 \amp= d</mrow>
+            </md>
+          </p>
+          <p>After <m>23</m> days of buying lunch, the student has <m>\$56</m> in dining dollars left.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 3: Gym membership (two points given)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt12-gym">
+      <title>A Gym Membership</title>
+      <introduction>
+        <p>
+          A gym charges a one-time sign-up fee plus the same fee every month. After <m>3</m> months, a member has paid a total of <m>\$95</m>. After <m>7</m> months, they have paid a total of <m>\$175</m>.
+        </p>
+      </introduction>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>Find the rate of change, including units. What does it tell you about the cost of the membership?</p>
+        </statement>
+        <answer>
+          <p>
+            <md>
+              <mrow>\frac{175 - 95}{7 - 3} = \frac{80}{4} = 20</mrow>
+            </md>
+          </p>
+          <p>The rate of change is <m>\$20</m> per month. The gym charges <m>\$20</m> each month, so the total paid goes up by <m>\$20</m> for each additional month of membership.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>What is the initial value? What does it mean in this situation?</p>
+        </statement>
+        <answer>
+          <p>Work back <m>3</m> months from <m>\$95</m>: <m>95 - 3(20) = 95 - 60 = 35</m>. The initial value is <m>\$35</m>. This is the one-time sign-up fee, the amount paid at <m>0</m> months before any monthly fees.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.9in">
+        <statement>
+          <p>Write an equation for the total amount paid in terms of the number of months. Be sure to define each variable, including units.</p>
+        </statement>
+        <answer>
+          <p>Let <m>n</m> be the number of months of membership and let <m>T</m> be the total amount paid in dollars. Then <m>T = 20n + 35</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>How much will a member have paid in total after one year? Explain what your answer means in this situation.</p>
+        </statement>
+        <answer>
+          <p>One year is <m>12</m> months. Substitute <m>n = 12</m>: <m>T = 20(12) + 35 = 240 + 35 = 275</m>. After one year, a member has paid <m>\$275</m> in total, including the sign-up fee.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 4: E-scooter battery (two points given)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt12-scooter">
+      <title>An Electric Scooter</title>
+      <introduction>
+        <p>
+          A student rides an electric scooter to campus, and the battery drains at a steady rate as they ride. After riding <m>5</m> miles, the battery shows <m>80\%</m> charge. After riding <m>12</m> miles, it shows <m>52\%</m> charge.
+        </p>
+      </introduction>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>Find the rate of change, including units. What does it tell you about the battery?</p>
+        </statement>
+        <answer>
+          <p>
+            <md>
+              <mrow>\frac{52 - 80}{12 - 5} = \frac{-28}{7} = -4</mrow>
+            </md>
+          </p>
+          <p>The rate of change is <m>-4</m> percent per mile. The battery loses <m>4\%</m> of its charge for each additional mile ridden.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.5in">
+        <statement>
+          <p>What is the initial value? What does it mean in this situation?</p>
+        </statement>
+        <answer>
+          <p>Work back <m>5</m> miles from <m>80\%</m>. Each mile used <m>4\%</m>, so add it back: <m>80 + 5(4) = 80 + 20 = 100</m>. The initial value is <m>100\%</m>, which means the battery was fully charged when the student started riding.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.9in">
+        <statement>
+          <p>Write an equation for the battery charge in terms of the number of miles ridden. Be sure to define each variable, including units.</p>
+        </statement>
+        <answer>
+          <p>Let <m>x</m> be the number of miles ridden and let <m>P</m> be the battery charge as a percent. Then <m>P = 100 - 4x</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="1.25in">
+        <statement>
+          <p>What will the battery show after riding <m>18</m> miles? Explain what your answer means in this situation.</p>
+        </statement>
+        <answer>
+          <p>Substitute <m>x = 18</m>: <m>P = 100 - 4(18) = 100 - 72 = 28</m>. After riding <m>18</m> miles, the battery has <m>28\%</m> of its charge left.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+</worksheet>

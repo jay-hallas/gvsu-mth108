@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="lt8-practice-quiz">
+  <title>Learning Target 8: Proportional Relationships</title>
+  <objectives>
+    <ul>
+      <li>I can recognize a proportional relationship and represent it in a table, graph, equation, or application.</li>
+    </ul>
+  </objectives>
+
+  <!-- ============================================================
+       PROBLEM 1: Buying gasoline (cost vs. gallons)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt8-gas">
+      <title>Filling Up the Gas Tank</title>
+      <introduction>
+        <p>
+          At a local gas station, regular gasoline costs <m>\$3.20</m> per gallon. The total cost depends on how many gallons you pump.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>Complete the table.</p>
+          <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+            <col width="24%"/>
+            <col width="11%"/>
+            <col width="11%"/>
+            <col width="11%"/>
+            <col width="11%"/>
+            <col width="11%"/>
+            <col width="11%"/>
+            <row>
+              <cell>Gallons</cell>
+              <cell><m>0</m></cell>
+              <cell><m>1</m></cell>
+              <cell><m>2</m></cell>
+              <cell><m>4</m></cell>
+              <cell><m>6</m></cell>
+              <cell><m>10</m></cell>
+            </row>
+            <row>
+              <cell>Cost (dollars)</cell>
+              <cell/>
+              <cell><m>3.20</m></cell>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell/>
+            </row>
+          </tabular>
+        </statement>
+        <answer>
+          <p>Multiply the number of gallons by <m>3.20</m>. The costs are <m>\$0</m>, <m>\$3.20</m>, <m>\$6.40</m>, <m>\$12.80</m>, <m>\$19.20</m>, and <m>\$32.00</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.9in">
+        <statement>
+          <p>Write an equation for the total cost in terms of the number of gallons. Be sure to define each variable, including units.</p>
+        </statement>
+        <answer>
+          <p>Let <m>g</m> be the number of gallons of gas pumped and let <m>C</m> be the total cost in dollars. Then <m>C = 3.2g</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.6in">
+        <statement>
+          <p>What is the slope of your equation? Include units.</p>
+        </statement>
+        <answer>
+          <p>The slope is <m>3.2</m>, or <m>\$3.20</m> per gallon. It is the number multiplying <m>g</m> in the equation.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.85in">
+        <statement>
+          <p>How much would it cost to pump <m>15</m> gallons of gas?</p>
+        </statement>
+        <answer>
+          <p>Substitute <m>g = 15</m>: <m>C = 3.2(15) = 48</m>. Pumping <m>15</m> gallons costs <m>\$48.00</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.85in">
+        <statement>
+          <p>How many gallons of gas can you pump with <m>\$40</m>?</p>
+        </statement>
+        <answer>
+          <p>Set <m>C = 40</m> and solve for <m>g</m>:</p>
+          <p>
+            <md>
+              <mrow>40 \amp= 3.2g</mrow>
+              <mrow>\frac{40}{3.2} \amp= g</mrow>
+              <mrow>12.5 \amp= g</mrow>
+            </md>
+          </p>
+          <p>You can pump <m>12.5</m> gallons of gas with <m>\$40</m>.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>Draw an accurate graph of the relationship on the grid below. Choose a scale that fits your table, number each axis evenly, and give each axis a title with units.</p>
+          <image width="60%">
+            <shortdescription>A blank grid with horizontal and vertical axes and no labels.</shortdescription>
+            <description>
+              <p>A blank grid 12 boxes wide and 10 boxes tall, with arrows on the horizontal and vertical axes. There are no tick labels or axis titles so that students can choose their own scale.</p>
+            </description>
+            <prefigure xmlns="https://prefigure.org" label="lt8-gas-grid">
+              <diagram dimensions="(420,360)" margins="(5,5,5,5)">
+                <coordinates bbox="(-2,-2,13,11)">
+                  <grid spacings="((0,1,12),(0,1,10))" stroke="lightgray"/>
+                  <line endpoints="((0,0),(12.7,0))" arrows="1" thickness="2"/>
+                  <line endpoints="((0,0),(0,10.7))" arrows="1" thickness="2"/>
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+        </statement>
+        <answer>
+          <p>Label the horizontal axis <q>Gas (gallons)</q> and the vertical axis <q>Cost (dollars)</q>. A good scale is <m>1</m> gallon per box horizontally (<m>0</m> to <m>12</m>) and <m>\$4</m> per box vertically (<m>0</m> to <m>40</m>). Plot <m>(0,0)</m>, <m>(1,3.2)</m>, <m>(2,6.4)</m>, <m>(4,12.8)</m>, <m>(6,19.2)</m>, and <m>(10,32)</m>. The points lie on a straight line through the origin, which is what makes the relationship proportional. Since you can pump part of a gallon, it makes sense to connect the points with a line.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 2: A bike ride (distance vs. time)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt8-cycling">
+      <title>A Bike Ride</title>
+      <introduction>
+        <p>
+          A cyclist rides along a flat trail at a steady speed of <m>12</m> miles per hour. The distance traveled depends on how long they have been riding.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>Complete the table.</p>
+          <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+            <col width="24%"/>
+            <col width="11%"/>
+            <col width="11%"/>
+            <col width="11%"/>
+            <col width="11%"/>
+            <col width="11%"/>
+            <col width="11%"/>
+            <row>
+              <cell>Time (hours)</cell>
+              <cell><m>0</m></cell>
+              <cell><m>0.5</m></cell>
+              <cell><m>1</m></cell>
+              <cell><m>2</m></cell>
+              <cell><m>3</m></cell>
+              <cell><m>4</m></cell>
+            </row>
+            <row>
+              <cell>Distance (miles)</cell>
+              <cell/>
+              <cell/>
+              <cell><m>12</m></cell>
+              <cell/>
+              <cell/>
+              <cell/>
+            </row>
+          </tabular>
+        </statement>
+        <answer>
+          <p>Multiply the number of hours by <m>12</m>. The distances are <m>0</m>, <m>6</m>, <m>12</m>, <m>24</m>, <m>36</m>, and <m>48</m> miles.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.9in">
+        <statement>
+          <p>Write an equation for the distance traveled in terms of the time spent riding. Be sure to define each variable, including units.</p>
+        </statement>
+        <answer>
+          <p>Let <m>t</m> be the time spent riding in hours and let <m>d</m> be the distance traveled in miles. Then <m>d = 12t</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.6in">
+        <statement>
+          <p>What is the slope of your equation? Include units.</p>
+        </statement>
+        <answer>
+          <p>The slope is <m>12</m>, or <m>12</m> miles per hour. This is the cyclist's speed.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.85in">
+        <statement>
+          <p>How far does the cyclist travel in <m>2.5</m> hours?</p>
+        </statement>
+        <answer>
+          <p>Substitute <m>t = 2.5</m>: <m>d = 12(2.5) = 30</m>. The cyclist travels <m>30</m> miles in <m>2.5</m> hours.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.85in">
+        <statement>
+          <p>How long does it take the cyclist to ride <m>54</m> miles?</p>
+        </statement>
+        <answer>
+          <p>Set <m>d = 54</m> and solve for <m>t</m>:</p>
+          <p>
+            <md>
+              <mrow>54 \amp= 12t</mrow>
+              <mrow>\frac{54}{12} \amp= t</mrow>
+              <mrow>4.5 \amp= t</mrow>
+            </md>
+          </p>
+          <p>It takes the cyclist <m>4.5</m> hours (<m>4</m> hours and <m>30</m> minutes) to ride <m>54</m> miles.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>Draw an accurate graph of the relationship on the grid below. Choose a scale that fits your table, number each axis evenly, and give each axis a title with units.</p>
+          <image width="60%">
+            <shortdescription>A blank grid with horizontal and vertical axes and no labels.</shortdescription>
+            <description>
+              <p>A blank grid 12 boxes wide and 10 boxes tall, with arrows on the horizontal and vertical axes. There are no tick labels or axis titles so that students can choose their own scale.</p>
+            </description>
+            <prefigure xmlns="https://prefigure.org" label="lt8-cycling-grid">
+              <diagram dimensions="(420,360)" margins="(5,5,5,5)">
+                <coordinates bbox="(-2,-2,13,11)">
+                  <grid spacings="((0,1,12),(0,1,10))" stroke="lightgray"/>
+                  <line endpoints="((0,0),(12.7,0))" arrows="1" thickness="2"/>
+                  <line endpoints="((0,0),(0,10.7))" arrows="1" thickness="2"/>
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+        </statement>
+        <answer>
+          <p>Label the horizontal axis <q>Time (hours)</q> and the vertical axis <q>Distance (miles)</q>. A good scale is <m>0.5</m> hour per box horizontally (<m>0</m> to <m>6</m>) and <m>5</m> miles per box vertically (<m>0</m> to <m>50</m>). Plot <m>(0,0)</m>, <m>(0.5,6)</m>, <m>(1,12)</m>, <m>(2,24)</m>, <m>(3,36)</m>, and <m>(4,48)</m>. The points lie on a straight line through the origin. Since time and distance can take any value in between, connect the points with a line.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 3: Buying mulch (cost vs. bags)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt8-mulch">
+      <title>Bags of Mulch</title>
+      <introduction>
+        <p>
+          A garden center sells bags of mulch for <m>\$4.25</m> each. The total cost depends on how many bags you buy.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>Complete the table.</p>
+          <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+            <col width="24%"/>
+            <col width="11%"/>
+            <col width="11%"/>
+            <col width="11%"/>
+            <col width="11%"/>
+            <col width="11%"/>
+            <col width="11%"/>
+            <row>
+              <cell>Bags</cell>
+              <cell><m>0</m></cell>
+              <cell><m>1</m></cell>
+              <cell><m>2</m></cell>
+              <cell><m>4</m></cell>
+              <cell><m>6</m></cell>
+              <cell><m>8</m></cell>
+            </row>
+            <row>
+              <cell>Cost (dollars)</cell>
+              <cell/>
+              <cell><m>4.25</m></cell>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell/>
+            </row>
+          </tabular>
+        </statement>
+        <answer>
+          <p>Multiply the number of bags by <m>4.25</m>. The costs are <m>\$0</m>, <m>\$4.25</m>, <m>\$8.50</m>, <m>\$17.00</m>, <m>\$25.50</m>, and <m>\$34.00</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.9in">
+        <statement>
+          <p>Write an equation for the total cost in terms of the number of bags. Be sure to define each variable, including units.</p>
+        </statement>
+        <answer>
+          <p>Let <m>b</m> be the number of bags of mulch and let <m>C</m> be the total cost in dollars. Then <m>C = 4.25b</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.6in">
+        <statement>
+          <p>What is the slope of your equation? Include units.</p>
+        </statement>
+        <answer>
+          <p>The slope is <m>4.25</m>, or <m>\$4.25</m> per bag.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.85in">
+        <statement>
+          <p>How much do <m>12</m> bags of mulch cost?</p>
+        </statement>
+        <answer>
+          <p>Substitute <m>b = 12</m>: <m>C = 4.25(12) = 51</m>. Twelve bags cost <m>\$51.00</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.85in">
+        <statement>
+          <p>How many bags of mulch can you buy with <m>\$60</m>?</p>
+        </statement>
+        <answer>
+          <p>Set <m>C = 60</m> and solve for <m>b</m>:</p>
+          <p>
+            <md>
+              <mrow>60 \amp= 4.25b</mrow>
+              <mrow>\frac{60}{4.25} \amp= b</mrow>
+              <mrow>14.12 \amp\approx b</mrow>
+            </md>
+          </p>
+          <p>The store does not sell part of a bag, and <m>15</m> bags would cost <m>\$63.75</m>, which is more than you have. So you can buy <m>14</m> bags.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>Draw an accurate graph of the relationship on the grid below. Choose a scale that fits your table, number each axis evenly, and give each axis a title with units.</p>
+          <image width="60%">
+            <shortdescription>A blank grid with horizontal and vertical axes and no labels.</shortdescription>
+            <description>
+              <p>A blank grid 12 boxes wide and 10 boxes tall, with arrows on the horizontal and vertical axes. There are no tick labels or axis titles so that students can choose their own scale.</p>
+            </description>
+            <prefigure xmlns="https://prefigure.org" label="lt8-mulch-grid">
+              <diagram dimensions="(420,360)" margins="(5,5,5,5)">
+                <coordinates bbox="(-2,-2,13,11)">
+                  <grid spacings="((0,1,12),(0,1,10))" stroke="lightgray"/>
+                  <line endpoints="((0,0),(12.7,0))" arrows="1" thickness="2"/>
+                  <line endpoints="((0,0),(0,10.7))" arrows="1" thickness="2"/>
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+        </statement>
+        <answer>
+          <p>Label the horizontal axis <q>Bags of mulch</q> and the vertical axis <q>Cost (dollars)</q>. A good scale is <m>1</m> bag per box horizontally (<m>0</m> to <m>12</m>) and <m>\$4</m> per box vertically (<m>0</m> to <m>40</m>). Plot <m>(0,0)</m>, <m>(1,4.25)</m>, <m>(2,8.5)</m>, <m>(4,17)</m>, <m>(6,25.5)</m>, and <m>(8,34)</m>. The points line up on a straight line through the origin. Since you can only buy whole bags, the graph is just the points; they should not be connected.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+</worksheet>

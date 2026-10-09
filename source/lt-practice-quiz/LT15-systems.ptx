@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="lt15-practice-quiz">
+  <title>Learning Target 15: Systems of Linear Equations</title>
+  <objectives>
+    <ul>
+      <li>Given a system of linear equations, a word situation, or data sets, I can create a system of equations as applicable and solve the system.</li>
+    </ul>
+  </objectives>
+
+  <introduction>
+    <p>For each problem, write two equations, graph them in Desmos, and use the point where the lines cross to answer the question. Desmos only graphs with <m>x</m> and <m>y</m>, so keep track of which quantity each letter stands for.</p>
+    <figure>
+      <caption>Use this Desmos graph to graph your systems.</caption>
+      <interactive xml:id="lt15-desmos" desmos="h1yganxrsi" width="80%" aspect="4:3">
+        <shortdescription>A blank Desmos graph.</shortdescription>
+        <description>
+          <p>An empty Desmos graphing calculator for graphing a pair of equations and finding where the lines cross.</p>
+        </description>
+      </interactive>
+    </figure>
+  </introduction>
+
+  <!-- ============================================================
+       PROBLEM 1: Bubble tea sales (count and money)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt15-boba">
+      <title>Bubble Tea Sales</title>
+      <introduction>
+        <p>
+          A bubble tea shop sells small drinks for <m>\$5</m> each and large drinks for <m>\$7</m> each. During one afternoon, the shop sold <m>80</m> drinks and brought in <m>\$460</m>. How many small drinks and how many large drinks did the shop sell?
+        </p>
+      </introduction>
+
+      <task workspace="0.9in">
+        <statement>
+          <p>Define your variables. Then write an equation for the total number of drinks sold.</p>
+        </statement>
+        <answer>
+          <p>Let <m>s</m> be the number of small drinks and let <m>L</m> be the number of large drinks. The total number of drinks is <m>s + L = 80</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.75in">
+        <statement>
+          <p>Write an equation for the total amount of money the shop brought in.</p>
+        </statement>
+        <answer>
+          <p>Small drinks bring in <m>5s</m> dollars and large drinks bring in <m>7L</m> dollars, so <m>5s + 7L = 460</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.75in">
+        <statement>
+          <p>Rewrite both equations using <m>x</m> and <m>y</m> so you can graph them in Desmos. Which quantity does <m>x</m> stand for, and which does <m>y</m> stand for?</p>
+        </statement>
+        <answer>
+          <p>Let <m>x</m> stand for small drinks and <m>y</m> stand for large drinks. In Desmos, enter <m>x + y = 80</m> and <m>5x + 7y = 460</m>.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>Where do the two lines cross? <fillin characters="20"/></p>
+        </statement>
+        <answer>
+          <p>The lines cross at <m>(50, 30)</m>. Check: <m>50 + 30 = 80</m> and <m>5(50) + 7(30) = 250 + 210 = 460</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="1in">
+        <statement>
+          <p>Write a complete sentence that answers the question, using your solution point.</p>
+        </statement>
+        <answer>
+          <p>The shop sold <m>50</m> small drinks and <m>30</m> large drinks, for a total of <m>80</m> drinks and <m>\$460</m>.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 2: Club merch order (count and money)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt15-merch">
+      <title>Ordering Club Merch</title>
+      <introduction>
+        <p>
+          A student organization orders hoodies and T-shirts with its logo. Each hoodie costs <m>\$25</m> and each T-shirt costs <m>\$10</m>. The club orders <m>60</m> items in all and spends <m>\$1{,}200</m>. How many hoodies and how many T-shirts did the club order?
+        </p>
+      </introduction>
+
+      <task workspace="0.9in">
+        <statement>
+          <p>Define your variables. Then write an equation for the total number of items ordered.</p>
+        </statement>
+        <answer>
+          <p>Let <m>h</m> be the number of hoodies and let <m>t</m> be the number of T-shirts. The total number of items is <m>h + t = 60</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.75in">
+        <statement>
+          <p>Write an equation for the total amount the club spent.</p>
+        </statement>
+        <answer>
+          <p>Hoodies cost <m>25h</m> dollars and T-shirts cost <m>10t</m> dollars, so <m>25h + 10t = 1200</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.75in">
+        <statement>
+          <p>Rewrite both equations using <m>x</m> and <m>y</m> so you can graph them in Desmos. Which quantity does <m>x</m> stand for, and which does <m>y</m> stand for?</p>
+        </statement>
+        <answer>
+          <p>Let <m>x</m> stand for hoodies and <m>y</m> stand for T-shirts. In Desmos, enter <m>x + y = 60</m> and <m>25x + 10y = 1200</m>.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>Where do the two lines cross? <fillin characters="20"/></p>
+        </statement>
+        <answer>
+          <p>The lines cross at <m>(40, 20)</m>. Check: <m>40 + 20 = 60</m> and <m>25(40) + 10(20) = 1000 + 200 = 1200</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="1in">
+        <statement>
+          <p>Write a complete sentence that answers the question, using your solution point.</p>
+        </statement>
+        <answer>
+          <p>The club ordered <m>40</m> hoodies and <m>20</m> T-shirts, for a total of <m>60</m> items costing <m>\$1{,}200</m>.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 3: Comparing e-scooter companies (break-even)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt15-scooters">
+      <title>Comparing Scooter Rentals</title>
+      <introduction>
+        <p>
+          Two companies rent electric scooters downtown. ZipRide charges <m>\$1.00</m> to unlock a scooter plus <m>\$0.35</m> per minute. GoScoot has no unlock fee but charges <m>\$0.45</m> per minute. For what length of ride do the two companies cost the same, and what is that cost?
+        </p>
+      </introduction>
+
+      <task workspace="0.9in">
+        <statement>
+          <p>Define your variables. Then write an equation for the cost of a ZipRide ride.</p>
+        </statement>
+        <answer>
+          <p>Let <m>m</m> be the length of the ride in minutes and let <m>C</m> be the cost of the ride in dollars. For ZipRide, <m>C = 1 + 0.35m</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.75in">
+        <statement>
+          <p>Write an equation for the cost of a GoScoot ride.</p>
+        </statement>
+        <answer>
+          <p>For GoScoot, <m>C = 0.45m</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.75in">
+        <statement>
+          <p>Rewrite both equations using <m>x</m> and <m>y</m> so you can graph them in Desmos. Which quantity does <m>x</m> stand for, and which does <m>y</m> stand for?</p>
+        </statement>
+        <answer>
+          <p>Let <m>x</m> stand for minutes and <m>y</m> stand for cost in dollars. In Desmos, enter <m>y = 1 + 0.35x</m> and <m>y = 0.45x</m>.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>Where do the two lines cross? <fillin characters="20"/></p>
+        </statement>
+        <answer>
+          <p>The lines cross at <m>(10, 4.5)</m>. Check: <m>1 + 0.35(10) = 4.50</m> and <m>0.45(10) = 4.50</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="1in">
+        <statement>
+          <p>Write a complete sentence that answers the question, using your solution point.</p>
+        </statement>
+        <answer>
+          <p>A <m>10</m>-minute ride costs <m>\$4.50</m> with either company. For rides shorter than <m>10</m> minutes GoScoot is cheaper, and for longer rides ZipRide is cheaper.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PROBLEM 4: Two YouTube channels (data sets)
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt15-channels">
+      <title>Racing to Subscribers</title>
+      <introduction>
+        <p>
+          Two YouTube channels are each gaining subscribers at a steady rate. The tables show the number of subscribers each channel has, in months since the start of the year. When will the two channels have the same number of subscribers, and how many will each have?
+        </p>
+        <sidebyside widths="45% 45%">
+          <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+            <row header="yes">
+              <cell>Month</cell>
+              <cell>Channel A</cell>
+            </row>
+            <row>
+              <cell><m>0</m></cell>
+              <cell><m>12{,}000</m></cell>
+            </row>
+            <row>
+              <cell><m>1</m></cell>
+              <cell><m>13{,}500</m></cell>
+            </row>
+            <row>
+              <cell><m>2</m></cell>
+              <cell><m>15{,}000</m></cell>
+            </row>
+            <row>
+              <cell><m>3</m></cell>
+              <cell><m>16{,}500</m></cell>
+            </row>
+          </tabular>
+          <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+            <row header="yes">
+              <cell>Month</cell>
+              <cell>Channel B</cell>
+            </row>
+            <row>
+              <cell><m>0</m></cell>
+              <cell><m>30{,}000</m></cell>
+            </row>
+            <row>
+              <cell><m>1</m></cell>
+              <cell><m>30{,}900</m></cell>
+            </row>
+            <row>
+              <cell><m>2</m></cell>
+              <cell><m>31{,}800</m></cell>
+            </row>
+            <row>
+              <cell><m>3</m></cell>
+              <cell><m>32{,}700</m></cell>
+            </row>
+          </tabular>
+        </sidebyside>
+      </introduction>
+
+      <task workspace="0.9in">
+        <statement>
+          <p>Define your variables. Then write an equation for the number of subscribers Channel A has.</p>
+        </statement>
+        <answer>
+          <p>Let <m>n</m> be the number of months since the start of the year and let <m>S</m> be the number of subscribers. Channel A starts at <m>12{,}000</m> and gains <m>1{,}500</m> each month, so <m>S = 12000 + 1500n</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.75in">
+        <statement>
+          <p>Write an equation for the number of subscribers Channel B has.</p>
+        </statement>
+        <answer>
+          <p>Channel B starts at <m>30{,}000</m> and gains <m>900</m> each month, so <m>S = 30000 + 900n</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.75in">
+        <statement>
+          <p>Rewrite both equations using <m>x</m> and <m>y</m> so you can graph them in Desmos. Which quantity does <m>x</m> stand for, and which does <m>y</m> stand for? You will need to adjust the window to see where the lines cross.</p>
+        </statement>
+        <answer>
+          <p>Let <m>x</m> stand for months and <m>y</m> stand for subscribers. In Desmos, enter <m>y = 12000 + 1500x</m> and <m>y = 30000 + 900x</m>. A window with <m>x</m> from <m>0</m> to <m>40</m> and <m>y</m> from <m>0</m> to <m>70{,}000</m> shows where they cross.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>Where do the two lines cross? <fillin characters="20"/></p>
+        </statement>
+        <answer>
+          <p>The lines cross at <m>(30, 57000)</m>. Check: <m>12000 + 1500(30) = 57000</m> and <m>30000 + 900(30) = 57000</m>.</p>
+        </answer>
+      </task>
+
+      <task workspace="1in">
+        <statement>
+          <p>Write a complete sentence that answers the question, using your solution point.</p>
+        </statement>
+        <answer>
+          <p>After <m>30</m> months, both channels will have <m>57{,}000</m> subscribers. After that, Channel A will have more subscribers because it is growing faster.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+</worksheet>

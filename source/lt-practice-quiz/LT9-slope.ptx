@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="lt9-practice-quiz">
+  <title>Learning Target 9: Interpreting Slope</title>
+  <objectives>
+    <ul>
+      <li>I can interpret the meaning of the slope in a proportional relationship.</li>
+    </ul>
+  </objectives>
+
+  <!-- ============================================================
+       PAGE 1: Problems 1-3
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt9-wages">
+      <title>Hourly Pay</title>
+      <introduction>
+        <p>
+          Let <m>W = 15.5h</m>, where <m>W</m> is the amount earned in dollars for working <m>h</m> hours.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>What is the slope? <fillin characters="15"/></p>
+        </statement>
+        <answer>
+          <p>The slope is <m>15.5</m>.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>What are the units of the output? <fillin characters="15"/></p>
+        </statement>
+        <answer>
+          <p>The output <m>W</m> is measured in dollars.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>What are the units of the input? <fillin characters="15"/></p>
+        </statement>
+        <answer>
+          <p>The input <m>h</m> is measured in hours.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.9in">
+        <statement>
+          <p>Write a sentence explaining what the slope means in this context.</p>
+        </statement>
+        <answer>
+          <p>The worker earns <m>\$15.50</m> per hour; for each additional hour worked, the amount earned goes up by <m>\$15.50</m>.</p>
+        </answer>
+      </task>
+    </exercise>
+
+    <exercise xml:id="lt9-driving">
+      <title>A Road Trip</title>
+      <introduction>
+        <p>
+          Let <m>d = 65t</m>, where <m>d</m> is the distance traveled in miles after driving for <m>t</m> hours on the highway.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>What is the slope? <fillin characters="15"/></p>
+        </statement>
+        <answer>
+          <p>The slope is <m>65</m>.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>What are the units of the output? <fillin characters="15"/></p>
+        </statement>
+        <answer>
+          <p>The output <m>d</m> is measured in miles.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>What are the units of the input? <fillin characters="15"/></p>
+        </statement>
+        <answer>
+          <p>The input <m>t</m> is measured in hours.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.9in">
+        <statement>
+          <p>Write a sentence explaining what the slope means in this context.</p>
+        </statement>
+        <answer>
+          <p>The car travels <m>65</m> miles per hour; for each additional hour of driving, the distance traveled goes up by <m>65</m> miles.</p>
+        </answer>
+      </task>
+    </exercise>
+
+    <exercise xml:id="lt9-cereal">
+      <title>Calories in Cereal</title>
+      <introduction>
+        <p>
+          Let <m>K = 120s</m>, where <m>K</m> is the number of calories in <m>s</m> servings of cereal.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>What is the slope? <fillin characters="15"/></p>
+        </statement>
+        <answer>
+          <p>The slope is <m>120</m>.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>What are the units of the output? <fillin characters="15"/></p>
+        </statement>
+        <answer>
+          <p>The output <m>K</m> is measured in calories.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>What are the units of the input? <fillin characters="15"/></p>
+        </statement>
+        <answer>
+          <p>The input <m>s</m> is measured in servings.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.9in">
+        <statement>
+          <p>Write a sentence explaining what the slope means in this context.</p>
+        </statement>
+        <answer>
+          <p>There are <m>120</m> calories per serving of cereal; each additional serving adds <m>120</m> calories.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ============================================================
+       PAGE 2: Problems 4-5
+       ============================================================ -->
+  <page>
+    <exercise xml:id="lt9-snow">
+      <title>A Snowstorm</title>
+      <introduction>
+        <p>
+          Let <m>S = 1.5t</m>, where <m>S</m> is the depth of new snow in inches <m>t</m> hours after a snowstorm begins.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>What is the slope? <fillin characters="15"/></p>
+        </statement>
+        <answer>
+          <p>The slope is <m>1.5</m>.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>What are the units of the output? <fillin characters="15"/></p>
+        </statement>
+        <answer>
+          <p>The output <m>S</m> is measured in inches.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>What are the units of the input? <fillin characters="15"/></p>
+        </statement>
+        <answer>
+          <p>The input <m>t</m> is measured in hours.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.9in">
+        <statement>
+          <p>Write a sentence explaining what the slope means in this context.</p>
+        </statement>
+        <answer>
+          <p>Snow falls at a rate of <m>1.5</m> inches per hour; for each additional hour of the storm, the snow gets <m>1.5</m> inches deeper.</p>
+        </answer>
+      </task>
+    </exercise>
+
+    <exercise xml:id="lt9-fuel">
+      <title>Fuel Use</title>
+      <introduction>
+        <p>
+          Let <m>G = 0.04m</m>, where <m>G</m> is the number of gallons of gas a car uses to drive <m>m</m> miles.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>What is the slope? <fillin characters="15"/></p>
+        </statement>
+        <answer>
+          <p>The slope is <m>0.04</m>.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>What are the units of the output? <fillin characters="15"/></p>
+        </statement>
+        <answer>
+          <p>The output <m>G</m> is measured in gallons.</p>
+        </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>What are the units of the input? <fillin characters="15"/></p>
+        </statement>
+        <answer>
+          <p>The input <m>m</m> is measured in miles.</p>
+        </answer>
+      </task>
+
+      <task workspace="0.9in">
+        <statement>
+          <p>Write a sentence explaining what the slope means in this context.</p>
+        </statement>
+        <answer>
+          <p>The car uses <m>0.04</m> gallons of gas per mile; for each additional mile driven, it uses another <m>0.04</m> gallons. Notice that gallons are the output here, so the slope is gallons per mile, not miles per gallon.</p>
+        </answer>
+      </task>
+    </exercise>
+  </page>
+
+</worksheet>
