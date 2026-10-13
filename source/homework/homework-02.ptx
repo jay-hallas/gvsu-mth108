@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="writing-assignment-2"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>Writing Assignment 2: Graphs That Tell a Story</title>
+
+  <introduction>
+    <p>
+      This assignment asks you to read a story from a graph, then build a graph from a story.
+    </p>
+    <p>
+      <ul>
+        <li><p>Show your work; an answer with no supporting reasoning earns no credit.</p></li>
+        <li><p>Every answer that asks you to describe or explain should be written in complete sentences.</p></li>
+        <li><p>Upload a clean, high-quality scan of both sides to Blackboard when complete.</p></li>
+      </ul>
+    </p>
+  </introduction>
+
+  <!-- ===================================================
+       PAGE 1: Alex's Hair (reading a story from a graph)
+       =================================================== -->
+  <page>
+    <exercise xml:id="ex-hair">
+      <title>Alex's Hair</title>
+      <introduction>
+        <p>
+          The graph below shows the length of Alex's hair, in inches, over <m>300</m> days.
+          Day <m>0</m> is September 1. The dashed lines show moments when the length changed all
+          at once.
+        </p>
+        <figure xml:id="fig-hair-graph">
+          <caption>Length of Alex's hair over 300 days.</caption>
+          <image xml:id="img-hair-graph" width="80%">
+            <shortdescription>
+              A graph of hair length that grows steadily, drops suddenly on day 60 and day 180,
+              and grows steadily again after each drop.
+            </shortdescription>
+            <description>
+              <p>
+                The horizontal axis is days since September 1, from 0 to 300 in steps of 30.
+                The vertical axis is hair length in inches, from 0 to 5. The graph is a line
+                segment from (0, 1) to (60, 2), then a dashed vertical drop from (60, 2) to
+                (60, 0.5), then a line segment from (60, 0.5) to (180, 2.5), then a dashed
+                vertical drop from (180, 2.5) to (180, 0), then a line segment from (180, 0)
+                to (300, 2).
+              </p>
+            </description>
+            <prefigure xmlns="https://prefigure.org" label="hair-graph">
+              <diagram dimensions="(540,320)" margins="(60,50,20,18)">
+                <coordinates bbox="(0,0,320,5.5)">
+                  <grid-axes hticks="(0,30,300)" vticks="(0,1,5)" h-zero-label="yes">
+                    <xlabel alignment="se">Days since September 1</xlabel>
+                    <ylabel alignment="ne">Hair length (inches)</ylabel>
+                  </grid-axes>
+
+                  <!-- Growing pieces -->
+                  <line endpoints="((0,1),(60,2))" stroke="#0072CE" thickness="4"/>
+                  <line endpoints="((60,0.5),(180,2.5))" stroke="#0072CE" thickness="4"/>
+                  <line endpoints="((180,0),(300,2))" stroke="#0072CE" thickness="4"/>
+
+                  <!-- Sudden changes -->
+                  <line endpoints="((60,2),(60,0.5))" stroke="#0072CE" thickness="4" dash="9 9"/>
+                  <line endpoints="((180,2.5),(180,0))" stroke="#0072CE" thickness="4" dash="9 9"/>
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+        </figure>
+      </introduction>
+
+      <task xml:id="ex-hair-drops" workspace="1in">
+        <statement>
+          <p>
+            What happened to Alex's hair on day <m>60</m>? On day <m>180</m>? How can you tell
+            from the graph?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-hair-length" workspace="1in">
+        <statement>
+          <p>
+            On what days is Alex's hair exactly <m>1.5</m> inches long? Explain how you used the
+            graph to find them.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-hair-rate" workspace="1in">
+        <statement>
+          <p>
+            Are the pieces of the graph where Alex's hair is growing all equally steep? What does
+            that tell you about how Alex's hair grows? How many inches does it grow every
+            <m>30</m> days?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-hair-predict" workspace="1in">
+        <statement>
+          <p>
+            Suppose Alex doesn't get another haircut after day <m>300</m>. After how many total
+            days will Alex's hair be <m>3</m> inches long for the first time? Explain how you
+            found your answer.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-hair-story" workspace="1.5in">
+        <statement>
+          <p>
+            Write a short story, three or four sentences long, that describes everything the
+            graph shows from day <m>0</m> to day <m>300</m>. Include the length of Alex's hair at
+            the start, before and after each change, and at the end.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ===================================================
+       PAGE 2: Maya's Checking Account (building a graph from a story)
+       =================================================== -->
+  <page>
+    <exercise xml:id="ex-maya">
+      <title>Maya's Checking Account</title>
+      <introduction>
+        <p>
+          On September 1, Maya has $400 in her checking account. Over the next 5 days she spends
+          about the same amount each day on food and gas, and her balance falls to $200 by
+          September 6. She doesn't spend anything from September 6 to September 8. On
+          September 8, her paycheck of $700 is deposited. She doesn't spend anything else until
+          September 10, when her $600 share of rent comes out of the account. From September 10
+          to September 15 she spends steadily again, and she ends September 15 with $75.
+        </p>
+      </introduction>
+
+      <task xml:id="ex-maya-table">
+        <statement>
+          <p>
+            Fill in the table with the date and balance at each important moment.
+          </p>
+          <tabular halign="center" top="major" bottom="major" left="minor" right="minor">
+            <col width="34%" right="minor"/>
+            <col width="22%" right="minor"/>
+            <col width="22%"/>
+            <row header="yes" bottom="minor">
+              <cell>Moment</cell>
+              <cell>Date</cell>
+              <cell>Balance</cell>
+            </row>
+            <row bottom="minor"><cell>Start</cell><cell>Sept 1</cell><cell>$400</cell></row>
+            <row bottom="minor"><cell>Stops spending</cell><cell></cell><cell></cell></row>
+            <row bottom="minor"><cell>Before paycheck</cell><cell></cell><cell></cell></row>
+            <row bottom="minor"><cell>After paycheck</cell><cell></cell><cell></cell></row>
+            <row bottom="minor"><cell>Before rent</cell><cell></cell><cell></cell></row>
+            <row bottom="minor"><cell>After rent</cell><cell></cell><cell></cell></row>
+            <row><cell>End</cell><cell></cell><cell></cell></row>
+          </tabular>
+        </statement>
+      </task>
+
+      <task xml:id="ex-maya-graph">
+        <statement>
+          <p>
+            Plot the points from your table on the grid. Connect them in order with straight line
+            segments. Choose a scale, number each axis evenly, and give each axis a title with
+            units.
+          </p>
+          <p>
+            <em>Hint: look back at how the haircuts show up on Alex's graph. The rent might look
+            similar.</em>
+          </p>
+          <image xml:id="img-maya-grid" width="70%">
+            <shortdescription>A blank grid with arrows on both axes and no labels.</shortdescription>
+            <description>
+              <p>
+                A blank grid 15 squares wide and 9 squares tall, with an arrow along the bottom
+                edge and an arrow along the left edge. There are no numbers or axis titles.
+              </p>
+            </description>
+            <prefigure xmlns="https://prefigure.org" label="maya-grid">
+              <diagram dimensions="(440,290)" margins="(40,35,10,10)">
+                <coordinates bbox="(0,0,15.8,9.8)">
+                  <grid spacings="((0,1,15),(0,1,9))" stroke="lightgray"/>
+                  <line endpoints="((0,0),(15.6,0))" stroke="#3E4A59" thickness="2" arrows="1"/>
+                  <line endpoints="((0,0),(0,9.6))" stroke="#3E4A59" thickness="2" arrows="1"/>
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+        </statement>
+      </task>
+
+      <task xml:id="ex-maya-flat" workspace="1in">
+        <statement>
+          <p>
+            What does the flat piece of your graph from September 6 to September 8 tell you about
+            Maya's account?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-maya-rate" workspace="1.5in">
+        <statement>
+          <p>
+            Did Maya spend money faster from September 1 to 6, or from September 10 to 15? Find
+            how much she spent per day in each stretch, and explain how you can see the
+            difference on your graph.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="ex-maya-shape" workspace="1.25in">
+        <statement>
+          <p>
+            The paycheck and the rent change the balance all at once, but the daily spending
+            changes it a little at a time. Explain how this difference shows up in the shape of
+            your graph.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </page>
+
+  <!-- ===================================================
+       INSTRUCTOR KEY (not rendered)
+
+       Alex's Hair
+       Drops: Day 60, haircut from 2 in to 0.5 in. Day 180, head shaved from
+         2.5 in to 0. The graph drops straight down at those days.
+       Length 1.5 in: days 30, 120, 270 (horizontal line at 1.5).
+         Hair grows 0.5 in every 30 days: 1 in at day 0 gives 1.5 at day 30;
+         0.5 in at day 60 gives 1.5 at day 120; 0 at day 180 gives 1.5 at day 270.
+       Rate: all growing pieces are equally steep; steady growth of 0.5 in
+         every 30 days.
+       Predict: day 360. At day 300 it is 2 in; 1 more inch takes 60 days.
+         It never reached 3 in earlier (max before day 300 was 2.5 in).
+       Story: answers vary. Starts at 1 in, grows to 2 in by day 60, cut to
+         0.5 in, grows to 2.5 in by day 180, shaved to 0, grows to 2 in by day 300.
+
+       Maya's Checking Account
+       Table: Start Sept 1 $400; Stops spending Sept 6 $200; Before paycheck
+         Sept 8 $200; After paycheck Sept 8 $900; Before rent Sept 10 $900;
+         After rent Sept 10 $300; End Sept 15 $75.
+       Graph: 1 day per box horizontally, $100 per box vertically works.
+         Falls (1,400) to (6,200), flat to (8,200), straight up to (8,900),
+         flat to (10,900), straight down to (10,300), falls to (15,75).
+         Accept a slanted rent line from Sept 9 to Sept 10 if the rest matches.
+       Flat piece: balance not changing; no spending, no deposits.
+       Rates: Sept 1 to 6 is $200 over 5 days, $40 per day. Sept 10 to 15 is
+         $225 over 5 days, $45 per day. Faster in the second stretch; that
+         piece is steeper.
+       Shape: single-day events are vertical jumps (like the haircuts);
+         gradual spending is a slanted line.
+       =================================================== -->
+
+</worksheet>
