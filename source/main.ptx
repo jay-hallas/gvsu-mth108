@@ -56,7 +56,7 @@
 <xi:include href="./activities/06-terms.ptx"/>
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
-
+<xi:include href="./lt-practice-quiz/midterm-review.ptx"/>
     <chapter xml:id="handouts">
       <title>Learning Target Practice</title>
 <xi:include href="./lt-practice-quiz/LT1-operations.ptx"/>

@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="mth108-midterm-review">
+  <title>Midterm Review</title>
+  <introduction>
+    <p>
+      These problems cover the topics on the midterm. Work each problem before you look at the answer, and show your steps the way you would on the exam.
+    </p>
+  </introduction>
+
+  <!-- ============================================================
+       PROBLEM 1: Multiplying two-digit numbers (two strategies)
+       ============================================================ -->
+
+  <exercise xml:id="mr-multiply">
+    <title>Problem 1: Multiplying Two-Digit Numbers</title>
+    <introduction>
+      <p>
+        Multiply without a calculator. When a part names a strategy, use that strategy.
+      </p>
+    </introduction>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          Use an area model to find <m>36 \times 24</m>. Label the side lengths of each piece, write the partial product inside each piece, and then add the partial products.
+        </p>
+        <image width="65%">
+          <shortdescription>A blank area model: a rectangle divided into four pieces by one vertical and one horizontal line.</shortdescription>
+          <description>
+            <p>
+              A large rectangle split into four smaller rectangles. The vertical dividing line is closer to the right side, and the horizontal dividing line is closer to the bottom, so the upper left piece is the largest and the lower right piece is the smallest. No labels are given.
+            </p>
+          </description>
+          <prefigure xmlns="https://prefigure.org" label="mr-area-model">
+            <diagram dimensions="(360,220)" margins="5">
+            <coordinates bbox="(-0.2,-0.2,10.2,6.2)">
+            <rectangle lower-left="(0,1.6)" dimensions="(7.4,4.4)" stroke="#002967" thickness="2"/>
+            <rectangle lower-left="(7.4,1.6)" dimensions="(2.6,4.4)" stroke="#002967" thickness="2"/>
+            <rectangle lower-left="(0,0)" dimensions="(7.4,1.6)" stroke="#002967" thickness="2"/>
+            <rectangle lower-left="(7.4,0)" dimensions="(2.6,1.6)" stroke="#002967" thickness="2"/>
+            </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </statement>
+      <answer>
+        <p>
+          Break <m>36</m> into <m>30 + 6</m> across the top and <m>24</m> into <m>20 + 4</m> down the side. The four pieces are
+          <me>30 \times 20 = 600, \quad 6 \times 20 = 120, \quad 30 \times 4 = 120, \quad 6 \times 4 = 24</me>
+        </p>
+        <p>
+          Adding the partial products:
+          <me>600 + 120 + 120 + 24 = 864</me>
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.75in">
+      <statement>
+        <p>
+          Find <m>36 \times 24</m> again using a different strategy, such as breaking apart one factor or doubling and halving. Show each step.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Breaking apart <m>24</m> into <m>20 + 4</m>:
+          <me>36 \times 24 = 36 \times 20 + 36 \times 4 = 720 + 144 = 864</me>
+        </p>
+        <p>
+          Doubling and halving also works, since doubling one factor and halving the other keeps the product the same:
+          <me>36 \times 24 = 72 \times 12 = 144 \times 6 = 864</me>
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.75in">
+      <statement>
+        <p>
+          Use compensation to find <m>49 \times 32</m>: change one factor to a friendlier number, multiply, and then adjust. Explain why your adjustment makes sense.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Round <m>49</m> up to <m>50</m>:
+          <me>50 \times 32 = 1600</me>
+        </p>
+        <p>
+          Fifty groups of <m>32</m> is one more group than we want, so take one group of <m>32</m> back off:
+          <me>1600 - 32 = 1568</me>
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          Check your answer to the previous part using a second strategy of your choice.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Breaking apart <m>32</m> into <m>30 + 2</m>:
+          <me>49 \times 32 = 49 \times 30 + 49 \times 2 = 1470 + 98 = 1568</me>
+        </p>
+        <p>
+          An area model with <m>40 + 9</m> and <m>30 + 2</m> gives the same result: <m>1200 + 80 + 270 + 18 = 1568</m>.
+        </p>
+      </answer>
+    </task>
+  </exercise>
+
+  <!-- ============================================================
+       PROBLEM 2: Order of operations with fraction bars
+       ============================================================ -->
+
+  <exercise xml:id="mr-order-of-operations">
+    <title>Problem 2: Order of Operations</title>
+    <introduction>
+      <p>
+        Evaluate the following expressions step-by-step without using an electronic tool. Treat each fraction bar as a grouping symbol. Show all intermediate steps to illustrate your reasoning.
+      </p>
+    </introduction>
+
+    <task workspace="2.5in">
+      <statement>
+        <p>
+          <me>\frac{3^2 + 3 \cdot 5}{2(10 - 7)^2 - 6}</me>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Treat the numerator and denominator as separate groups. In the numerator, evaluate the exponent. In the denominator, simplify inside the parentheses:
+          <me>\frac{9 + 3 \cdot 5}{2(3)^2 - 6}</me>
+        </p>
+        <p>
+          Multiply in the numerator and evaluate the exponent in the denominator:
+          <me>\frac{9 + 15}{2(9) - 6}</me>
+        </p>
+        <p>
+          Add in the numerator and multiply in the denominator:
+          <me>\frac{24}{18 - 6}</me>
+        </p>
+        <p>
+          Subtract in the denominator:
+          <me>\frac{24}{12}</me>
+        </p>
+        <p>
+          Finally, divide:
+          <me>2</me>
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="2.5in">
+      <statement>
+        <p>
+          <me>2 \cdot 3^2 - \frac{20 - 4^2}{2} + 7</me>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Evaluate the exponents first, including the one in the numerator of the fraction:
+          <me>2 \cdot 9 - \frac{20 - 16}{2} + 7</me>
+        </p>
+        <p>
+          Multiply in the first term and subtract in the numerator of the fraction:
+          <me>18 - \frac{4}{2} + 7</me>
+        </p>
+        <p>
+          Perform the division indicated by the fraction bar:
+          <me>18 - 2 + 7</me>
+        </p>
+        <p>
+          Addition and subtraction are done from left to right, so subtract first:
+          <me>16 + 7</me>
+        </p>
+        <p>
+          Finally, add:
+          <me>23</me>
+        </p>
+        <p>
+          A common mistake is to add <m>2 + 7</m> first, which leads to <m>18 - 9 = 9</m>.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="3.0in">
+      <statement>
+        <p>
+          <me>60 - 2\left( \frac{4^2 - 1}{3} \right)^2</me>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Start inside the parentheses. The fraction is its own group, so begin with the exponent in its numerator:
+          <me>60 - 2\left( \frac{16 - 1}{3} \right)^2</me>
+        </p>
+        <p>
+          Subtract in the numerator:
+          <me>60 - 2\left( \frac{15}{3} \right)^2</me>
+        </p>
+        <p>
+          Divide to finish the work inside the parentheses:
+          <me>60 - 2(5)^2</me>
+        </p>
+        <p>
+          Evaluate the exponent before multiplying:
+          <me>60 - 2(25)</me>
+        </p>
+        <p>
+          Multiply:
+          <me>60 - 50</me>
+        </p>
+        <p>
+          Finally, subtract:
+          <me>10</me>
+        </p>
+        <p>
+          The exponent applies only to the <m>5</m>. Multiplying <m>2 \cdot 5</m> first and squaring <m>10</m> gives <m>60 - 100 = -40</m>, which is incorrect.
+        </p>
+      </answer>
+    </task>
+  </exercise>
+
+  <!-- ============================================================
+       PROBLEM 3: Number patterns
+       ============================================================ -->
+
+  <exercise xml:id="mr-number-pattern">
+    <title>Problem 3: A Number Pattern</title>
+    <introduction>
+      <p>
+        The numbers below follow a pattern.
+        <me>7, \quad 13, \quad 19, \quad 25, \quad 31, \quad 37, \quad 43, \quad \ldots</me>
+      </p>
+    </introduction>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          Describe in words how to get from one number in the list to the next.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Each number is <m>6</m> more than the number before it, so add <m>6</m> to get the next number.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          The number <m>151</m> is in this list. What number is four spots after <m>151</m>? What number is two spots before <m>151</m>? Explain how you found each one.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Moving four spots forward adds <m>6</m> four times, which is <m>24</m>, so the number four spots after <m>151</m> is <m>151 + 24 = 175</m>.
+        </p>
+        <p>
+          Moving two spots back subtracts <m>6</m> twice, which is <m>12</m>, so the number two spots before <m>151</m> is <m>151 - 12 = 139</m>.
+        </p>
+      </answer>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Suppose <m>x</m> is a number somewhere in this list. Fill in the table, writing each entry in terms of <m>x</m>.
+        </p>
+        <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+          <col width="20%"/>
+          <col width="20%"/>
+          <col width="20%"/>
+          <col width="20%"/>
+          <col width="20%"/>
+          <row header="yes" bottom="minor">
+            <cell right="minor">Two spots before</cell>
+            <cell right="minor">Previous</cell>
+            <cell right="minor">Current</cell>
+            <cell right="minor">Next</cell>
+            <cell>Two spots after</cell>
+          </row>
+          <row>
+            <cell right="minor"><m>\rule{0pt}{0.45in}</m></cell>
+            <cell right="minor"><m>\rule{0pt}{0.45in}</m></cell>
+            <cell right="minor"><m>x</m></cell>
+            <cell right="minor"><m>\rule{0pt}{0.45in}</m></cell>
+            <cell><m>\rule{0pt}{0.45in}</m></cell>
+          </row>
+        </tabular>
+      </statement>
+      <answer>
+        <p>
+          Each step forward adds <m>6</m> and each step back subtracts <m>6</m>, so the row reads
+          <me>x - 12, \quad x - 6, \quad x, \quad x + 6, \quad x + 12</me>
+        </p>
+      </answer>
+    </task>
+  </exercise>
+
+  <!-- ============================================================
+       PROBLEM 4: Linear tile pattern (five-legged spider)
+       ============================================================ -->
+
+  <exercise xml:id="mr-spider-pattern">
+    <title>Problem 4: A Growing Spider</title>
+    <introduction>
+      <p>
+        The first three cases of a tile pattern are shown below. Each case has one dark tile for the body and five legs made of light tiles.
+      </p>
+      <image width="90%">
+        <shortdescription>Three cases of a tile pattern shaped like a spider with a dark body tile and five legs that grow longer in each case.</shortdescription>
+        <description>
+          <p>
+            Case 1 has one dark body tile and five light legs of one tile each, reaching up and to the left, up and to the right, down and to the left, down and to the right, and straight down, for 6 tiles. Case 2 has the same body with each leg two tiles long, for 11 tiles. Case 3 has each leg three tiles long, for 16 tiles. The diagonal legs touch at their corners.
+          </p>
+        </description>
+        <prefigure xmlns="https://prefigure.org" label="mr-spider">
+          <diagram dimensions="(620,286)" margins="5">
+          <coordinates bbox="(-0.6,-4.8,17.6,3.6)">
+          <rectangle lower-left="(1-0.45,-0.45)" dimensions="(0.9,0.9)" fill="darkslateblue" stroke="black"/>
+          <repeat parameter="i=1..1">
+            <rectangle lower-left="(1+-i-0.45,i-0.45)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+            <rectangle lower-left="(1+i-0.45,i-0.45)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+            <rectangle lower-left="(1+-i-0.45,-i-0.45)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+            <rectangle lower-left="(1+i-0.45,-i-0.45)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+            <rectangle lower-left="(1+0-0.45,-i-0.45)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+          </repeat>
+          <rectangle lower-left="(6.5-0.45,-0.45)" dimensions="(0.9,0.9)" fill="darkslateblue" stroke="black"/>
+          <repeat parameter="i=1..2">
+            <rectangle lower-left="(6.5+-i-0.45,i-0.45)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+            <rectangle lower-left="(6.5+i-0.45,i-0.45)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+            <rectangle lower-left="(6.5+-i-0.45,-i-0.45)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+            <rectangle lower-left="(6.5+i-0.45,-i-0.45)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+            <rectangle lower-left="(6.5+0-0.45,-i-0.45)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+          </repeat>
+          <rectangle lower-left="(14-0.45,-0.45)" dimensions="(0.9,0.9)" fill="darkslateblue" stroke="black"/>
+          <repeat parameter="i=1..3">
+            <rectangle lower-left="(14+-i-0.45,i-0.45)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+            <rectangle lower-left="(14+i-0.45,i-0.45)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+            <rectangle lower-left="(14+-i-0.45,-i-0.45)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+            <rectangle lower-left="(14+i-0.45,-i-0.45)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+            <rectangle lower-left="(14+0-0.45,-i-0.45)" dimensions="(0.9,0.9)" fill="cornflowerblue" stroke="black"/>
+          </repeat>
+          <label anchor="(1,-4.2)" alignment="center"><m>\text{Case 1}</m></label>
+          <label anchor="(6.5,-4.2)" alignment="center"><m>\text{Case 2}</m></label>
+          <label anchor="(14,-4.2)" alignment="center"><m>\text{Case 3}</m></label>
+          </coordinates>
+          </diagram>
+        </prefigure>
+      </image>
+    </introduction>
+
+    <task workspace="1.25in">
+      <statement>
+        <p>
+          Explain how the number of tiles changes from one case to the next. Describe where the new tiles appear in the picture.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Each new case adds one tile to the end of each of the five legs, so the pattern grows by <m>5</m> tiles each time. The counts are <m>6</m>, <m>11</m>, and <m>16</m>.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="2.75in">
+      <statement>
+        <p>
+          Draw Case 4.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Case 4 has the dark body tile with five legs of four tiles each, reaching up and to the left, up and to the right, down and to the left, down and to the right, and straight down. That is <m>1 + 5(4) = 21</m> tiles.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          How many tiles are in Case 10? Explain how you know without drawing every case.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          In Case 10, each of the five legs has <m>10</m> tiles, and there is one body tile, so there are <m>1 + 5(10) = 51</m> tiles.
+        </p>
+        <p>
+          Another way: Case 3 has <m>16</m> tiles, and getting to Case 10 takes <m>7</m> more steps of <m>5</m> tiles, so <m>16 + 35 = 51</m>.
+        </p>
+      </answer>
+    </task>
+  </exercise>
+
+  <!-- ============================================================
+       PROBLEM 5: Distributive property and combining like terms
+       ============================================================ -->
+
+  <exercise xml:id="mr-distribute-combine">
+    <title>Problem 5: Distributing and Combining Like Terms</title>
+    <introduction>
+      <p>
+        Simplify each expression by distributing and then combining like terms. When two groups are multiplied, multiply each term in the first group by each term in the second. Show each step.
+      </p>
+    </introduction>
+
+    <task workspace="1.25in">
+      <statement>
+        <p>
+          <me>4(x + 3) + 2x</me>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Distribute the <m>4</m>:
+          <me>4x + 12 + 2x</me>
+        </p>
+        <p>
+          Group the like terms together:
+          <me>4x + 2x + 12</me>
+        </p>
+        <p>
+          Combine the like terms:
+          <me>6x + 12</me>
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          <me>3(2x - 5) - 4x + 9</me>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Distribute the <m>3</m>:
+          <me>6x - 15 - 4x + 9</me>
+        </p>
+        <p>
+          Group the like terms together:
+          <me>6x - 4x - 15 + 9</me>
+        </p>
+        <p>
+          Combine the like terms:
+          <me>2x - 6</me>
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          <me>5x - (3x - 8) + 2</me>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Distribute the negative sign to both terms inside the parentheses:
+          <me>5x - 3x + 8 + 2</me>
+        </p>
+        <p>
+          Combine the like terms:
+          <me>2x + 10</me>
+        </p>
+        <p>
+          Subtracting <m>-8</m> turns it into <m>+8</m>. Leaving it as <m>-8</m> is the most common mistake on this kind of problem.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.75in">
+      <statement>
+        <p>
+          <me>-2(4x - 3) + 6(x + 1)</me>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Distribute the <m>-2</m> and the <m>6</m>:
+          <me>-8x + 6 + 6x + 6</me>
+        </p>
+        <p>
+          Group the like terms together:
+          <me>-8x + 6x + 6 + 6</me>
+        </p>
+        <p>
+          Combine the like terms:
+          <me>-2x + 12</me>
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="2in">
+      <statement>
+        <p>
+          <me>3(x^2 - 2x + 4) - 2(x^2 + 5x - 1)</me>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Distribute the <m>3</m> and the <m>-2</m>:
+          <me>3x^2 - 6x + 12 - 2x^2 - 10x + 2</me>
+        </p>
+        <p>
+          Group the like terms together:
+          <me>3x^2 - 2x^2 - 6x - 10x + 12 + 2</me>
+        </p>
+        <p>
+          Combine the like terms:
+          <me>x^2 - 16x + 14</me>
+        </p>
+        <p>
+          The <m>-2</m> multiplies every term in the second parentheses, so <m>-1</m> becomes <m>+2</m>.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          <me>(x + 3)(x + 5)</me>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Multiply each term in the first parentheses by each term in the second:
+          <me>x \cdot x + x \cdot 5 + 3 \cdot x + 3 \cdot 5</me>
+        </p>
+        <p>
+          Simplify each product:
+          <me>x^2 + 5x + 3x + 15</me>
+        </p>
+        <p>
+          Combine the like terms:
+          <me>x^2 + 8x + 15</me>
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.75in">
+      <statement>
+        <p>
+          <me>(2x - 1)(x + 4)</me>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Multiply each term in the first parentheses by each term in the second:
+          <me>2x \cdot x + 2x \cdot 4 - 1 \cdot x - 1 \cdot 4</me>
+        </p>
+        <p>
+          Simplify each product:
+          <me>2x^2 + 8x - x - 4</me>
+        </p>
+        <p>
+          Combine the like terms:
+          <me>2x^2 + 7x - 4</me>
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="2in">
+      <statement>
+        <p>
+          <me>(x - 2)(x^2 + 3x - 1)</me>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Multiply <m>x</m> by each of the three terms in the second parentheses, then multiply <m>-2</m> by each of them. That gives six products:
+          <me>x^3 + 3x^2 - x - 2x^2 - 6x + 2</me>
+        </p>
+        <p>
+          Group the like terms together:
+          <me>x^3 + 3x^2 - 2x^2 - x - 6x + 2</me>
+        </p>
+        <p>
+          Combine the like terms:
+          <me>x^3 + x^2 - 7x + 2</me>
+        </p>
+        <p>
+          A box with two rows and three columns is a good way to keep track of all six products.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="2in">
+      <statement>
+        <p>
+          <me>(x + 4)(x - 1) - 3(x + 2)</me>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Multiply the two binomials and distribute the <m>-3</m>:
+          <me>x^2 - x + 4x - 4 - 3x - 6</me>
+        </p>
+        <p>
+          Group the like terms together:
+          <me>x^2 - x + 4x - 3x - 4 - 6</me>
+        </p>
+        <p>
+          Combine the like terms. The <m>x</m> terms add up to zero:
+          <me>x^2 - 10</me>
+        </p>
+      </answer>
+    </task>
+  </exercise>
+
+  <!-- ============================================================
+       PROBLEM 6: Scatterplot with labels and scale
+       ============================================================ -->
+
+  <exercise xml:id="mr-scatterplot">
+    <title>Problem 6: Cookie Box Prices</title>
+    <introduction>
+      <p>
+        A bakery tried a different price for a box of cookies each week and recorded how many boxes it sold that week.
+      </p>
+      <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+        <row header="yes" bottom="minor">
+          <cell right="minor">Price (dollars)</cell>
+          <cell>Boxes sold</cell>
+        </row>
+        <row><cell right="minor"><m>4</m></cell><cell><m>94</m></cell></row>
+        <row><cell right="minor"><m>5</m></cell><cell><m>90</m></cell></row>
+        <row><cell right="minor"><m>6</m></cell><cell><m>78</m></cell></row>
+        <row><cell right="minor"><m>7</m></cell><cell><m>71</m></cell></row>
+        <row><cell right="minor"><m>8</m></cell><cell><m>62</m></cell></row>
+        <row><cell right="minor"><m>9</m></cell><cell><m>55</m></cell></row>
+        <row><cell right="minor"><m>10</m></cell><cell><m>41</m></cell></row>
+        <row><cell right="minor"><m>11</m></cell><cell><m>36</m></cell></row>
+      </tabular>
+    </introduction>
+
+    <task>
+      <statement>
+        <p>
+          Make a scatterplot of the data on the grid. Label each axis with what it measures and its units, and choose a scale so that the points use most of the grid.
+        </p>
+        <image width="60%">
+          <shortdescription>A blank grid, 12 squares wide and 10 squares tall, with unlabeled axes.</shortdescription>
+          <description>
+            <p>
+              A blank grid 12 squares wide and 10 squares tall. The horizontal and vertical axes are drawn along the bottom and left edges with arrows, but there are no numbers or labels.
+            </p>
+          </description>
+          <prefigure xmlns="https://prefigure.org" label="mr-scatter-grid">
+            <diagram dimensions="(420,360)" margins="(40,40,12,12)">
+            <coordinates bbox="(0,0,12+0.8,10+0.8)">
+            <grid spacings="((0,1,12),(0,1,10))"/>
+            <line endpoints="((0,0),(12+0.6,0))" arrows="1" thickness="2" stroke="#3E4A59"/>
+            <line endpoints="((0,0),(0,10+0.6))" arrows="1" thickness="2" stroke="#3E4A59"/>
+            </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </statement>
+      <answer>
+        <p>
+          Put price on the horizontal axis and boxes sold on the vertical axis. One dollar per square on the horizontal axis and <m>10</m> boxes per square on the vertical axis fits every point. The eight points are <m>(4, 94)</m>, <m>(5, 90)</m>, <m>(6, 78)</m>, <m>(7, 71)</m>, <m>(8, 62)</m>, <m>(9, 55)</m>, <m>(10, 41)</m>, and <m>(11, 36)</m>.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          What scale did you choose for each axis? Explain why it works for this data.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The vertical axis has to reach <m>94</m> with <m>10</m> squares, so <m>10</m> boxes per square works. A scale of <m>5</m> per square would only reach <m>50</m> and leave most of the points off the grid. The prices go up to <m>11</m> and there are <m>12</m> squares across, so <m>1</m> dollar per square works.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          Describe the trend in the data. What happens to the number of boxes sold as the price goes up?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          As the price goes up, the number of boxes sold goes down. The points fall close to a straight line, and sales drop by about <m>8</m> boxes for each extra dollar.
+        </p>
+      </answer>
+    </task>
+  </exercise>
+
+  <!-- ============================================================
+       PROBLEM 7: Build a graph from a story (specific details)
+       ============================================================ -->
+
+  <exercise xml:id="mr-story-graph-details">
+    <title>Problem 7: Walking to the Library</title>
+    <introduction>
+      <p>
+        Dani leaves home and walks toward the library, which is <m>0.8</m> miles away. On the way, she stops at a coffee shop <m>0.3</m> miles from home, arriving after <m>6</m> minutes. She spends <m>8</m> minutes at the coffee shop, then walks the rest of the way to the library at the same steady pace, which takes another <m>10</m> minutes. She stays at the library for <m>10</m> minutes to pick up a book, then a friend drives her home. The drive home takes <m>4</m> minutes at a steady speed.
+      </p>
+    </introduction>
+
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          Identify the input and output quantities in this story, including units.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The input is the time since Dani left home, in minutes. The output is Dani's distance from home, in miles.
+        </p>
+      </answer>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Sketch a graph of Dani's distance from home over time on the grid. Label each axis and choose a scale so that the whole trip fits.
+        </p>
+        <image width="75%">
+          <shortdescription>A blank grid, 20 squares wide and 10 squares tall, with unlabeled axes.</shortdescription>
+          <description>
+            <p>
+              A blank grid 20 squares wide and 10 squares tall. The horizontal and vertical axes are drawn along the bottom and left edges with arrows, but there are no numbers or labels.
+            </p>
+          </description>
+          <prefigure xmlns="https://prefigure.org" label="mr-walk-grid">
+            <diagram dimensions="(540,300)" margins="(40,40,12,12)">
+            <coordinates bbox="(0,0,20+0.8,10+0.8)">
+            <grid spacings="((0,1,20),(0,1,10))"/>
+            <line endpoints="((0,0),(20+0.6,0))" arrows="1" thickness="2" stroke="#3E4A59"/>
+            <line endpoints="((0,0),(0,10+0.6))" arrows="1" thickness="2" stroke="#3E4A59"/>
+            </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </statement>
+      <answer>
+        <p>
+          Using <m>2</m> minutes per square across and <m>0.1</m> mile per square up, the graph connects <m>(0, 0)</m>, <m>(6, 0.3)</m>, <m>(14, 0.3)</m>, <m>(24, 0.8)</m>, <m>(34, 0.8)</m>, and <m>(38, 0)</m> with straight segments.
+        </p>
+        <image width="75%">
+          <shortdescription>Dani's distance from home rises, stays flat at the coffee shop, rises at the same steepness, stays flat at the library, then drops steeply back to zero.</shortdescription>
+          <description>
+            <p>
+              Time in minutes from 0 to 40 on the horizontal axis and distance from home in miles from 0 to 1 on the vertical axis. Straight segments connect (0, 0), (6, 0.3), (14, 0.3), (24, 0.8), (34, 0.8), and (38, 0). The two rising segments have the same steepness, and the final falling segment is much steeper.
+            </p>
+          </description>
+          <prefigure xmlns="https://prefigure.org" label="mr-walk-answer">
+            <diagram dimensions="(520,320)" margins="(60,50,140,18)">
+            <coordinates bbox="(-1,-0.06,41,1.06)">
+            <grid-axes hticks="(0,2,40)" hlabels="(0,4,40)" vticks="(0,0.1,1)" vlabels="(0,0.2,1)" spacings="((0,2,40),(0,0.1,1))" h-zero-label="yes">
+            <xlabel alignment="se">Time (minutes)</xlabel>
+            <ylabel alignment="ne">Distance from home (miles)</ylabel>
+            </grid-axes>
+            <polygon points="((0,0),(6,0.3),(14,0.3),(24,0.8),(34,0.8),(38,0))" stroke="purple" thickness="3"/>
+            <point p="(0,0)" size="3" fill="purple"/>
+            <point p="(6,0.3)" size="3" fill="purple"/>
+            <point p="(14,0.3)" size="3" fill="purple"/>
+            <point p="(24,0.8)" size="3" fill="purple"/>
+            <point p="(34,0.8)" size="3" fill="purple"/>
+            <point p="(38,0)" size="3" fill="purple"/>
+            </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </answer>
+    </task>
+
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          What do the horizontal pieces of your graph mean in the story?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          From minute <m>6</m> to minute <m>14</m>, Dani is at the coffee shop, so her distance from home stays at <m>0.3</m> miles. From minute <m>24</m> to minute <m>34</m>, she is at the library, so her distance stays at <m>0.8</m> miles.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.25in">
+      <statement>
+        <p>
+          Should the two walking pieces of your graph have the same steepness? Explain using the story.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Yes. Dani walks at the same steady pace both times. She covers <m>0.3</m> miles in <m>6</m> minutes and then <m>0.5</m> miles in <m>10</m> minutes, and both are <m>0.05</m> miles per minute.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.25in">
+      <statement>
+        <p>
+          Which part of your graph is steepest? What does that tell you about the story?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The drive home is steepest. Dani covers <m>0.8</m> miles in <m>4</m> minutes, which is <m>0.2</m> miles per minute. Walking, she covers <m>0.05</m> miles per minute, so the car is four times as fast as walking.
+        </p>
+      </answer>
+    </task>
+  </exercise>
+
+  <!-- ============================================================
+       PROBLEM 8: Build a graph from a story (structure only)
+       ============================================================ -->
+
+  <exercise xml:id="mr-story-graph-structure">
+    <title>Problem 8: A Camera Drone</title>
+    <introduction>
+      <p>
+        A camera drone takes off from the ground and climbs at a steady rate. It hovers in place for a while to take some overhead shots. Then it descends slowly to get a better angle and hovers again. Finally, it drops quickly and lands.
+      </p>
+    </introduction>
+
+    <task>
+      <statement>
+        <p>
+          On the axes below, sketch a graph of the drone's height above the ground over time. Label each axis with the quantity it shows. You do not need numbers on the axes.
+        </p>
+        <image width="60%">
+          <shortdescription>A blank pair of axes with no numbers or labels.</shortdescription>
+          <description>
+            <p>
+              A horizontal axis and a vertical axis meeting at the lower left corner, each with an arrow. There is no grid, and there are no numbers or labels.
+            </p>
+          </description>
+          <prefigure xmlns="https://prefigure.org" label="mr-drone-axes">
+            <diagram dimensions="(420,260)" margins="(40,40,12,12)">
+            <coordinates bbox="(0,0,10.4,6.4)">
+            <line endpoints="((0,0),(10,0))" arrows="1" thickness="2" stroke="#3E4A59"/>
+            <line endpoints="((0,0),(0,6))" arrows="1" thickness="2" stroke="#3E4A59"/>
+            </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </statement>
+      <answer>
+        <p>
+          The horizontal axis is time and the vertical axis is the drone's height above the ground. The graph starts at the origin, rises in a straight line, stays flat, falls gently to a lower height, stays flat again, and then falls steeply back to the horizontal axis.
+        </p>
+        <image width="60%">
+          <shortdescription>A sample graph of the drone's height over time: a steady climb, a hover, a slow descent, a lower hover, and a steep drop to the ground.</shortdescription>
+          <description>
+            <p>
+              Time on the horizontal axis and height above the ground on the vertical axis, with no numbers. Starting at the origin, a straight segment rises, a horizontal segment shows the first hover, a gently falling segment leads to a lower horizontal segment for the second hover, and a steep segment drops back to the horizontal axis.
+            </p>
+          </description>
+          <prefigure xmlns="https://prefigure.org" label="mr-drone-answer">
+            <diagram dimensions="(440,280)" margins="(30,30,12,12)">
+            <coordinates bbox="(-0.4,-0.7,10.6,6.4)">
+            <line endpoints="((0,0),(10.3,0))" arrows="1" thickness="2" stroke="#3E4A59"/>
+            <line endpoints="((0,0),(0,6.2))" arrows="1" thickness="2" stroke="#3E4A59"/>
+            <label anchor="(9.6,-0.4)" alignment="center"><m>\text{Time}</m></label>
+            <label anchor="(0.3,6.0)" alignment="e"><m>\text{Height above ground}</m></label>
+            <polygon points="((0,0),(2,4.5),(4.5,4.5),(7.2,2.6),(8.6,2.6),(9.3,0))" stroke="purple" thickness="3"/>
+            </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </answer>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          Should your graph start at the origin? Explain why or why not.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Yes. At the start, no time has passed and the drone is sitting on the ground, so its height is zero.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          Why are some pieces of your graph horizontal? What is the drone doing during those times?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The drone is hovering in place, so its height is not changing as time goes on. The second flat piece is lower than the first because the drone came down partway before hovering again.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.25in">
+      <statement>
+        <p>
+          How does your graph show the difference between the slow descent and the quick landing?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Both pieces go down, but the landing is much steeper. A steeper piece means the height changes more each second, so the drone is dropping faster.
+        </p>
+      </answer>
+    </task>
+  </exercise>
+
+  <!-- ============================================================
+       PROBLEM 9: Interpret a graph (rain barrel)
+       ============================================================ -->
+
+  <exercise xml:id="mr-interpret-rain-barrel">
+    <title>Problem 9: A Rain Barrel</title>
+    <introduction>
+      <p>
+        A family collects rainwater in a barrel and uses it to water their garden. The graph shows the amount of water in the barrel, in gallons, over two weeks. The input is time, in days.
+      </p>
+      <image width="80%">
+        <shortdescription>The water in a rain barrel over two weeks: flat, rising, flat, falling, flat, rising sharply, then falling slowly.</shortdescription>
+        <description>
+          <p>
+            Time in days from 0 to 14 on the horizontal axis and water in gallons from 0 to 60 on the vertical axis. The graph is made of straight segments connecting (0, 10), (2, 10), (4, 40), (6, 40), (8, 20), (9, 20), (10, 50), and (14, 30).
+          </p>
+        </description>
+        <prefigure xmlns="https://prefigure.org" label="mr-rain-barrel">
+          <diagram dimensions="(540,330)" margins="(60,50,120,18)">
+          <coordinates bbox="(-0.4,-4,14.6,64)">
+          <grid-axes hticks="(0,1,14)" vticks="(0,10,60)" h-zero-label="yes">
+          <xlabel alignment="se">Time (days)</xlabel>
+          <ylabel alignment="ne">Water (gallons)</ylabel>
+          </grid-axes>
+          <polygon points="((0,10),(2,10),(4,40),(6,40),(8,20),(9,20),(10,50),(14,30))" stroke="purple" thickness="3"/>
+          <point p="(0,10)" size="3" fill="purple"/>
+          <point p="(14,30)" size="3" fill="purple"/>
+          </coordinates>
+          </diagram>
+        </prefigure>
+      </image>
+    </introduction>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          Identify the independent and dependent variables, including units.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The independent variable is time, in days. The dependent variable is the amount of water in the barrel, in gallons.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          How much water was in the barrel at the start? Where does this appear on the graph?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          There were <m>10</m> gallons at the start. This is the vertical intercept, the point <m>(0, 10)</m>.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.25in">
+      <statement>
+        <p>
+          During which days was the amount of water not changing? What might have been happening during those days?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The amount stayed the same from day <m>0</m> to day <m>2</m>, from day <m>4</m> to day <m>6</m>, and from day <m>8</m> to day <m>9</m>. During those days it did not rain and the family did not use any water from the barrel.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.75in">
+      <statement>
+        <p>
+          The barrel filled during two different stretches of time. During which stretch did it fill faster? Compare the rates to justify your answer.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          From day <m>2</m> to day <m>4</m>, the barrel gained <m>30</m> gallons in <m>2</m> days, which is <m>15</m> gallons per day. From day <m>9</m> to day <m>10</m>, it gained <m>30</m> gallons in <m>1</m> day, which is <m>30</m> gallons per day. The barrel filled twice as fast from day <m>9</m> to day <m>10</m>, which is why that piece of the graph is steeper.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.75in">
+      <statement>
+        <p>
+          The family used water from the barrel during two different stretches of time. During which stretch did they use it faster? Compare the rates to justify your answer.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          From day <m>6</m> to day <m>8</m>, the barrel lost <m>20</m> gallons in <m>2</m> days, which is <m>10</m> gallons per day. From day <m>10</m> to day <m>14</m>, it lost <m>20</m> gallons in <m>4</m> days, which is <m>5</m> gallons per day. They used water faster from day <m>6</m> to day <m>8</m>.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          Compare the amount of water at the end of the two weeks with the amount at the start.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The barrel ends with <m>30</m> gallons and started with <m>10</m> gallons, so it has <m>20</m> more gallons at the end, three times the starting amount.
+        </p>
+      </answer>
+    </task>
+  </exercise>
+
+  <!-- ============================================================
+       PROBLEM 10: Interpret a graph (plane altitude)
+       ============================================================ -->
+
+  <exercise xml:id="mr-interpret-flight">
+    <title>Problem 10: A Short Flight</title>
+    <introduction>
+      <p>
+        The graph shows the altitude of a small plane, in thousands of feet, during a one-hour flight. The input is time, in minutes since the plane started its takeoff.
+      </p>
+      <image width="80%">
+        <shortdescription>The altitude of a small plane over an hour: a climb, a level stretch, a descent, another level stretch, a descent to the ground, and time on the ground.</shortdescription>
+        <description>
+          <p>
+            Time in minutes from 0 to 60 on the horizontal axis and altitude in thousands of feet from 0 to 7 on the vertical axis. The graph is made of straight segments connecting (0, 0), (10, 6), (30, 6), (34, 4), (45, 4), (55, 0), and (60, 0).
+          </p>
+        </description>
+        <prefigure xmlns="https://prefigure.org" label="mr-plane">
+          <diagram dimensions="(540,330)" margins="(60,50,130,18)">
+          <coordinates bbox="(-1.5,-0.5,61,7.5)">
+          <grid-axes hticks="(0,5,60)" vticks="(0,1,7)" h-zero-label="yes">
+          <xlabel alignment="se">Time (minutes)</xlabel>
+          <ylabel alignment="ne">Altitude (thousands of feet)</ylabel>
+          </grid-axes>
+          <polygon points="((0,0),(10,6),(30,6),(34,4),(45,4),(55,0),(60,0))" stroke="purple" thickness="3"/>
+          <point p="(0,0)" size="3" fill="purple"/>
+          <point p="(60,0)" size="3" fill="purple"/>
+          </coordinates>
+          </diagram>
+        </prefigure>
+      </image>
+    </introduction>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is the highest altitude the plane reaches, and how long does it stay there?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The highest altitude is <m>6</m> thousand feet, or <m>6000</m> feet. The plane stays there from minute <m>10</m> to minute <m>30</m>, which is <m>20</m> minutes.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          How fast does the plane climb during the first <m>10</m> minutes? Include units.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The plane climbs <m>6000</m> feet in <m>10</m> minutes, which is <m>600</m> feet per minute.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.75in">
+      <statement>
+        <p>
+          During which time intervals is the plane descending? Which descent is steeper? Justify your answer by comparing rates.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The plane descends from minute <m>30</m> to minute <m>34</m> and from minute <m>45</m> to minute <m>55</m>. In the first descent it drops <m>2000</m> feet in <m>4</m> minutes, which is <m>500</m> feet per minute. In the second it drops <m>4000</m> feet in <m>10</m> minutes, which is <m>400</m> feet per minute. The first descent is steeper, even though the plane loses less altitude overall.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          What is happening from minute <m>55</m> to minute <m>60</m>? How can you tell from the graph?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The plane has landed and is on the ground. The graph sits on the horizontal axis, so the altitude is <m>0</m> feet and is not changing.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.5in">
+      <statement>
+        <p>
+          In a few complete sentences, tell the story of the flight so that it matches the whole graph.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The plane takes off and climbs steadily to <m>6000</m> feet over the first <m>10</m> minutes. It flies at that altitude for <m>20</m> minutes, then drops quickly to <m>4000</m> feet over the next <m>4</m> minutes. After flying at <m>4000</m> feet for <m>11</m> minutes, it descends more gradually and lands at minute <m>55</m>, then stays on the ground for the last <m>5</m> minutes.
+        </p>
+      </answer>
+    </task>
+  </exercise>
+
+  <!-- ============================================================
+       PROBLEM 11: Proportional relationship in context
+       ============================================================ -->
+
+  <exercise xml:id="mr-proportional-scooter">
+    <title>Problem 11: Renting a Scooter</title>
+    <introduction>
+      <p>
+        An electric scooter rental costs $0.40 per minute, with no fee to unlock the scooter. Let <m>m</m> be the length of a ride in minutes and <m>C</m> be the cost of the ride in dollars.
+      </p>
+    </introduction>
+
+    <task>
+      <statement>
+        <p>
+          Complete the table.
+        </p>
+        <tabular halign="center" top="minor" bottom="minor" left="minor" right="minor">
+          <col width="28%" right="minor"/>
+          <col width="12%" right="minor"/>
+          <col width="12%" right="minor"/>
+          <col width="12%" right="minor"/>
+          <col width="12%" right="minor"/>
+          <col width="12%" right="minor"/>
+          <col width="12%"/>
+          <row bottom="minor">
+            <cell>Minutes, <m>m</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>10</m></cell>
+            <cell><m>20</m></cell>
+            <cell><m>30</m></cell>
+            <cell><m>40</m></cell>
+            <cell><m>50</m></cell>
+          </row>
+          <row>
+            <cell>Cost, <m>C</m> (dollars)</cell>
+            <cell><m>0</m></cell>
+            <cell><m>4</m></cell>
+            <cell><m>\rule{0pt}{0.35in}</m></cell>
+            <cell><m>\rule{0pt}{0.35in}</m></cell>
+            <cell><m>\rule{0pt}{0.35in}</m></cell>
+            <cell><m>\rule{0pt}{0.35in}</m></cell>
+          </row>
+        </tabular>
+      </statement>
+      <answer>
+        <p>
+          Each <m>10</m> minutes adds <m>10(0.40) = 4</m> dollars, so the missing costs are <m>8</m>, <m>12</m>, <m>16</m>, and <m>20</m> dollars.
+        </p>
+      </answer>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Plot the points from your table on the grid.
+        </p>
+        <image width="70%">
+          <shortdescription>A grid for plotting the scooter costs, with time in minutes across and cost in dollars up.</shortdescription>
+          <description>
+            <p>
+              A grid with time in minutes from 0 to 60 on the horizontal axis, labeled every 10 minutes, and cost in dollars from 0 to 24 on the vertical axis, labeled every 4 dollars. No points are plotted.
+            </p>
+          </description>
+          <prefigure xmlns="https://prefigure.org" label="mr-scooter-grid">
+            <diagram dimensions="(480,340)" margins="(60,50,120,18)">
+            <coordinates bbox="(-2,-1.5,62,26)">
+            <grid-axes hticks="(0,5,60)" hlabels="(0,10,60)" vticks="(0,2,24)" vlabels="(0,4,24)" spacings="((0,5,60),(0,2,24))" h-zero-label="yes">
+            <xlabel alignment="se">Time (minutes)</xlabel>
+            <ylabel alignment="ne">Cost (dollars)</ylabel>
+            </grid-axes>
+            </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </statement>
+      <answer>
+        <p>
+          The points are <m>(0, 0)</m>, <m>(10, 4)</m>, <m>(20, 8)</m>, <m>(30, 12)</m>, <m>(40, 16)</m>, and <m>(50, 20)</m>. They fall on a straight line that passes through the origin, which is what we expect for a proportional relationship.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          Write a formula for <m>C</m> in terms of <m>m</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>C = 0.40m</m>
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          How much does a <m>75</m>-minute ride cost?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>C = 0.40(75) = 30</m>, so the ride costs $30.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1.25in">
+      <statement>
+        <p>
+          Ari paid $26 for a ride. How many minutes did Ari ride? Show how you found your answer.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          This time the cost is given, so solve for <m>m</m>:
+          <md>
+            <mrow>26 \amp= 0.40m</mrow>
+            <mrow>\frac{26}{0.40} \amp= m</mrow>
+            <mrow>65 \amp= m</mrow>
+          </md>
+        </p>
+        <p>
+          Ari rode for <m>65</m> minutes.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          Jo has $9.20. What is the longest ride Jo can take?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>9.20 \div 0.40 = 23</m>, so Jo can ride for <m>23</m> minutes.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="1in">
+      <statement>
+        <p>
+          Explain what the number <m>0.40</m> means in this situation.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Each additional minute of riding adds $0.40 to the cost. It is the cost per minute.
+        </p>
+      </answer>
+    </task>
+  </exercise>
+
+  <!-- ============================================================
+       PROBLEM 12: Units and slope in proportional formulas
+       ============================================================ -->
+
+  <exercise xml:id="mr-proportional-formulas">
+    <title>Problem 12: Proportional Formulas</title>
+    <introduction>
+      <p>
+        Each formula below describes a proportional relationship. For each one, name the input and the output with their units, identify the slope and its units, and explain in a complete sentence what the slope means in the situation.
+      </p>
+    </introduction>
+
+    <task workspace="0.85in">
+      <statement>
+        <p>
+          <m>H = 1.5d</m>, where <m>H</m> is the height of a sunflower seedling, in centimeters, <m>d</m> days after it sprouts.
+        </p>
+        <p>Input, with units: <fillin characters="30"/></p>
+        <p>Output, with units: <fillin characters="30"/></p>
+        <p>Slope: <fillin characters="10"/> Units of the slope: <fillin characters="20"/></p>
+        <p>What the slope means:</p>
+      </statement>
+      <answer>
+        <p>
+          The input is <m>d</m>, the time since sprouting in days. The output is <m>H</m>, the height in centimeters. The slope is <m>1.5</m>, in centimeters per day.
+        </p>
+        <p>
+          The seedling grows 1.5 centimeters taller each day.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="0.85in">
+      <statement>
+        <p>
+          <m>E = 0.12k</m>, where <m>E</m> is the cost of electricity, in dollars, for <m>k</m> kilowatt-hours used.
+        </p>
+        <p>Input, with units: <fillin characters="30"/></p>
+        <p>Output, with units: <fillin characters="30"/></p>
+        <p>Slope: <fillin characters="10"/> Units of the slope: <fillin characters="20"/></p>
+        <p>What the slope means:</p>
+      </statement>
+      <answer>
+        <p>
+          The input is <m>k</m>, the electricity used in kilowatt-hours. The output is <m>E</m>, the cost in dollars. The slope is <m>0.12</m>, in dollars per kilowatt-hour.
+        </p>
+        <p>
+          Each additional kilowatt-hour of electricity adds 12 cents to the cost.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="0.85in">
+      <statement>
+        <p>
+          <m>N = 12c</m>, where <m>N</m> is the number of eggs in <m>c</m> cartons.
+        </p>
+        <p>Input, with units: <fillin characters="30"/></p>
+        <p>Output, with units: <fillin characters="30"/></p>
+        <p>Slope: <fillin characters="10"/> Units of the slope: <fillin characters="20"/></p>
+        <p>What the slope means:</p>
+      </statement>
+      <answer>
+        <p>
+          The input is <m>c</m>, the number of cartons. The output is <m>N</m>, the number of eggs. The slope is <m>12</m>, in eggs per carton.
+        </p>
+        <p>
+          Each additional carton adds 12 more eggs.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="0.85in">
+      <statement>
+        <p>
+          <m>A = 350g</m>, where <m>A</m> is the area of wall, in square feet, that <m>g</m> gallons of paint will cover.
+        </p>
+        <p>Input, with units: <fillin characters="30"/></p>
+        <p>Output, with units: <fillin characters="30"/></p>
+        <p>Slope: <fillin characters="10"/> Units of the slope: <fillin characters="20"/></p>
+        <p>What the slope means:</p>
+      </statement>
+      <answer>
+        <p>
+          The input is <m>g</m>, the amount of paint in gallons. The output is <m>A</m>, the area covered in square feet. The slope is <m>350</m>, in square feet per gallon.
+        </p>
+        <p>
+          Each additional gallon of paint covers 350 more square feet of wall.
+        </p>
+      </answer>
+    </task>
+
+    <task workspace="0.85in">
+      <statement>
+        <p>
+          <m>T = 0.06p</m>, where <m>T</m> is the sales tax, in dollars, on a purchase that costs <m>p</m> dollars.
+        </p>
+        <p>Input, with units: <fillin characters="30"/></p>
+        <p>Output, with units: <fillin characters="30"/></p>
+        <p>Slope: <fillin characters="10"/> Units of the slope: <fillin characters="20"/></p>
+        <p>What the slope means:</p>
+      </statement>
+      <answer>
+        <p>
+          The input is <m>p</m>, the price of the purchase in dollars. The output is <m>T</m>, the sales tax in dollars. The slope is <m>0.06</m>, in dollars of tax per dollar spent.
+        </p>
+        <p>
+          For every dollar spent, the sales tax goes up by 6 cents.
+        </p>
+      </answer>
+    </task>
+  </exercise>
+
+</worksheet>
