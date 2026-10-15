@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="mr-area-model-figure" width="370" height="230" viewBox="0 0 370 230">
+  <defs>
+    <clipPath id="mr-area-model-__clipPath-0">
+      <rect x="5.0" y="5.0" width="360.0" height="220.0"/>
+    </clipPath>
+    <clipPath id="mr-area-model-__clipPath-1">
+      <rect x="5.0" y="5.0" width="360.0" height="220.0"/>
+    </clipPath>
+  </defs>
+  <path id="mr-area-model-__path-0" d="M 11.9 163.1 L 268.1 163.1 L 268.1 11.9 L 11.9 11.9 Z" stroke="#002967" stroke-width="2" fill="none"/>
+  <path id="mr-area-model-__path-1" d="M 268.1 163.1 L 358.1 163.1 L 358.1 11.9 L 268.1 11.9 Z" stroke="#002967" stroke-width="2" fill="none"/>
+  <path id="mr-area-model-__path-2" d="M 11.9 218.1 L 268.1 218.1 L 268.1 163.1 L 11.9 163.1 Z" stroke="#002967" stroke-width="2" fill="none"/>
+  <path id="mr-area-model-__path-3" d="M 268.1 218.1 L 358.1 218.1 L 358.1 163.1 L 268.1 163.1 Z" stroke="#002967" stroke-width="2" fill="none"/>
+</svg>

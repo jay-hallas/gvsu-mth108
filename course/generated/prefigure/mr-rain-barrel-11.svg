@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="mr-rain-barrel-figure" width="720" height="398" viewBox="0 0 720 398">
+  <defs>
+    <clipPath id="mr-rain-barrel-__clipPath-0">
+      <rect x="60.0" y="18.0" width="540.0" height="330.0"/>
+    </clipPath>
+    <clipPath id="mr-rain-barrel-__clipPath-1">
+      <rect x="60.0" y="18.0" width="540.0" height="330.0"/>
+    </clipPath>
+  </defs>
+  <g id="mr-rain-barrel-grid-axes">
+    <g id="mr-rain-barrel-grid" stroke="#ccc" stroke-width="1">
+      <line x1="74.4" y1="348.0" x2="74.4" y2="18.0"/>
+      <line x1="164.4" y1="348.0" x2="164.4" y2="18.0"/>
+      <line x1="254.4" y1="348.0" x2="254.4" y2="18.0"/>
+      <line x1="344.4" y1="348.0" x2="344.4" y2="18.0"/>
+      <line x1="434.4" y1="348.0" x2="434.4" y2="18.0"/>
+      <line x1="524.4" y1="348.0" x2="524.4" y2="18.0"/>
+      <line x1="60.0" y1="328.6" x2="600.0" y2="328.6"/>
+      <line x1="60.0" y1="280.1" x2="600.0" y2="280.1"/>
+      <line x1="60.0" y1="231.5" x2="600.0" y2="231.5"/>
+      <line x1="60.0" y1="183.0" x2="600.0" y2="183.0"/>
+      <line x1="60.0" y1="134.5" x2="600.0" y2="134.5"/>
+      <line x1="60.0" y1="85.9" x2="600.0" y2="85.9"/>
+      <line x1="60.0" y1="37.4" x2="600.0" y2="37.4"/>
+    </g>
+    <g id="mr-rain-barrel-axes" stroke="black" stroke-width="2">
+      <line id="mr-rain-barrel-__line-13" x1="60.0" y1="328.6" x2="600.0" y2="328.6" stroke="black" stroke-width="2"/>
+      <g id="mr-rain-barrel-__g-0">
+        <line id="mr-rain-barrel-__line-14" x1="74.4" y1="331.6" x2="74.4" y2="325.6"/>
+        <line id="mr-rain-barrel-__line-15" x1="110.4" y1="331.6" x2="110.4" y2="325.6"/>
+        <line id="mr-rain-barrel-__line-16" x1="146.4" y1="331.6" x2="146.4" y2="325.6"/>
+        <line id="mr-rain-barrel-__line-17" x1="182.4" y1="331.6" x2="182.4" y2="325.6"/>
+        <line id="mr-rain-barrel-__line-18" x1="218.4" y1="331.6" x2="218.4" y2="325.6"/>
+        <line id="mr-rain-barrel-__line-19" x1="254.4" y1="331.6" x2="254.4" y2="325.6"/>
+        <line id="mr-rain-barrel-__line-20" x1="290.4" y1="331.6" x2="290.4" y2="325.6"/>
+        <line id="mr-rain-barrel-__line-21" x1="326.4" y1="331.6" x2="326.4" y2="325.6"/>
+        <line id="mr-rain-barrel-__line-22" x1="362.4" y1="331.6" x2="362.4" y2="325.6"/>
+        <line id="mr-rain-barrel-__line-23" x1="398.4" y1="331.6" x2="398.4" y2="325.6"/>
+        <line id="mr-rain-barrel-__line-24" x1="434.4" y1="331.6" x2="434.4" y2="325.6"/>
+        <line id="mr-rain-barrel-__line-25" x1="470.4" y1="331.6" x2="470.4" y2="325.6"/>
+        <line id="mr-rain-barrel-__line-26" x1="506.4" y1="331.6" x2="506.4" y2="325.6"/>
+        <line id="mr-rain-barrel-__line-27" x1="542.4" y1="331.6" x2="542.4" y2="325.6"/>
+        <line id="mr-rain-barrel-__line-28" x1="578.4" y1="331.6" x2="578.4" y2="325.6"/>
+        <line id="mr-rain-barrel-__line-29" x1="74.4" y1="331.6" x2="74.4" y2="325.6"/>
+        <line id="mr-rain-barrel-__line-30" x1="254.4" y1="331.6" x2="254.4" y2="325.6"/>
+        <line id="mr-rain-barrel-__line-31" x1="434.4" y1="331.6" x2="434.4" y2="325.6"/>
+      </g>
+      <line id="mr-rain-barrel-__line-32" x1="74.4" y1="348.0" x2="74.4" y2="18.0" stroke="black" stroke-width="2"/>
+      <g id="mr-rain-barrel-__g-1">
+        <line id="mr-rain-barrel-__line-33" x1="71.4" y1="280.1" x2="77.4" y2="280.1"/>
+        <line id="mr-rain-barrel-__line-34" x1="71.4" y1="231.5" x2="77.4" y2="231.5"/>
+        <line id="mr-rain-barrel-__line-35" x1="71.4" y1="183.0" x2="77.4" y2="183.0"/>
+        <line id="mr-rain-barrel-__line-36" x1="71.4" y1="134.5" x2="77.4" y2="134.5"/>
+        <line id="mr-rain-barrel-__line-37" x1="71.4" y1="85.9" x2="77.4" y2="85.9"/>
+        <line id="mr-rain-barrel-__line-38" x1="71.4" y1="37.4" x2="77.4" y2="37.4"/>
+        <line id="mr-rain-barrel-__line-39" x1="71.4" y1="231.5" x2="77.4" y2="231.5"/>
+        <line id="mr-rain-barrel-__line-40" x1="71.4" y1="134.5" x2="77.4" y2="134.5"/>
+        <line id="mr-rain-barrel-__line-41" x1="71.4" y1="37.4" x2="77.4" y2="37.4"/>
+      </g>
+    </g>
+    <g id="mr-rain-barrel-__label-0" transform="translate(605.0,332.6) translate(0.0,-0.0)">
+      <g id="mr-rain-barrel-__g-2">
+        <text font-family="sans-serif" font-size="14" x="0.0" y="10.6">Time (days)</text>
+      </g>
+    </g>
+    <g id="mr-rain-barrel-__label-1" transform="translate(78.4,14.0) translate(0.0,-13.5)">
+      <g id="mr-rain-barrel-__g-3">
+        <text font-family="sans-serif" font-size="14" x="0.0" y="10.6">Water (gallons)</text>
+      </g>
+    </g>
+    <g id="mr-rain-barrel-__label-2" transform="translate(74.4,339.6) translate(-4.5,-0.0)">
+      <g id="mr-rain-barrel-__g-4">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="mr-rain-barrel-MJX-2-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="0">
+                <use data-c="30" xlink:href="#mr-rain-barrel-MJX-2-TEX-N-30"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="mr-rain-barrel-__label-3" transform="translate(254.4,339.6) translate(-4.5,-0.0)">
+      <g id="mr-rain-barrel-__g-5">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="mr-rain-barrel-MJX-3-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="5">
+                <use data-c="35" xlink:href="#mr-rain-barrel-MJX-3-TEX-N-35"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="mr-rain-barrel-__label-4" transform="translate(434.4,339.6) translate(-9.0,-0.0)">
+      <g id="mr-rain-barrel-__g-6">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="mr-rain-barrel-MJX-4-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="mr-rain-barrel-MJX-4-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="10">
+                <use data-c="31" xlink:href="#mr-rain-barrel-MJX-4-TEX-N-31"/>
+                <use data-c="30" xlink:href="#mr-rain-barrel-MJX-4-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="mr-rain-barrel-__label-5" transform="translate(63.4,231.5) translate(-18.1,-6.2)">
+      <g id="mr-rain-barrel-__g-7">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="mr-rain-barrel-MJX-5-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+            <path id="mr-rain-barrel-MJX-5-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="20">
+                <use data-c="32" xlink:href="#mr-rain-barrel-MJX-5-TEX-N-32"/>
+                <use data-c="30" xlink:href="#mr-rain-barrel-MJX-5-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="mr-rain-barrel-__label-6" transform="translate(63.4,134.5) translate(-18.1,-6.3)">
+      <g id="mr-rain-barrel-__g-8">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.648px" role="img" focusable="false" viewBox="0 -677 1000 699" x="0.0" y="0.0">
+          <defs>
+            <path id="mr-rain-barrel-MJX-6-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+            <path id="mr-rain-barrel-MJX-6-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="40">
+                <use data-c="34" xlink:href="#mr-rain-barrel-MJX-6-TEX-N-34"/>
+                <use data-c="30" xlink:href="#mr-rain-barrel-MJX-6-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="mr-rain-barrel-__label-7" transform="translate(63.4,37.4) translate(-18.1,-6.2)">
+      <g id="mr-rain-barrel-__g-9">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="mr-rain-barrel-MJX-7-TEX-N-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"/>
+            <path id="mr-rain-barrel-MJX-7-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="60">
+                <use data-c="36" xlink:href="#mr-rain-barrel-MJX-7-TEX-N-36"/>
+                <use data-c="30" xlink:href="#mr-rain-barrel-MJX-7-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="mr-rain-barrel-__path-0" d="M 74.4 280.1 L 146.4 280.1 L 218.4 134.5 L 290.4 134.5 L 362.4 231.5 L 398.4 231.5 L 434.4 85.9 L 578.4 183.0" stroke="purple" stroke-width="3" fill="none" clip-path="url(#mr-rain-barrel-__clipPath-1)"/>
+  <circle id="mr-rain-barrel-__circle-0" cx="74.4" cy="280.1" r="3" stroke="black" stroke-width="2" fill="purple"/>
+  <circle id="mr-rain-barrel-__circle-1" cx="578.4" cy="183.0" r="3" stroke="black" stroke-width="2" fill="purple"/>
+</svg>
